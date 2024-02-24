@@ -11,8 +11,12 @@
             "id": "9d204105988b69c3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Introducción a la explotación de vulnerabilidades.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 220.5
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Introducción a la explotación de vulnerabilidades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Introducción a la explotación de vulnerabilidades.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "veamos si funca/veamos si funca.md"
+                "file": "Introducción a la explotación de vulnerabilidades.md"
               }
             }
           }
@@ -141,11 +147,13 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c99784767d6a07ca",
+  "active": "9d204105988b69c3",
   "lastOpenFiles": [
-    "veamos si funca/veamos si funca.md",
-    "veamos si funca",
     "README.md",
+    "veamos si funca/veamos si funca.md",
+    "Introducción a la explotación de vulnerabilidades.md",
+    "Conceptos básicos de enumeración y explotación",
+    "veamos si funca",
     "veamos si funca/Pasted image 20240224105409.png",
     "Pasted image 20240224105443.png",
     "algo.md",
