@@ -9,4 +9,8 @@
 
 ---
 
+- [[Reverse Shells, Bind Shells y Forward Shells]]
 
+- [x] Reverse Shells
+- [ ] Bind Shells 
+- [ ] Forward Shells
