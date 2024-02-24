@@ -3,9 +3,9 @@
 - Tags : #Vulnerabilidades #explotación #Reconocimiento
 -----
 
->En una fase de **pentesting** lo primero que hay que realizar es un exhaustivo escaneo como subdominios, rutas, gestores de contenido, los servicios, tecnologías y demás.
+>Una vez aplicada la fase de reconocimiento inicial, ya podríamos proceder con la **fase de explotación**, pero es importante comprender algunos conceptos antes de comenzar con la explotación de vulnerabilidades
 
->Después de encontrar esta información ya podríamos buscar vulnerabilidades para tratar de explotar esta información, con **exploits** automatizados o manuales.
+>Exploraremos diferentes tipos de shells (como las reverse shells, bind shells y forward shells), las cuales nos permitirán establecer conexiones de red y tomar control de un sistema comprometido. Hablaremos sobre los diferentes tipos de payloads (staged y non-staged) y cómo se utilizan para ejecutar código malicioso en el sistema objetivo.
 
 ---
 
