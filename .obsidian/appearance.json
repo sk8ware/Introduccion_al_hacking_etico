@@ -1,4 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "80s Neon"
+  "cssTheme": "80s Neon",
+  "baseFontSizeAction": false,
+  "translucency": false
 }
