@@ -27,7 +27,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -156,10 +153,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9d204105988b69c3",
+  "active": "25f1f9dff3368de8",
   "lastOpenFiles": [
-    "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
+    "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "IMG/Ejemplo de ForwardShells.png",
     "IMG/Ejemplo de BindShells.png",
     "IMG/Ejemplo de Reverse Shells.png",
