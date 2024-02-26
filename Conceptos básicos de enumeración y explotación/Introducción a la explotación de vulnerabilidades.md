@@ -1,6 +1,6 @@
 
 -----
-- Tags : #Vulnerabilidades #explotación #Reconocimiento
+- Tags : #Vulnerabilidades #Explotación #Reconocimiento
 -----
 
 >Una vez aplicada la fase de reconocimiento inicial, ya podríamos proceder con la **fase de explotación**, pero es importante comprender algunos conceptos antes de comenzar con la explotación de vulnerabilidades
@@ -12,5 +12,5 @@
 - [[Reverse Shells, Bind Shells y Forward Shells]]
 
 - [x] Reverse Shells
-- [ ] Bind Shells 
-- [ ] Forward Shells
+- [x] Bind Shells 
+- [x] Forward Shells
