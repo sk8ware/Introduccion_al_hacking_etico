@@ -8,23 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d204105988b69c3",
+            "id": "f88b6e33584ca26a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
-                "mode": "source",
+                "file": "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
+                "mode": "preview",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "25f1f9dff3368de8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -94,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
+                "file": "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
+                "file": "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md"
+                "file": "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md"
               }
             }
           }
@@ -156,10 +148,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9d204105988b69c3",
+  "active": "f88b6e33584ca26a",
   "lastOpenFiles": [
     "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
+    "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
+    "2024-02-25.md",
     "IMG/Ejemplo de ForwardShells.png",
     "IMG/Ejemplo de BindShells.png",
     "IMG/Ejemplo de Reverse Shells.png",
