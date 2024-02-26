@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7668549859387d2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "27e6fc03d5cae479",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -163,8 +150,8 @@
   "active": "27e6fc03d5cae479",
   "lastOpenFiles": [
     "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
-    "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
     "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
+    "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "2024-02-25.md",
     "IMG/Ejemplo de ForwardShells.png",
