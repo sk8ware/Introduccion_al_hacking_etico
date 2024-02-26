@@ -54,8 +54,7 @@ msfdb run
 ```
 
 
-- TIPS:
-  **Tambien lo podemos realizar a través de ncat realizando casi el mismo proceso, solo en el comando hay que cambiar el meterpreter por shell **
+- **TIPS: Tambien lo podemos realizar a través de ncat realizando casi el mismo proceso, solo en el comando hay que cambiar el meterpreter por shell**
   ejemplo:
 
  ```
