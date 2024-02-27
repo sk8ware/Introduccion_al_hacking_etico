@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "70d57695c63e49c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
+                "file": "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
+                "file": "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md"
+                "file": "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md"
               }
             }
           }
@@ -148,14 +160,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "27e6fc03d5cae479",
+  "active": "70d57695c63e49c7",
   "lastOpenFiles": [
-    "IMG/Dumpeamos username y password.png",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
-    "Pasted image 20240226184353.png",
+    "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
     "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
+    "IMG/Dumpeamos username y password.png",
+    "Pasted image 20240226184353.png",
     "2024-02-25.md",
     "IMG/Ejemplo de ForwardShells.png",
     "IMG/Ejemplo de BindShells.png",
