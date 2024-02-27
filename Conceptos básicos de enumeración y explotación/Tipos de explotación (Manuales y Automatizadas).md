@@ -61,12 +61,6 @@ sqlmap -r request.req -p searchitem --batch -D sqlitraining -T users -C username
 ![[Dumpeamos username y password.png]]
 
 
-
-
-
-
-
-
 >**Repositorio en github del SQL INJECTION:**
  [sqlinjection-training-app](https://github.com/appsecco/sqlinjection-training-app)
 
