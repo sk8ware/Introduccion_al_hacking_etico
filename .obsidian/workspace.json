@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 350.5,
+    "collapsed": true
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -149,9 +150,11 @@
   },
   "active": "27e6fc03d5cae479",
   "lastOpenFiles": [
+    "IMG/Dumpeamos username y password.png",
+    "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
+    "Pasted image 20240226184353.png",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
     "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
-    "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "2024-02-25.md",
     "IMG/Ejemplo de ForwardShells.png",
