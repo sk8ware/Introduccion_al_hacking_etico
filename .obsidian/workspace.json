@@ -26,13 +26,33 @@
               "type": "markdown",
               "state": {
                 "file": "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b9a8c1dd59918c0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "11f5c54829b529b1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,12 +176,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "70d57695c63e49c7",
+  "active": "11f5c54829b529b1",
   "lastOpenFiles": [
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
-    "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+    "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
+    "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+    "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
+    "OWASP TOP 10 y vulnerabilidades web",
     "[[Tipos.md",
     "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
     "IMG/Dumpeamos username y password.png",
