@@ -17,7 +17,7 @@ docker-compose up
 ```web
 localhost:8000
 ```
-- Aplastar en reset database
+- Aplastar en reset database y luego regresar al home para ingresar al "searchproducts.php - multiple exercises"
 - Loguearse como admin admin
 - Usar el **burpsuite** con el **FoxyProxy** para interceptar petición, en la opción Proxy de burpsuite guardamos el archivo en cuestión en nuestro directorio.
 - Utilizamos la herramienta sqlmap para saber si es inyectable:
