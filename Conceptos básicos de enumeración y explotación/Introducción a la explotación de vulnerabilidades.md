@@ -26,3 +26,10 @@
 - [[Enumeración del sistema]]
 - [ ] LSE
 - [ ] PSPY
+
+- [[Introducción a BurpSuite]]
+- [ ]  **Proxy**
+- [ ] **Scanner**
+- [ ] **Repeater**
+- [ ] **Intruder**
+- [ ] **Comparer**
