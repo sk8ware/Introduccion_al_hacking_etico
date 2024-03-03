@@ -133,6 +133,23 @@ nvim searchUsers.php
 ?>
 ```
 
+# LUEGO DE ESTO CREAREMOS NUESTRO SCRIPT CON PYTHON 
+```
+#!/usr/bin/python3
+
+import requests
+import signal
+import sys 
+import time
+from pwn import *
+
+def makeSQLI():
+	print("\n[+] Hola mundo\n")
+	sys.exit(0);
+if __name__ == '__main__':
+	makeSQLI()
+```
+
 **Esta opción nos permite ordenar usuarios y nombres de bases de datos apesar del error que indique en la url**
  
  Usuarios por id
