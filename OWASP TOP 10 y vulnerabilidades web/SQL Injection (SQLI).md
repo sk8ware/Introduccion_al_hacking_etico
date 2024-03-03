@@ -148,7 +148,7 @@ def def_handler(sig, frame):
 	sys.exit(1)
 
 # Ctrl+c
-signal.signal(sig.SIGINT, def_handler)
+signal.signal(signal.SIGINT, def_handler)
 
 def makeSQLI():
 	print("\n[+] Hola mundo\n")
