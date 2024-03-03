@@ -143,10 +143,21 @@ import sys
 import time
 from pwn import *
 
+def def_handler(sig, frame):
+	print("\n\n[!] Saliendo...\n")
+	sys.exit(1)
+
+# Ctrl+c
+signal.signal(sig.SIGINT, def_handler)
+
 def makeSQLI():
 	print("\n[+] Hola mundo\n")
 	sys.exit(0);
+
 if __name__ == '__main__':
+
+	time.sleep(10)
+	
 	makeSQLI()
 ```
 
