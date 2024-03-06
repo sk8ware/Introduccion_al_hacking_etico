@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cross-Site Scripting (XSS) 1-2.md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cross-Site Scripting (XSS) 1-2.md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cross-Site Scripting (XSS) 1-2.md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cross-Site Scripting (XSS) 1-2.md"
+                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md"
               }
             }
           }
@@ -161,10 +160,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "fe15a6c9c904bc34",
+  "active": "c99784767d6a07ca",
   "lastOpenFiles": [
     "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
-    "Cross-Site Scripting (XSS) 1-2.md",
+    "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
     "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
