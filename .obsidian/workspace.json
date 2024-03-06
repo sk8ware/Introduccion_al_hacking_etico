@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fe15a6c9c904bc34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cross-Site Scripting (XSS) 1-2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
+                "file": "Cross-Site Scripting (XSS) 1-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
+                "file": "Cross-Site Scripting (XSS) 1-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md"
+                "file": "Cross-Site Scripting (XSS) 1-2.md"
               }
             }
           }
@@ -148,14 +161,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "11f5c54829b529b1",
+  "active": "fe15a6c9c904bc34",
   "lastOpenFiles": [
+    "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
+    "Cross-Site Scripting (XSS) 1-2.md",
     "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
     "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
-    "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
     "OWASP TOP 10 y vulnerabilidades web",
     "[[Tipos.md",
