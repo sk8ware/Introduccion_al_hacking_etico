@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 350.5,
+    "collapsed": true
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -172,7 +173,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "9d150a1c6a614bb1",
+  "active": "c99784767d6a07ca",
   "lastOpenFiles": [
     "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
