@@ -44,3 +44,34 @@ A continuación, se os proporciona el enlace directo a la herramienta que utiliz
   include("/var/www/html/" . $filename); // /var/www/html//etc/passwd
 ?>
 ```
+- Para evitar esta exclusión se podría utilizar **echo str_replace("../", "", "....//....//.....//....//....//etc/passwd"); 
+- Pero muchas veces no es recomendable aplicarlo de esta manera ya que el se puede combinar varias maneras de enlistar rutas con varios saltos de linea como (cat /etc/././././hosts o cat /etc/////hosts)
+```
+<?php
+  $filename = $_GET['filename'];
+  $filename = str_replace("../", "", $filename);
+  
+  if(preg_match("/\etc/\passwd/", $filename) === 1){
+    echo
+    }else{
+    include("/var/www/html/" . $filename);
+    }
+?>
+```
+
+# Ahora empezaremos a practicar con nuestro laboratorio en docker
+- Creamos nuestro contenedor con
+```
+docker pull tommylau/php-5.2
+```
+
+
+- Corremos la imagen de docker
+```
+docker run -dit --name testing 7e7ee5c92d52(id de contenedor)
+```
+
+- Entramos con una consola interactiva con 
+```
+docker exec -it testing bash 
+```
