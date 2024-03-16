@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Log Poisoning (LFI - RCE).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Log Poisoning (LFI - RCE).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Log Poisoning (LFI - RCE).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Log Poisoning (LFI - RCE).md"
+                "file": "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md"
               }
             }
           }
@@ -147,9 +147,9 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "6ec4bbfd5e8b899f",
+  "active": "c99784767d6a07ca",
   "lastOpenFiles": [
-    "Log Poisoning (LFI - RCE).md",
+    "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
     "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
     "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
