@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "02f849d394e9da87",
+        "id": "8081795bbe812abe",
         "type": "tabs",
         "children": [
           {
-            "id": "11f5c54829b529b1",
+            "id": "6ec4bbfd5e8b899f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fe15a6c9c904bc34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d150a1c6a614bb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d09fbec8ecdc1f72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e8a606b30c4e167",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
+                "file": "Log Poisoning (LFI - RCE).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
+                "file": "Log Poisoning (LFI - RCE).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
+                "file": "Log Poisoning (LFI - RCE).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md"
+                "file": "Log Poisoning (LFI - RCE).md"
               }
             }
           }
@@ -196,14 +147,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "d09fbec8ecdc1f72",
+  "active": "6ec4bbfd5e8b899f",
   "lastOpenFiles": [
-    "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
-    "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
+    "Log Poisoning (LFI - RCE).md",
     "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
-    "OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
     "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
+    "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
+    "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
+    "OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
     "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
