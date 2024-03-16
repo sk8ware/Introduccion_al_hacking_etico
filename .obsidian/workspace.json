@@ -49,7 +49,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e8a606b30c4e167",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -123,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md"
+                "file": "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md"
               }
             }
           }
@@ -187,13 +198,14 @@
   },
   "active": "d09fbec8ecdc1f72",
   "lastOpenFiles": [
-    "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
+    "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
+    "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
+    "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
+    "OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
+    "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
     "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
-    "OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
-    "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
-    "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
     "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
     "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
