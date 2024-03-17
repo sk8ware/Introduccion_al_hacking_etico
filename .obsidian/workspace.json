@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a1a7d297e16c9464",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md"
+                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md"
               }
             }
           }
@@ -147,12 +160,13 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c99784767d6a07ca",
+  "active": "a1a7d297e16c9464",
   "lastOpenFiles": [
     "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
+    "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
+    "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
     "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
-    "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
     "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
     "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
