@@ -43,3 +43,8 @@ docker-compose up -d
 10.9.0.5 www.example32.com
 10.9.105 www.attacker32.com
 ```
+- En este caso solo nos enfocaremos en el dominio www.seed-server.com para realizar la práctica, eh ingresamos al dominio desde nuestro navegador.
+
+```
+
+```
