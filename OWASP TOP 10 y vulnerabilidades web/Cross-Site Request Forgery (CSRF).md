@@ -44,7 +44,8 @@ docker-compose up -d
 10.9.105 www.attacker32.com
 ```
 - En este caso solo nos enfocaremos en el dominio www.seed-server.com para realizar la práctica, eh ingresamos al dominio desde nuestro navegador.
-
+- En este ejemplo usaremos solo dos usuarios y contraseñas que serian creados con nvim un archivo .txt
 ```
-
+alice:seedalice
+samy:seedsamy
 ```
