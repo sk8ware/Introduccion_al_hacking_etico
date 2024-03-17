@@ -37,4 +37,4 @@ docker-compose run --rm wp-cli install-wp
 - Buscamos el sploit por el internet con la versión que nos solicite
 - Si no encontramos el archivo o encontramos el sploit en otra versión lo que haríamos es editar el link de descarga abriendo en una nueva pestaña
 -https://downloads.wordpress.org/plugin/gwolle-gb.1.5.3.zip
- **Dificil tema no pude** :(
+ 
