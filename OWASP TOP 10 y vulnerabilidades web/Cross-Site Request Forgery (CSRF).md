@@ -59,5 +59,6 @@ burpsuite &> /dev/null & disown
 - Ahora intentaremos cambiar la solicitud por **GET**
 - Enviamos al repeater con Ctrl+R
 - Ahora refrescamos la pagina y regresamos a la parte donde toca editar el nombre de usuario
-- Interceptamos con burpsuite y con click derecho cambiamos a la opción **change request metod**
-- 
+- Interceptamos con burpsuite y con click derecho cambiamos a la opción **change request metod** en la información del repeater
+- Hacemos una pequeña verificación de datos borrando los codigos en la primera linea del repeater
+- Damos click en **SEND** y vemos que nos da una repuesta 302 no found
