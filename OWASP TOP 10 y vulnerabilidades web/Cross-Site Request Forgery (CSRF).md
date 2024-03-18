@@ -49,3 +49,15 @@ docker-compose up -d
 alice:seedalice
 samy:seedsamy
 ```
+- Una vez dentro podemos revisar el identificador de usuario con overing
+- Y testear o editar esto con burpsuite en usuario no previlegiado
+```
+burpsuite &> /dev/null & disown
+```
+- Interceptamos la petición con foxyproxy de cambiarle el nombre en la pagina y ver que pasa con burpsuite
+- Vemos que se pide una solicitud por POST /action/profile/edit HTTP/1.1
+- Ahora intentaremos cambiar la solicitud por **GET**
+- Enviamos al repeater con Ctrl+R
+- Ahora refrescamos la pagina y regresamos a la parte donde toca editar el nombre de usuario
+- Interceptamos con burpsuite y con click derecho cambiamos a la opción **change request metod**
+- 
