@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eaa49740ec175e6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Server-Side Request Forgery (SSRF).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
+                "file": "Server-Side Request Forgery (SSRF).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
+                "file": "Server-Side Request Forgery (SSRF).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md"
+                "file": "Server-Side Request Forgery (SSRF).md"
               }
             }
           }
@@ -161,10 +172,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "a1a7d297e16c9464",
+  "active": "eaa49740ec175e6f",
   "lastOpenFiles": [
-    "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
     "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
+    "Server-Side Request Forgery (SSRF).md",
+    "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
     "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
     "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
