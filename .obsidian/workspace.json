@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
+                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md"
+                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md"
               }
             }
           }
@@ -148,13 +147,13 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c99784767d6a07ca",
+  "active": "ac016fd87006e84f",
   "lastOpenFiles": [
+    "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
+    "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
     "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
     "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
-    "Server-Side Template Injection (SSTI).md",
-    "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
     "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
     "OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
     "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
