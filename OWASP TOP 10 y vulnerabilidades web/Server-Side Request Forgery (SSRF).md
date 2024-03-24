@@ -33,18 +33,4 @@ Por ejemplo, si queremos crear una red de tipo “**bridge**“, podemos utiliza
 En este caso, estamos utilizando la opción ‘**–driver=bridge**‘ para indicar que deseamos crear una red de tipo “**bridge**“. La opción –driver nos permite especificar el controlador de red que deseamos utilizar, que puede ser “**bridge**“, “**overlay**“, “**macvlan**“, “**ipvlan**” u otro controlador compatible con Docker.
 
 ---
-# Iniciamos con la practica en nuestro entorno
-
-- Desplegamos nuestro docker
-```
-docker run -p 8089:8089 -d filipkarc/ssti-flask-hacking-playground
-```
- - Una vez desplegado la maquina entramos por el navegador por el puerto 8089
- - Si ingresamos un nombre en el espacio de usuario nos daremos cuenta que es inyectable de codigo en la parte de la URL
- - También podemos ánilizar el tipo de lenguajes que contiene la red con `whatwep localhost:8089`
- - Podemos realizar un intento de ingresar código en el **IMPUT** para ver si nos devuelve una respuesta valida en el **OUTPUT** como `{{7*7}}`
-
-
-# Recursos 
-- En este link podemos encontrar varios payloads para usar [Payloads All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
