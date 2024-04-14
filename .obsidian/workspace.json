@@ -13,13 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
+                "file": "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41047d3fbeab1f5c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
+          },
+          {
+            "id": "f26ab047810c40ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MAQUINAS REALIZADAS/BUILDER.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
+                "file": "MAQUINAS REALIZADAS/BUILDER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
+                "file": "MAQUINAS REALIZADAS/BUILDER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md"
+                "file": "MAQUINAS REALIZADAS/BUILDER.md"
               }
             }
           }
@@ -148,10 +171,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "ac016fd87006e84f",
+  "active": "f26ab047810c40ee",
   "lastOpenFiles": [
-    "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
+    "MAQUINAS REALIZADAS/BUILDER.md",
+    "MAQUINAS REALIZADAS",
     "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
+    "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
     "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
     "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
