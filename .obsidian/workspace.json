@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -173,13 +172,13 @@
   },
   "active": "f26ab047810c40ee",
   "lastOpenFiles": [
+    "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
+    "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "MAQUINAS REALIZADAS/BUILDER.md",
     "MAQUINAS REALIZADAS",
-    "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
     "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
     "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
     "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
-    "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
     "OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
     "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
