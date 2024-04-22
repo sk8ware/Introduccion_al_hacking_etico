@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md"
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md"
               }
             }
           }
@@ -147,10 +147,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "d766e7d735595062",
+  "active": "c99784767d6a07ca",
   "lastOpenFiles": [
-    "Introducción al Hacking/Reconocimiento con Nmap/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Credenciales y brechas de seguridad.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Enumeración de subdominios.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Reconocimiento de imágenes.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Descubrimiento de correos electrónicos.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Creación de tus propios scripts en Lua para nmap.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Uso de scripts y categorías en nmap para aplicar reconocimiento.md",
@@ -180,12 +185,7 @@
     "Introducción al Hacking",
     "MAQUINAS REALIZADAS/BUILDER.md",
     "Introducción a Linux",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
-    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "MAQUINAS REALIZADAS",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
     "Pasted image 20240226184353.png",
     "IMG",
