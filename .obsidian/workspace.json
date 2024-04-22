@@ -4,45 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "8081795bbe812abe",
+        "id": "f5cea1fb059fdec5",
         "type": "tabs",
         "children": [
           {
-            "id": "ac016fd87006e84f",
+            "id": "77a3d8d6849883a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "41047d3fbeab1f5c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
-          },
-          {
-            "id": "f26ab047810c40ee",
+            "id": "79734fa673ad4314",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAQUINAS REALIZADAS/BUILDER.md",
+                "file": "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones IP (IPV4 e IPV6).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "add1ed8d07d0ce55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones MAC (OUI y NIC).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d766e7d735595062",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Subnetting – Qué es y cómo se interpreta una máscara de red.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "right": {
     "id": "565db6b7f7a596da",
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAQUINAS REALIZADAS/BUILDER.md",
+                "file": "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Subnetting – Qué es y cómo se interpreta una máscara de red.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAQUINAS REALIZADAS/BUILDER.md",
+                "file": "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Subnetting – Qué es y cómo se interpreta una máscara de red.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAQUINAS REALIZADAS/BUILDER.md"
+                "file": "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Subnetting – Qué es y cómo se interpreta una máscara de red.md"
               }
             }
           }
@@ -171,43 +184,50 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "f26ab047810c40ee",
+  "active": "d766e7d735595062",
   "lastOpenFiles": [
-    "OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
-    "Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
-    "MAQUINAS REALIZADAS/BUILDER.md",
-    "MAQUINAS REALIZADAS",
-    "OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
-    "OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
-    "OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
-    "OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
-    "OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
-    "OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
-    "OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
-    "OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
-    "Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
-    "Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
-    "Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
-    "Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
-    "Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
-    "OWASP TOP 10 y vulnerabilidades web",
-    "[[Tipos.md",
+    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/El modelo OSI – En qué consiste y cómo se estructura la actividad de red en capas.md",
+    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Subnetting – Qué es y cómo se interpreta una máscara de red.md",
+    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake.md",
+    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones MAC (OUI y NIC).md",
+    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones IP (IPV4 e IPV6).md",
+    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC",
+    "README.md",
+    "Personalización de Linux",
     "IMG/Dumpeamos username y password.png",
-    "Pasted image 20240226184353.png",
-    "2024-02-25.md",
     "IMG/Ejemplo de ForwardShells.png",
     "IMG/Ejemplo de BindShells.png",
     "IMG/Ejemplo de Reverse Shells.png",
+    "xd.md",
+    "Introducción al Hacking",
+    "MAQUINAS REALIZADAS/BUILDER.md",
+    "Introducción a Linux",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
+    "MAQUINAS REALIZADAS",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
+    "[[Tipos.md",
+    "Pasted image 20240226184353.png",
+    "2024-02-25.md",
     "IMG",
-    "README.md",
     "veamos si funca/veamos si funca.md",
-    "Conceptos básicos de enumeración y explotación",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación",
     "veamos si funca",
     "veamos si funca/Pasted image 20240224105409.png",
     "Pasted image 20240224105443.png",
-    "algo.md",
-    "Welcome.md",
-    "xd",
-    "desktop.ini"
+    "xd"
   ]
 }
