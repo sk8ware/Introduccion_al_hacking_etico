@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md",
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md",
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md",
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md"
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md"
               }
             }
           }
@@ -147,10 +147,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "c99784767d6a07ca",
+  "active": "d766e7d735595062",
   "lastOpenFiles": [
+    "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Identificación de las tecnologías en una página web.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Credenciales y brechas de seguridad.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Sin título.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Enumeración de subdominios.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Reconocimiento de imágenes.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Descubrimiento de correos electrónicos.md",
@@ -181,9 +183,7 @@
     "IMG/Ejemplo de ForwardShells.png",
     "IMG/Ejemplo de BindShells.png",
     "IMG/Ejemplo de Reverse Shells.png",
-    "xd.md",
     "Introducción al Hacking",
-    "MAQUINAS REALIZADAS/BUILDER.md",
     "Introducción a Linux",
     "MAQUINAS REALIZADAS",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
