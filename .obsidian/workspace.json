@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md"
+                "file": "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md"
               }
             }
           }
@@ -149,8 +149,11 @@
   },
   "active": "d766e7d735595062",
   "lastOpenFiles": [
-    "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Identificación y verificación externa de la versión del sistema operativo.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
     "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
     "Introducción al Hacking/Reconocimiento con Nmap/Identificación de las tecnologías en una página web.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Credenciales y brechas de seguridad.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Enumeración de subdominios.md",
@@ -173,10 +176,7 @@
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Redes extrañas y casos particulares.md",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – CIDRs y cálculo total de hosts.md",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Qué es y cómo se interpreta una máscara de red.md",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC",
     "Personalización de Linux",
     "IMG/Dumpeamos username y password.png",
