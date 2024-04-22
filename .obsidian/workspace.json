@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
+                "file": "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
+                "file": "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
+                "file": "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md"
+                "file": "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md"
               }
             }
           }
@@ -149,8 +149,10 @@
   },
   "active": "d766e7d735595062",
   "lastOpenFiles": [
-    "Introducción al Hacking/Introducción a Docker/Comandos comunes para la gestión de contenedores.md",
+    "Introducción al Hacking/Introducción a Docker/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
+    "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
     "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
+    "Introducción al Hacking/Introducción a Docker/Comandos comunes para la gestión de contenedores.md",
     "Introducción al Hacking/Introducción a Docker/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Introducción al Hacking/Introducción a Docker/Creación y construcción de imágenes.md",
     "Introducción al Hacking/Introducción a Docker/Definiendo la estructura básica de Dockerfile.md",
@@ -174,8 +176,6 @@
     "Introducción al Hacking/Reconocimiento con Nmap/Uso de scripts y categorías en nmap para aplicar reconocimiento.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.).md",
     "Introducción al Hacking/Reconocimiento con Nmap/Scaneo con nmap y sus funciones.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/El modelo OSI – En qué consiste y cómo se estructura la actividad de red en capas.md",
-    "Introducción al Hacking/Reconocimiento con Nmap.md",
     "Introducción al Hacking/Reconocimiento con Nmap",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC",
