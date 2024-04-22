@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md",
+                "file": "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md",
+                "file": "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md",
+                "file": "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md"
+                "file": "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md"
               }
             }
           }
@@ -149,8 +149,16 @@
   },
   "active": "d766e7d735595062",
   "lastOpenFiles": [
-    "Introducción al Hacking/Reconocimiento con Nmap/Identificación y verificación externa de la versión del sistema operativo.md",
+    "Introducción al Hacking/Introducción a Docker/Comandos comunes para la gestión de contenedores.md",
+    "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
+    "Introducción al Hacking/Introducción a Docker/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
+    "Introducción al Hacking/Introducción a Docker/Creación y construcción de imágenes.md",
+    "Introducción al Hacking/Introducción a Docker/Definiendo la estructura básica de Dockerfile.md",
+    "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
+    "Introducción al Hacking/Introducción a Docker/DOCKER.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md",
+    "Introducción al Hacking/Introducción a Docker",
+    "Introducción al Hacking/Reconocimiento con Nmap/Identificación y verificación externa de la versión del sistema operativo.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
     "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
     "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
@@ -169,13 +177,6 @@
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/El modelo OSI – En qué consiste y cómo se estructura la actividad de red en capas.md",
     "Introducción al Hacking/Reconocimiento con Nmap.md",
     "Introducción al Hacking/Reconocimiento con Nmap",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones MAC (OUI y NIC).md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones IP (IPV4 e IPV6).md",
-    "README.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Redes extrañas y casos particulares.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC",
     "Personalización de Linux",
@@ -189,7 +190,6 @@
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
     "Pasted image 20240226184353.png",
     "IMG",
-    "Introducción al Hacking/Conceptos básicos de enumeración y explotación",
     "veamos si funca/Pasted image 20240224105409.png",
     "Pasted image 20240224105443.png"
   ]
