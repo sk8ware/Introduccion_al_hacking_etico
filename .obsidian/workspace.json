@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
+                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
+                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
+                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md"
+                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md"
               }
             }
           }
@@ -149,8 +149,22 @@
   },
   "active": "d766e7d735595062",
   "lastOpenFiles": [
-    "Introducción al Hacking/Introducción a Docker/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Sin título.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Drupal.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Joomla.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/WordPress (2-2).md",
+    "IMG/Pasted image 20240422005343.png",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/WordPress (1-2).md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración del servicio SMB.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Sin título.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración del servicio HTTP y HTTPS.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración del servicio SSH.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración del servicio FTP.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido",
     "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
+    "Introducción al Hacking/Introducción a Docker/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
     "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
     "Introducción al Hacking/Introducción a Docker/Comandos comunes para la gestión de contenedores.md",
     "Introducción al Hacking/Introducción a Docker/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
@@ -165,17 +179,6 @@
     "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
     "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
     "Introducción al Hacking/Reconocimiento con Nmap/Identificación de las tecnologías en una página web.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Credenciales y brechas de seguridad.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Enumeración de subdominios.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Reconocimiento de imágenes.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Descubrimiento de correos electrónicos.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Descubrimiento de equipos en la red local (ARP e ICMP) y Tips.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Creación de tus propios scripts en Lua para nmap.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Uso de scripts y categorías en nmap para aplicar reconocimiento.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.).md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Scaneo con nmap y sus funciones.md",
     "Introducción al Hacking/Reconocimiento con Nmap",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC",
@@ -187,9 +190,7 @@
     "Introducción al Hacking",
     "Introducción a Linux",
     "MAQUINAS REALIZADAS",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
     "Pasted image 20240226184353.png",
-    "IMG",
     "veamos si funca/Pasted image 20240224105409.png",
     "Pasted image 20240224105443.png"
   ]
