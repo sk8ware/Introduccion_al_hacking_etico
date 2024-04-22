@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
-                "mode": "source",
+                "file": "Introducción al Hacking/Introducción a Docker/DOCKER.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
+                "file": "Introducción al Hacking/Introducción a Docker/DOCKER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
+                "file": "Introducción al Hacking/Introducción a Docker/DOCKER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md"
+                "file": "Introducción al Hacking/Introducción a Docker/DOCKER.md"
               }
             }
           }
@@ -149,8 +149,17 @@
   },
   "active": "d766e7d735595062",
   "lastOpenFiles": [
-    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Sin título.md",
+    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake.md",
+    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones IP (IPV4 e IPV6).md",
+    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Tipos de payloads (Staged y Non-Staged).md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Sin título.md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Drupal.md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Joomla.md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/WordPress (2-2).md",
@@ -169,16 +178,7 @@
     "Introducción al Hacking/Introducción a Docker/Comandos comunes para la gestión de contenedores.md",
     "Introducción al Hacking/Introducción a Docker/Carga de instrucciones en Docker y desplegando nuestro primer contenedor.md",
     "Introducción al Hacking/Introducción a Docker/Creación y construcción de imágenes.md",
-    "Introducción al Hacking/Introducción a Docker/Definiendo la estructura básica de Dockerfile.md",
-    "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
-    "Introducción al Hacking/Introducción a Docker/DOCKER.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Cuestionario de Nmap.md",
     "Introducción al Hacking/Introducción a Docker",
-    "Introducción al Hacking/Reconocimiento con Nmap/Identificación y verificación externa de la versión del sistema operativo.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (2-2).md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Fuzzing y enumeración de archivos en un servidor web (1-2).md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Identificación de las tecnologías en una página web.md",
     "Introducción al Hacking/Reconocimiento con Nmap",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC",
