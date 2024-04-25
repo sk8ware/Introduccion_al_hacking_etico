@@ -1,6 +1,6 @@
 
 -----
-- TAG: #DOMINIOS #NETEXEC #PYTHON
+- TAG: #DOMINIOS #NETEXEC #PYTHON #GOBUSTER
 ----
 - Empezamos creando nuestra carpeta Hospital en nuestra terminal, creamos las tres carpetas que necesitaremos para guardar la información 
 ```
@@ -153,3 +153,9 @@ def fileUpload():
 if __name__ == '__main__':
     fileUpload()
 ```
+
+- Ahora podriamos enlistar directorios existentes utilizando fuerza bruta usando **gobuster**
+```
+gobuster dir -u http://hospital.htb:8080/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 20
+```
+
