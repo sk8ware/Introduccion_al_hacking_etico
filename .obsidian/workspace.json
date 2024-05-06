@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi.md",
+                "file": "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi.md",
+                "file": "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi.md",
+                "file": "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi.md"
+                "file": "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
     "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd.md",
+    "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi.md",
     "MAQUINAS REALIZADAS/BUILDER.md",
     "MAQUINAS REALIZADAS/Hospital.md",
@@ -177,7 +178,6 @@
     "MAQUINAS REALIZADAS",
     "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
     "Introducción al Hacking/Reconocimiento con Nmap/Uso de scripts y categorías en nmap para aplicar reconocimiento.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.).md",
     "Introducción al Hacking/Reconocimiento con Nmap",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
     "Introducción al Hacking/Introducción a Docker",
