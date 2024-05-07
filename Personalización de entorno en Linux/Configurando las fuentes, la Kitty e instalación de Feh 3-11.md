@@ -51,10 +51,37 @@ Hacemos un Windows + Shift + R y volvemo intentar abrir Firefox
 - Movemos el releases que descargamos a la ruta actual de /opt `mv /home/sk8ware/Downloads/kitty-0.34.1-x86_64.txz . `
 - Descomprimimos el archivo con `7z x kitty-0.34.1-x86_64.txz`
 - Creamos una Carpeta `Kitty` y movemos el archivo .txz detro de la carpeta y la ejecutamos con `tar -xf kitty-0.34.1-x86_64.txz`
-- Entramos en la carpeta `Bin`
+- Entramos en la carpeta `Bin` y agregamos la nueva ruta `/opt/kitty/bin/kitty` debajo de Super + Return usando la configuración `nano /home/sk8ware/.config/sxhkd/sxhkdrc` 
+- Actualizamos con Windows + Espacio para actualizar la kitty y volvemos a recargar
+- Ahora nos diriguimos a la nueva ruta `cd ~/.config/kitty` y nos damos cuenta que se encuentra vacía, ahora creamos el siguiente archivo llamado `nano kitty.conf` y agregamos lo siguiente [Archivo kitty.conf](https://hack4u.io/wp-content/uploads/2022/09/kitty.conf_.txt)
+- Adicional tambien creamos un archivo `nano color.ini` para dar una mejor estética de colores en el entorno de trabajo [Archivo color.ini](https://hack4u.io/wp-content/uploads/2022/09/color.ini_.txt), Guardamos y volvemos a iniciar la kitty.
+- Ahora cuando abrimos nos pedira una miniconfiguración donde debemos poner `0` y nos mostrará una terminal muy simple en donde debemos irla configurando y probando todo, por ejemplo verificamos si tenemos instalado `imagemagick` y`feh` para el tratado de fotos, lo podemos probar con `kitty +kitten icat imagen.jpg` para ver imagenes en consola y `feh --bg-fill Fondo.jpg` para definir el fondo de pantalla
+- Pero para que se quede la imagen como fondo de pantalla predeterminada hay que agregar el comando en el archivo `bspwmrc` 
 ```
+# WALLPAPER
+feh --bg-fill ~/Wallpaper/nothin.jpg
+```
+- Para que funcione las mismas configuraciones de usuario no privilegiado y root hay que arrastrar la configuración al direcctorio de root `cd /root/.config/kitty` en un principio debería estar vacía para copiar la configuración. 
+```
+cp /home/sk8ware/.config/kitty* . 
+```
+- De forma que ahora deberíamos tener la configuración **kitty.cof** y **color.ini** en root
+- Ahora si lanzamos la kitty desde root debería estar aplicado la configuración 
+```
+/opt/kitty/bin/kitty
+```
+- Y listo con esto ya estaríamos avanzando demasiado ;)
 
-```
+
+
+
+
+
+
+
+
+
+
 ```
 cd /usr/local/share/fonts
 ```
