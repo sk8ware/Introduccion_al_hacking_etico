@@ -82,6 +82,3 @@ cp /home/sk8ware/.config/kitty* .
 
 
 
-```
-cd /usr/local/share/fonts
-```
