@@ -43,6 +43,18 @@ vmware-user-suid-wrapper &
 ```
 Hacemos un Windows + Shift + R y volvemo intentar abrir Firefox
 
+- Ahora procedemos a actualizar la **kitty**, para ello entramos en los releases en el siguiente repositorio
+- https://github.com/kovidgoyal/kitty
+- Descargar `Linux amd64 binary bundle`
+- Removemos la kitty que tenemos en `cd /opt` (Preferible hacerlo en un gnome terminal)
+- La eliminamos con `apt remove kitty` 
+- Movemos el releases que descargamos a la ruta actual de /opt `mv /home/sk8ware/Downloads/kitty-0.34.1-x86_64.txz . `
+- Descomprimimos el archivo con `7z x kitty-0.34.1-x86_64.txz`
+- Creamos una Carpeta `Kitty` y movemos el archivo .txz detro de la carpeta y la ejecutamos con `tar -xf kitty-0.34.1-x86_64.txz`
+- Entramos en la carpeta `Bin`
+```
+
+```
 ```
 cd /usr/local/share/fonts
 ```
