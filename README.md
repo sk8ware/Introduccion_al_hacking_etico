@@ -1,10 +1,20 @@
-- 👋 Hi, I’m @sk8ware
-- 👀 I’m interested in Cibersegurity
-- 🌱 I’m currently learning introduction to ethical hacking
-- 💞️ I’m looking to collaborate on bussines or personal projects
-- 📫 How to reach me ...
-- 😄 Pronouns: Tony
-- ⚡ Fun fact: Skateboarding
+# ¡Hola! Soy Sk8ware 🛹💻
+
+¡Bienvenido a mi perfil de GitHub! Soy Anthony López, pero me conocen como Sk8ware debido a mi pasión por el skateboarding y el software. Estoy entusiasmado con la ciberseguridad y el hacking ético, y estoy en un constante viaje de aprendizaje en esta emocionante carrera.
+
+## Acerca de mí
+
+- 🛹 Skateboarder y aficionado al software
+- 🎓 Interesado en la carrera de ciberseguridad y hacking ético
+- 📚 Actualmente estoy aprendiendo los fundamentos del hacking ético
+- 💼 Busco oportunidades para colaborar en proyectos comerciales o personales
+- 📷 Puedes encontrarme en Instagram como [@sk8ware](https://www.instagram.com/sk8ware/)
+- 😄 Pronombres: Tony
+- ⚡ Dato curioso: ¡Me encanta el skateboarding!
+
+## ¡Conéctate!
+
+¡No dudes en contactarme! Estoy abierto a oportunidades de colaboración, discusiones sobre ciberseguridad o simplemente charlar sobre tecnología.
 
 <!---
 sk8ware/sk8ware is a ✨ special ✨ repository because its `README.md` appears on your GitHub profile.
