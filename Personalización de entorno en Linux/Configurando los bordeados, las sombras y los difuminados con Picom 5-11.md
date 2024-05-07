@@ -23,3 +23,9 @@ La configuración de Picom se realiza a través de un archivo de configuración,
 Recordad que este archivo es totalmente personalizable y debéis ajustarlo en base a las capacidades de vuestro equipo o máquina virtual, para evitar que os genere impacto en el rendimiento.
 
 ----
+### Creamos nuestro archivo **picom.conf**
+- Para ello ya debemos haber creado nuestra carpeta picom en la ruta **~/.config/picom** si no lo tenemos, simplemente lo creamos en el archivo *~/.config*
+- Creamos el siguiente recurso en `picom.conf` y pegamos el siguiente recurso [Archivo picom.conf](https://hack4u.io/wp-content/uploads/2022/09/picom.conf_.txt)
+- Agregamos la función **picom** en nuestra configuración `bspwmrc` que se encuentra en *nano /home/ski8ware/.config/bspwm/bspwmrc* como `picom &` debajo de las otras funciones.
+- En **picom.conf**  el apartado de *CORNERS* podemos ajustar la nitidez de nuestra terminal, *OPACITY* para la opacidad, *BLUR* para el difuminado de la terminal.
+- Agregamos la siguiente línea en nuestra configuración `bspwmrc` *bspc config border_width 0.2* 
