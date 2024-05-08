@@ -89,3 +89,6 @@ context
 command_execution_time
 status
 ```
+
+ - Si queremos modificar la parte donde nos indica el nombre del usuario **root** lo podemos cambiar por un simbolo a nuestra preferenci, en `nano .p10k.zsh`
+ - 
