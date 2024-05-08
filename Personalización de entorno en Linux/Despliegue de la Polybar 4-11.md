@@ -21,5 +21,4 @@ git clone https://github.com/VaughnValle/blue-sky
 - Ahora podemos ejecutar `echo '~/.config/polybar/./launch.sh &' >> ~/.config/bspwm/bspwmrc` pero antes de eso debemos guardarlo en nuestro archivo **bspwmrc**
 - Ahora nos logueamos como usuario root y copiamos el archivo de configuración `cp fonts/* /usr/share/fonts/truetype/` 
 - Ahora vamos actualizar y sincronizar la cache de fuentes con `fc-cache -v` y damos enter.
-- Hacemos Windows + Shift + R para recargar y que nos aparezca la polybar
-- 
+- Hacemos Windows + Shift + R para recargar y que nos aparecerá la polybar 
