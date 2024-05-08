@@ -31,3 +31,33 @@ Algunas de las características que lo hacen destacar incluyen:
 Juntos, ZSH y Powerlevel10k ofrecen una experiencia de terminal rica y eficiente, mejorando tanto la funcionalidad como la apariencia del entorno de línea de comandos. Estas herramientas son particularmente populares entre los desarrolladores y los entusiastas de la personalización de sistemas Unix/Linux.
 
 ----
+- Primero nos loguemos como usuarios root, a continuación instalamos los siguientes paquetes
+```
+apt install zsh-autocomplete zsh-autosuggestions zsh-syntax-highlighting
+```
+
+- Si relizamos la siguiente linea nos mostrará los plugins que hemos descargado
+```
+ls -l /usr/share | grep zsh
+```
+Los plugins que se muestran son los que debemos agregar como source para que nos aplique el plugin y lo podamos utilizar.
+
+- Para que **root** también trabaje con una *zsh* debemos realizar el siguiente comando
+```
+usermod --shell /usr/bin/zsh root 
+```
+- De igual manera para para el usuario *sk8ware*
+```
+usermod --shell /usr/bin/zsh sk8ware
+```
+- Con `cat /etc/passwd | grep -E "^sk8ware|^root"` podemos ver que tanto el usuario *root* como *sk8ware* manejan un terminal con una *zsh*. 
+
+- Ahora como el usuario *sk8ware* nos clonamos la siguiente linea de la *POWERLEVEL10K*
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
+
+- En  la configuración `nano /.zshrc` configuramos la ruta a: `source /home/sk8ware/powerlevel10k/powerlevel10k.zsh-theme` ya que la ruta absoluta de root que indica no existe
+----
+Ahora solo escribimos **zsh** en la terminal para empezar con la instalación de la **powerlevel10k**
