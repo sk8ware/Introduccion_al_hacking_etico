@@ -51,13 +51,41 @@ usermod --shell /usr/bin/zsh root
 usermod --shell /usr/bin/zsh sk8ware
 ```
 - Con `cat /etc/passwd | grep -E "^sk8ware|^root"` podemos ver que tanto el usuario *root* como *sk8ware* manejan un terminal con una *zsh*. 
+----
+Ahora como el usuario *sk8ware* nos clonamos la siguiente linea de la *POWERLEVEL10K*
 
-- Ahora como el usuario *sk8ware* nos clonamos la siguiente linea de la *POWERLEVEL10K*
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 ```
 
 - En  la configuración `nano /.zshrc` configuramos la ruta a: `source /home/sk8ware/powerlevel10k/powerlevel10k.zsh-theme` ya que la ruta absoluta de root que indica no existe
-----
-Ahora solo escribimos **zsh** en la terminal para empezar con la instalación de la **powerlevel10k**
+
+Ahora solo escribimos **zsh** en la terminal como usuario no privilegiado para empezar con la instalación de la **powerlevel10k**
+
+- Una vez tengamos desplegado nuestra *powerlevel10k* quitamos el visto que nos sale mano derecha, para ello debemos editar la configuración en `nano .p10k.zsh` y comentamos todos los *plugins* con *#* para que no aparezca ningún icono en la parte derecha y evitar que se relentice la terminal, guardamos y listo.
+
+- Si desea se puede agregar como extras en la parte de la izquierda los siguientes comando para verlos en la powerlevel10k
+
+```
+context
+command_execution_time
+status
+```
+---
+Ahora para vamos a configurar la *POWERLEVEL10K*  para el usuario *ROOT*
+
+- Realizamos el mismo proceso para el usuario *root* , nos copiamos el repositorio de la *powerlevel10k*
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
+
+ - Aplastamos nuevamente `zsh` en la terminal para configurar la *powerlevel10k*
+ - Nos vamos al directorio  `cd /root` y configuramos el `nano .p10k.zsh`
+ - Nuevamente comentamos todos los plugins con `#` y agregamos los siguientes plugins en la parte izquierda:
+```
+context
+command_execution_time
+status
+```
