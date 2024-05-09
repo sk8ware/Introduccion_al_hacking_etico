@@ -5,12 +5,11 @@
 ## Acerca de mí
 
 - 🛹 Skateboarder y aficionado al software
-- 🎓 Interesado en la carrera de ciberseguridad y hacking ético
+- 🎓 Cursando la carrera de ciberseguridad y hacking ético
 - 📚 Actualmente estoy aprendiendo los fundamentos del hacking ético
 - 💼 Busco oportunidades para colaborar en proyectos comerciales o personales
-- 📷 Puedes encontrarme en Instagram como [@sk8ware](https://www.instagram.com/sk8ware/)
+- 📷 Puedes encontrarme en Instagram como [@sk8ware_](https://www.instagram.com/sk8ware_/)
 - 😄 Pronombres: Tony
-- ⚡ Dato curioso: ¡Me encanta el skateboarding!
 
 ## ¡Conéctate!
 
