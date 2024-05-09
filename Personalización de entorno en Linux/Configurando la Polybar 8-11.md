@@ -98,4 +98,11 @@ exec = ~/.config/scripts/ethernet_status
 
 echo "%{F#2495e7}ICONO %{F#ffffff}$(/usr/sbin/ifconfig ens33 | grep "inet " | awk '{print $2}')%{u-}"
  ```
- 
+
+ Y en la parte de *ICONO* colocamos el icono de ethernet a nuestro gusto, Luego de eso nos abrimos nuestro archivo `.zshrc` y agregamos *:/usr/games:`/usr/sbin`* 
+
+ Hay que verificar que este correcta la ruta en el modulo *ethernet_status* en el *current.ini*
+ `exec = ~/.config/bspwm/scripts/ethernet_status` 
+
+-----
+# Ahora agregaremos la parte de la VPN de HTB
