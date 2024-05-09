@@ -90,5 +90,62 @@ command_execution_time
 status
 ```
 
- - Si queremos modificar la parte donde nos indica el nombre del usuario **root** lo podemos cambiar por un símbolo a nuestra preferenci, en `nano .p10k.zsh`
- - min 13:50 
+ - Si queremos modificar la parte donde nos indica el nombre del usuario **root** lo podemos cambiar por un símbolo a nuestra preferencia, en `nano .p10k.zsh`
+ - Nos copiamos el símbolo que hayamos escogido y lo pegamos en la parte de *root_template*
+ - En la parte de *DIR_ANCHOR* se puede poner en *false* para eliminar la negrilla en las letras que indican el usuario a la izquierda.
+
+- Ahora vamos a tocar un poco la *zsh* para poder centralizar todo en un archivo, tanto para root como para sk8ware, para que la configuración de la *zsh* se ejecute en ambas con :
+```
+cd /root
+ln -s -f /home/sk8ware/.zshrc .zshrc
+```
+
+- para verificarlo podemos hacer un `ls -la` y veremos que ahora se conectan a través de un link mutuo
+- Ingresamos a la carpeta de *zsh-autocomplete* y realizamos el siguiente comando :
+```
+chown root:root /usr/share/zsh/site-functions/_bspc
+source  /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
+
+- Para no hacer siempre esta instrucción lo ingresmos en nuestra consifiguración *.zshrc* como sk8ware
+```
+# Plugins
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-sudo/sudo.plugin.zsh
+```
+
+O así : 
+
+```
+# ZSH Autosuggestions Plugin 
+if  [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+     source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+fi 
+
+# ZSH Syntax Highlighting
+if [ -f /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]; then
+	source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
+```  
+
+- Ahora podemos agregar la **funcion esc + esc** desde el siguente link de hit hub:
+  https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/sudo/sudo.plugin.zsh
+  Nos decargamos el raw desde nuestra terminal con: 
+  Nos logueamos como *root* y luego entramos a la carpeta `cd /usr/share` y creamos la carpeta `mkdir zsh.sudo`, dentro de la nueva carpeta descargamos el *raw*
+```
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/sudo.plugin.zsh
+```
+- Agreamos el nuevo plugin en *nano .zshrc*
+```
+# ZSH Sudo Plugin
+if [ -f /usr/share/zsh-sudo/sudo.plugin.zsh ]; then
+	source /usr/share/zsh-sudo/sudo.plugin.zsh
+fi
+```
+
+----
+### Ahora vamos a configurar un poco el *History*
+
+  
