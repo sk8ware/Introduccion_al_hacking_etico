@@ -106,3 +106,47 @@ echo "%{F#2495e7}ICONO %{F#ffffff}$(/usr/sbin/ifconfig ens33 | grep "inet " | aw
 
 -----
 # Ahora agregaremos la parte de la VPN de HTB
+
+Nos abrimos nuestro archivo *launch.sh* y debajo del modulo de *ethernet_bar* creamos la siguiente línea:
+
+```
+polybar vpn_bar -c ~/.config/polybar/current.ini & 
+```
+
+Ahora el modulo *vpn_bar* debe existir en *current.ini*, filtramos por *ethernet_bar* y copiamos todo el apartado con las configuraciones y justamente arriba para definir *vpn_bar*
+
+Si guardamos y refrescamos se van a superponer encima de la ip y para poderle mover a la derecha debemos configurar el `offset-x = 14` y en *modules-center* poner el modulo  *vpn_status* 
+
+Filtramos por *ethernet_status* en el apartado de modulos, para agregar lo siguiente:
+
+```
+[module/vpn_status]
+type = custom/script
+interval = 2 
+exec = ~/.config/scripts/vpn_status
+``` 
+
+Nos dirigimos a nuestra carpeta `cd ~/.config/bspwm/scripts` y aqui crearemos el siguiente archivo *touch vpn_status* e ingresamos estos datos:
+
+```
+#!/bin/sh
+
+IFACE=$(/usr/sbin/ifconfig | grep tun0 | awk '{print $1}' | tr -d ':')
+
+if [ "$IFACE" = "tun0" ]; then
+
+    echo "%{F#1bbf3e}ICONO %{F#ffffff}$(/usr/sbin/ifconfig tun0 | grep "inet " | awk '{print $2}')%{u-}"
+
+else
+
+    echo "%{F#1bbf3e}ICONO %{u-} Disconnected"
+
+fi
+``` 
+
+Cambiamos el icono en *NerdFonts* por un cuadrado como el de *HTB*
+
+Le otorgamos permisos de ejecución con *chmod +x vpn_status.sh* 
+
+Y por ultimo terminamos configurando el botón de apagado en la ruta `cd ~/.config/polybar` y nos abrimos el *launch.sh* y vemos que se llama *primary* el botón de la derecha
+Así que vamos al *current.ini* y filtramos por *primary* y en *background* cambiamos a *bg* el color.
