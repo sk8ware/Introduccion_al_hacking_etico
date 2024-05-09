@@ -147,5 +147,19 @@ fi
 
 ----
 ### Ahora vamos a configurar un poco el *History*
+- En el mismo archivo `.zsh` agregamos la siguiente linea
+```
+# History
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+setopt histignorealldups sharehistory
+```
 
-  
+- Para eliminar el historial del historico hay que realizar 
+```
+echo '' > ~/.zsh_history
+``` 
+
+- Para completar palabras incompletas como *whomi* a *whoami* con `TAB` 
+- [En este pastebin](https://pastebin.com/H87J3nMj) encontraremos la configuración para agregar a nuestra `.zsh` 
