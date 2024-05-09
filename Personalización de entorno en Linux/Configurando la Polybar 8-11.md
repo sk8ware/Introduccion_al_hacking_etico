@@ -2,11 +2,6 @@
 ----
 - TAG: #CONFIGURANDO #POLYBAR 
 -----
-- [Archivo vpn_status.sh](https://pastebin.com/sUk5hB4Q)
-
-Recordad que en caso de que vuestro nombre de interfaz sea otro, tenéis que adaptarlo en el script. Asimismo, donde pone ‘**ICONO**‘, debéis sustituirlo por vuestro icono deseado de Nerd Fonts.
-
-----
 ## Ahora empezaremos con la configuración de la polybar 
 Dentro de nuestro directorio *.config* tenemos la ruta *polybar*, En esta ruta encontraremos dos archivos importantes el *launch.sh* y por otro lado el *current.ini* 
 
