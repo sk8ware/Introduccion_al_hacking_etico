@@ -30,7 +30,7 @@ wm-restack = bspwm
 ```
 [module/my-text-label]
 type = custom/text
-content = %{T7}
+content = %{T7}  (alien)
 ;interval = 1.0
 ;time = %k : %M
 ;date = %b %e
