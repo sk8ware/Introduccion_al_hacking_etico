@@ -5,7 +5,7 @@
 ## Acerca de mí
 
 - 🛹 Skateboarder y aficionado al software
-- 🎓 Cursando la carrera de ciberseguridad y hacking ético
+- 🎓 Cursando la carrera de ciberseguridad
 - 📚 Actualmente estoy aprendiendo los fundamentos del hacking ético
 - 💼 Busco oportunidades para colaborar en proyectos comerciales o personales
 - 📷 Puedes encontrarme en Instagram como [@sk8ware_](https://www.instagram.com/sk8ware_/)
