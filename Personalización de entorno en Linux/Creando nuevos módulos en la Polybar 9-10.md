@@ -70,5 +70,48 @@ Vale recalcar que hace falta cambiar *sk8ware* por su nombre de usuario en su ma
 
 Si no tenemos directorio *bin* lo creamos rápidamente con `mkdir bin` en *~/.config* y creamos el archivo `touch target` 
 
+## Ahora vamos a definir la función `settarget` y `cleartarget`
+
+Hay que definir lo siguiente en la ruta `nano /home/sk8ware/.zshrc` 
+
+Podemos definir `Settarget` en cualquier lugar con :
+
+```
+# Custom functions
+---------------------------------------------------------
+# Set Victim Target
+
+function settarget(){
+
+    ip_address=$1
+
+    machine_name=$2
+
+    echo "$ip_address $machine_name" > /home/s4vitar/.config/bin/target
+
+}
+```
+
+Debajo de esta función colocamos la *Clear Target*
+
+```
+# Clear Victim Target
+
+function cleartarget(){
+
+    echo '' > /home/s4vitar/.config/bin/target
+
+}
+```
+
+Ahora si enviamos un `settarget` deberiamos ver en el modulo la información enviada
+
 -----
 ### En caso de que presentemos algún problema podemos realizar el siguiente procedimiento
+
+Se realiza un `pkill polybar` para matar el proceso de la polybar
+
+Ejecutamos la `polybar` para poder ver el error que produce el conflicto en la polybar
+
+Si revisamos el archivo y esta todo bien y refleja que existe despues de un `file /home/sk8ware/.config/bin/target`
+Nos muestra que si existe pero se encuentra vacío 
