@@ -106,6 +106,25 @@ function cleartarget(){
 
 Ahora si enviamos un `settarget` deberiamos ver en el modulo la información enviada
 
+## Para finalizar tocaremos el espacio de trabajo que se encuentra en `workspace.ini` 
+
+En esta configuración podemos definir los colores y figuras que se muestran en el espacio de trabajo 
+
+Filtramos por `occupied` y podemos ir configurando a nuestro gusto el espacio de trabajo
+
+Y para finalizar utilizaremos la herramienta **FZF** que nos permite usar un buscador mucho mas eficiente y actual [Repositorio FZF](https://github.com/junegunn/fzf) 
+
+```
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+
+Este comando debemos hacerlo tanto como sk8ware como root
+
+Ahora con *Ctrl + T* nos permite realizar acciones como `cat Ctrl + t` y buscar una ruta absoluta por ejemplo
+
+Si escribimos una palabra incompleta como `who` y aplastamos `Ctrl + R` y ver funciones anteriores iniciadas con esas palabras
+
 -----
 ### En caso de que presentemos algún problema podemos realizar el siguiente procedimiento
 
@@ -113,5 +132,15 @@ Se realiza un `pkill polybar` para matar el proceso de la polybar
 
 Ejecutamos la `polybar` para poder ver el error que produce el conflicto en la polybar
 
-Si revisamos el archivo y esta todo bien y refleja que existe despues de un `file /home/sk8ware/.config/bin/target`
+Si revisamos el archivo y esta todo bien y refleja que existe después de un `file /home/sk8ware/.config/bin/target`
 Nos muestra que si existe pero se encuentra vacío 
+
+Si vamos al archivo *lauch.sh* y marcamos algunos plugins con # y recargamos para probar y verificamos que no es ninguno de esos 
+
+Ahora probamos con el *current.ini* y revisamos alguna falla en palabras o modulos repetidos, por ejemplo desplegamos manualmente la siguiente linea y leemos el mensaje que nos indique:
+
+```
+polybar secondary -c ~/.config/polybar/current.ini 
+```
+
+Y nos indica que hemos duplicado *vpn_status*
