@@ -21,4 +21,26 @@ Borramos la parte final del primer paso de la instalación el apartado de `&& nv
 Instalamos el *releases* de *nvim* del siguiente repositorio 
 [NVIM RELEASES descargar nvim-linux64.tar.gz](https://github.com/neovim/neovim/releases/tag/v0.9.5)
 Nos ingresamos a nuesta carpeta */opt* y creamos un carpeta que se llame *nvim* como usuario root, luego ingresamos
-Luego movemos el archivo *.tar* ah la carpeta recien creada con `mv /home/sk8ware/Download/
+Luego movemos el archivo *.tar* ah la carpeta recien creada con `mv /home/sk8ware/Download/nvim-linux64.tar.gz . `
+Lo descomprimimos con `tar -xf nvim-linux64.tar.gz` 
+Nos dirigimos  a la carpeta e ingresamos a *bin* y encontraremos el archivo *nvim* 
+Ahora copiamos la ruta ` /opt/nvim/nvim-linux64/bin ` y la pegamos al final del `PATH=` 
+Guardamos y ahora abrimos una nueva ventana y abrimos *nvim*
+De manera automática se instalara y nos mostrara la configuración, así que salimos haciendo ` Ctrl + :q! ` 
+Revisamos en caso de que se encuentre con el signo `$` lo  puede borrar con la siguiente instrucción, 
+Nos dirigimos a la configuración de *nvim* con  `cd ~/.config/nvim` y dentro de `init.lua` ponemos lo siguiente al inicio:
+```
+vim.opt.listchars = "tab:»·,trail:·"
+```
+Guardamos y salimos, volvemos revisar si ya no se encuentra el signo `$` 
+Pero al momento parece estar actualizada, porque desde la instalación no apareció con ese problema, en caso que se presente ese error pues ya saben como solucionarlo :)
+Ahora haremos *locate* pero en caso que no este instalado pueden hacer lo siguiente 
+Hacemos un ` sudo apt install locate` , una vez instalado hacemos un `updatedb` y veremos que nos salen dos permisos denegados en las monturas indicadas, que tranquilamente se pueden desmontar 
+Debemos logearnos como *root* y hacemos un ` umount ` con las rutas que nos indican tipo:
+```
+umount /run/user/1000/doc
+```
+Y de igual manera con la otra ruta, volvemos hacer un `updatedb` y ya no nos aparecera los errores 
+Ahora podemos buscar archivos *.py* o los que desee, podemos visualizarlos con *nvim /usr/share/system-config-printer/debug.py* y ver perfectamente la sintaxis, pero cuando nos abrimos archivos *.lua* nos refleja un pequeño error en letras rojas en la parte inferior.
+Lo que podemos hacer es hacer *esc + :* y escribir `MasonInstallAll` ponemos enter y se instalará lo necesario
+Salimos con `esc` y `:q!`, volvemos abrir el mismo archivo y ya no aparecerá mas el error 
