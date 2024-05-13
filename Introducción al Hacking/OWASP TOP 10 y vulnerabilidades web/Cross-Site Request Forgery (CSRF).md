@@ -2,7 +2,7 @@
 ----
 - Tag: #CROSS-SITE #REQUEST #FORGERY #CSRF 
 ----
->**AVISO: Si a la hora de hacer el ‘**docker-compose up -d**‘, salta un error de tipo: “**networks.net-10.9.0.0 value Additional properties are not allowed (‘name’ was unexpected)**“, lo que tenéis que hacer es en el archivo ‘**docker-compose.yml**‘, borrar la línea número 41, la que pone “**name: net-10.9.0.0**“.
+>**AVISO (Actualización 11/05/2023)**: Si a la hora de hacer el ‘**docker-compose up -d**‘, os salta un error de tipo: “**networks.net-10.9.0.0 value Additional properties are not allowed (‘name’ was unexpected)**“, lo que tenéis que hacer es en el archivo ‘**docker-compose.yml**‘, borrar la línea número 41, la que pone “**name: net-10.9.0.0**“.
 
 Con hacer esto, ya podréis desplegar el laboratorio sin ningún problema.
 
