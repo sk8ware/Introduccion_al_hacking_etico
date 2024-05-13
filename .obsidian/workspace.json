@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando la Polybar 8-11.md",
-                "mode": "preview",
+                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando la Polybar 8-11.md",
+                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando la Polybar 8-11.md",
+                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando la Polybar 8-11.md"
+                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim.md"
               }
             }
           }
@@ -150,20 +150,22 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
+    "Personalización de entorno en Linux/Configurando la Polybar 8-11.md",
+    "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim.md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
+    "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Personalización de entorno en Linux/Instalación de Batcat y Lsd 7-11.md",
     "Personalización de entorno en Linux/Configurando la ZSH e instalando Powerlevel10k 6-11.md",
     "Personalización de entorno en Linux/Configurando los bordeados, las sombras y los difuminados con Picom 5-11.md",
     "Personalización de entorno en Linux/Despliegue de la Polybar 4-11.md",
     "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
-    "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Personalización de entorno en Linux/Creando nuevos módulos en la Polybar 9-10.md",
     "README.md",
-    "Personalización de entorno en Linux/Configurando la Polybar 8-11.md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/WordPress (1-2).md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/WordPress (2-2).md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración del servicio HTTP y HTTPS.md",
     "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
@@ -175,8 +177,6 @@
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
     "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
-    "Introducción al Hacking/Introducción a Docker/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
-    "Introducción al Hacking/Introducción a Docker/Comandos comunes para la gestión de contenedores.md",
     "MAQUINAS REALIZADAS",
     "Introducción al Hacking/Reconocimiento con Nmap",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
