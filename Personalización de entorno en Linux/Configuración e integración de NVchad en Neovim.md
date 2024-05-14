@@ -104,5 +104,17 @@ mv nvim/* .
 rm -rf nvim
 ``` 
 
+Dentro de la ruta iniciamos *nvim* y empezara nuevamente con la instalación y tocará realizar el mismo procedimiento como en el usuario no privilegiado.
+Iniciara la instalación automáticamente y volvemos a salir ` :q! ` 
+volvemos iniciar y ya lo tendremos listo tanto para *s8ware* como *root* 
+Escribimos la función *:MasonInstallAll* dentro de *nvim* para poder usar o editar los archivos *.lua*
+Primer problema resuelto y ahora 
+Configuramos la sugerencia de palabras con la misma ruta como en usuario no privilegiado
+```
+nvim ~/.local/share/nvim/lazy/NvChad/lua/nvchad/plugins/init.lua
+```
+filtramos por ` /cmp ` y desde la linea *76* hasta la *123* con *esc + v* desde donde queremos copiar hasta el final y aplastamos *D* para borrar lo seleccionado y guadamos con `wq` 
 
+Listo hemos configurado con éxito la configuración como *root*
 
+---
