@@ -11,9 +11,12 @@
             "id": "1652fb52d9c0e77b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "IMG/Atajos de Linux.png"
+                "file": "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IMG/Atajos de Linux.png",
+                "file": "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IMG/Atajos de Linux.png",
+                "file": "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IMG/Atajos de Linux.png"
+                "file": "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md"
               }
             }
           }
@@ -147,9 +150,9 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
-    "Personalización de entorno en Linux/Repaso final por todos los atajos definidos.md",
+    "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
     "IMG/Atajos de Linux.png",
-    "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim.md",
+    "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
     "Personalización de entorno en Linux/Instalación de Batcat y Lsd 7-11.md",
     "Personalización de entorno en Linux/Configurando la ZSH e instalando Powerlevel10k 6-11.md",
     "Personalización de entorno en Linux/Despliegue de la Polybar 4-11.md",
