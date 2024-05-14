@@ -118,3 +118,30 @@ filtramos por ` /cmp ` y desde la linea *76* hasta la *123* con *esc + v* desde 
 Listo hemos configurado con éxito la configuración como *root*
 
 ---
+
+# Para finalizar configuraremos un poco la seguridad en nuestro navegador firefox
+
+Nos dirigimos al historial, y cambiamos la opción de remember a never, para que no guarde nuestro historico.
+Borramos el historial antiguo que haya quedado manualmente y al buscar algo ahora, cerrar y volver abrir ya no reflejara nuestro historial.
+Vamos a configurar el Hosting de *HTB* hack the box, para que cuando lo ingresemos en la parte de la url nos la detecte y no refleje en el  buscador.
+Ahora hacemos un ` about:config ` en el buscador *url* aceptamos la configuración y escribimos la siguiente política 
+```
+browser.fixup.domainsuffixwhitelist.htb
+```
+
+Los establecemos como valor booleano y le damos click en *+* para agregar la configuración, ahora notaremos que dice tru, esto hará que cuando hagamos por ejemplo `builder.htb` nos reconozca la instrucción.
+
+----
+# Instalando plugin
+- Wappalyzer
+- Darkread
+- FoxyProxy (127.0.0.1:8080)(http://burp)
+  Aveces no suele mostrar el certificado en firefox, asi que intente por el navegador de burpsuite y si mostro el archivo, lo descargamos y lo agregamos en los certificados de firefox para no tener problemas al usar la aplicación 
+## Para consola
+```
+sudo apt install ranger 
+```
+
+Esta utilidad nos permite buscar por carpetas y directorios, para poder visualizar de una manera mas rápida y eficaz
+
+----
