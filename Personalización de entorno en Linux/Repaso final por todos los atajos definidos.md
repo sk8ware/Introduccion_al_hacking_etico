@@ -75,6 +75,6 @@ nvim /etc/host —→ esc + : + vsp = En esta parte podemos visualizar la parte 
 *espacio + c + h* = Para ver el cheatsheet de nvim
 
 ----
-![[Pasted image 20240514131906.png]]
+![[Atajos de Linux.png]]
 
 ---
