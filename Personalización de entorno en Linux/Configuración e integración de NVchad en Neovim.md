@@ -44,3 +44,65 @@ Y de igual manera con la otra ruta, volvemos hacer un `updatedb` y ya no nos apa
 Ahora podemos buscar archivos *.py* o los que desee, podemos visualizarlos con *nvim /usr/share/system-config-printer/debug.py* y ver perfectamente la sintaxis, pero cuando nos abrimos archivos *.lua* nos refleja un pequeño error en letras rojas en la parte inferior.
 Lo que podemos hacer es hacer *esc + :* y escribir `MasonInstallAll` ponemos enter y se instalará lo necesario
 Salimos con `esc` y `:q!`, volvemos abrir el mismo archivo y ya no aparecerá mas el error 
+Ahora podemos hacer uso a nuestro gusto *nvim*, para ver un *cheatsheet* con todas las funciones que podemos hacer 
+
+----
+# Ahora modificaremos un poco el Rofi 
+
+Empezamos creando un archivo *rofi* en la ruta ` ~/.config ` y dentro de *rofi* creamos el directorio *themes*
+Abrimos una nueva terminal y nos dirigimos a la ruta `cd /opt` y nos clonamos el siguiente repositorio:
+```
+git clone https://github.com/newmanls/rofi-themes-collection
+cd rofi-themes-collection
+cd themes
+```
+Nos logeamos como *root* y nos copiamos todo el directorio actual en `cp * /home/sk8ware/.config/rofi/themes` 
+Ahora salimos y refrescamos con *Ctrl + R* y ponemos ` rofi-themes-collection ` para escoger un nuevo tema, una vez escogido el tema hacemos un *Ctrl + A* para aplicarlo 
+
+-----
+# Descargando i3locker-fancy 
+
+Lo instalamos con: 
+```
+sudo apt install i3lock
+```
+
+Y luego nos clonamos el repositorio en la ruta */opt*
+```
+git clone https://github.com/meskarune/i3lock-fancy.git
+cd i3lock-fancy
+make install
+```
+
+Ahora regresamos como usuarios privilegiados y corremos `i3lock-fancy` 
+Para agregarlo como atajo con las teclas *Windows + Shift + x* para bloquear la pantalla debemos agregarlo como función en la confguracion *sxhkdrc*
+```
+nvim /home/sk8ware/.config/sxhkd/sxhkdrc
+```
+
+Agregamos en el final del todo la siguiente linea:
+```
+#i3lock-fancy
+super + shift + x
+/usr/bin/i3lock-fancy
+```
+
+Guardamos y luego salimos 
+
+Ahora configuraremos la sugerencia de palabras que nos muestra en *nvim* al momento de escribir, nos dirigimos a la nueva dirección creada
+
+```
+nvim ~/.local/share/nvim/lazy/NvChad/lua/nvchad/plugins/init.lua
+```
+
+Y filtramos por ` /cmp ` y desde la linea 76 hasta la 123 con *esc + v* desde donde queremos copiar hasta el final y aplastamos *D* para borrar lo seleccionado y guadamos con `wq` 
+
+Ahora haremos la configuración para *root*, nos logeamos y nos dirigimos a nuestra ruta `cd /root/.config` y creamos la carpeta `mkdir nvim` y de manera recursiva nos copiamos todo lo que tenemos aquí con 
+``` 
+cp -r /home/sk8ware/.config/nvim . 
+mv nvim/* . 
+rm -rf nvim
+``` 
+
+
+
