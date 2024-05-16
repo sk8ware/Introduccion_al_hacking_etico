@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando los bordeados, las sombras y los difuminados con Picom 5-11.md",
+                "file": "Over The Wire (Jugando con comandos Linux)/Bandit0.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nitide",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando los bordeados, las sombras y los difuminados con Picom 5-11.md",
+                "file": "Over The Wire (Jugando con comandos Linux)/Bandit0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando los bordeados, las sombras y los difuminados con Picom 5-11.md",
+                "file": "Over The Wire (Jugando con comandos Linux)/Bandit0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando los bordeados, las sombras y los difuminados con Picom 5-11.md"
+                "file": "Over The Wire (Jugando con comandos Linux)/Bandit0.md"
               }
             }
           }
@@ -151,9 +150,13 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
+    "MAQUINAS REALIZADAS/Hospital.md",
+    "Over The Wire (Jugando con comandos Linux)/Bandit0.md",
+    "Over The Wire (Jugando con comandos Linux)",
+    "MAQUINAS REALIZADAS/BUILDER.md",
+    "Personalización de entorno en Linux/Configurando los bordeados, las sombras y los difuminados con Picom 5-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
-    "MAQUINAS REALIZADAS/BUILDER.md",
     "Personalización de entorno en Linux/Configurando la Polybar 8-11.md",
     "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
     "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
@@ -161,7 +164,6 @@
     "Personalización de entorno en Linux/Instalación de Batcat y Lsd 7-11.md",
     "Personalización de entorno en Linux/Configurando la ZSH e instalando Powerlevel10k 6-11.md",
     "Personalización de entorno en Linux/Despliegue de la Polybar 4-11.md",
-    "Personalización de entorno en Linux/Configurando los bordeados, las sombras y los difuminados con Picom 5-11.md",
     "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
@@ -175,7 +177,6 @@
     "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
     "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
     "Introducción al Hacking/Introducción a Docker/DOCKER.md",
-    "MAQUINAS REALIZADAS/Hospital.md",
     "Personalización de entorno en Linux",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
     "MAQUINAS REALIZADAS",
@@ -186,7 +187,6 @@
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación",
     "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC",
     "IMG/Pasted image 20240422005343.png",
     "IMG/Ejemplo de Reverse Shells.png",
     "IMG/Ejemplo de ForwardShells.png",
