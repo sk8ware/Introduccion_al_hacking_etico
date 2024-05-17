@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-58.md",
+                "file": "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-57.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-58.md",
+                "file": "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-57.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-58.md",
+                "file": "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-57.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-58.md"
+                "file": "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-57.md"
               }
             }
           }
@@ -148,10 +148,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "1652fb52d9c0e77b",
+  "active": "4e2f68534d54d90a",
   "lastOpenFiles": [
-    "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting.md",
-    "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-58.md",
+    "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0.md",
+    "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-57.md",
     "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Personalización de entorno en Linux.md",
