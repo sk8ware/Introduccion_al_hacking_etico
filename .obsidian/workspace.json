@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Over The Wire (Jugando con comandos Linux)/Bandit0.md",
+                "file": "LINUX/Prueba.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,8 +49,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "¿Qué conseguimos con la operatoria 3>&1 1>&2 2>&3?",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Over The Wire (Jugando con comandos Linux)/Bandit0.md",
+                "file": "LINUX/Prueba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Over The Wire (Jugando con comandos Linux)/Bandit0.md",
+                "file": "LINUX/Prueba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Over The Wire (Jugando con comandos Linux)/Bandit0.md"
+                "file": "LINUX/Prueba.md"
               }
             }
           }
@@ -148,10 +149,14 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "1652fb52d9c0e77b",
+  "active": "591ac240de3c9914",
   "lastOpenFiles": [
-    "MAQUINAS REALIZADAS/Hospital.md",
+    "Pasted image 20240516224016.png",
+    "Pasted image 20240516223522.png",
     "Over The Wire (Jugando con comandos Linux)/Bandit0.md",
+    "LINUX/Prueba.md",
+    "LINUX",
+    "MAQUINAS REALIZADAS/Hospital.md",
     "Over The Wire (Jugando con comandos Linux)",
     "MAQUINAS REALIZADAS/BUILDER.md",
     "Personalización de entorno en Linux/Configurando los bordeados, las sombras y los difuminados con Picom 5-11.md",
@@ -176,9 +181,7 @@
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración del servicio HTTP y HTTPS.md",
     "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
     "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
-    "Introducción al Hacking/Introducción a Docker/DOCKER.md",
     "Personalización de entorno en Linux",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
     "MAQUINAS REALIZADAS",
     "Introducción al Hacking/Reconocimiento con Nmap",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
@@ -186,7 +189,6 @@
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING",
     "IMG/Pasted image 20240422005343.png",
     "IMG/Ejemplo de Reverse Shells.png",
     "IMG/Ejemplo de ForwardShells.png",
