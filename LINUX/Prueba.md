@@ -30,7 +30,9 @@ No
 Con TAB
 
 10. ### ¿Dónde se guardan los archivos de configuración del sistema?
+```
 /etc
+```
 
 11. ### ¿De qué forma puedo indicar que quiero ejecutar una tarea cron a las 02:10 AM, cada 2 días de la semana?
 ```markdown
@@ -66,7 +68,10 @@ uname -r
 hostname
 
 20. ### ¿Cómo puedo indicar en una misma línea que el stderr del último comando a ejecutar se introduzca en el archivo 'file' y el stdout en el archivo ‘file_two’?
+![[Pasted image 20240517143844.png]]
+```
 2>&1 >&8 1>&7
+```
 
 21. ### ¿Qué significa ./?
 Representa el directorio actual
@@ -102,6 +107,9 @@ El comando devolverá un error y mostrará la cadena test2
 
 29. ### ¿Qué expresión tendré que introducir a continuación para cambiar todas las palabras donde ponga ‘root’ por ‘user’ haciendo uso del comando ‘sed’?
 *cat /etc/passwd | head -n 1 |*
+```
+sed ' s/root/user/g'
+```
 
 30. ### ¿Existen físicamente todos los dispositivos que hay en '/dev'?
 No
@@ -128,7 +136,7 @@ cp archivo1 /home/usuario/archivo2
 ```
 
 35. ### 5. ¿Qué pasará cuando ejecute el último comando?
-![[Pasted image 20240516223522.png]]
+![[pruebalinux1.png]]
 La ejecución causará un error, dado que el descriptor de archivo indicado ha sido cerrado
 
 36. ### ¿Cuál sería la expresión a establecer para una tarea Cron que quiero que se ejecute cada 3 minutos?
@@ -137,7 +145,7 @@ La ejecución causará un error, dado que el descriptor de archivo indicado ha s
 ```
 
 37. ### ¿Cómo podría declarar en una línea un array que reúna las siguientes especificaciones en un script de Bash?
-![[Pasted image 20240516224016.png]]
+![[pruebalinux.png]]
 elementos=(a b c d e)
 
 38. ### ¿Cuál sería la expresión a establecer para una tarea Cron que quiero que se ejecute cada minuto, en el día 10 del mes, cada 2 meses?
@@ -148,3 +156,108 @@ elementos=(a b c d e)
 39. ### ¿Qué conseguimos con la operatoria 3>&1 1>&2 2>&3?
 Conseguimos intercambiar stderr con stdout y stdout con stderr
 
+
+40. ### ¿Cuál sería la expresión a establecer para una tarea Cron que quiero que se ejecute cada minuto, sólo los Sábados?
+```markdown
+* * * * 6
+```
+
+41. ### Si quiero asignar el permiso 123 en octal a un fichero, ¿cómo quedarán representados los permisos finales para este fichero?
+```
+--x-w--wx
+```
+
+42. ### Estoy perdido en el árbol de directorios, ¿cómo puedo volver a mi HOME?
+```
+cd
+```
+
+43. Esto puedo hacerlo incorporando un  al final de mi instrucción.
+```
+&
+```
+
+44. ### ¿Con qué comando puedo traer un proceso en segundo plano al primer plano?
+```
+fg
+```
+
+45. ### ¿Cada cuánto se estaría ejecutando esta tarea?
+![[Pasted image 20240517104905.png]]
+```
+Cada minuto, cada 2 días
+```
+
+46. ### ¿De qué forma puedo iterar sobre las líneas de un archivo tras aplicar un cat sobre este e incorporar un pipe al final de la misma línea? (Consideremos almacenar el valor de cada línea por cada iteración en una variable con nombre ‘value’)
+```
+| while IFS= read -r value; do echo "$value"; done
+```
+
+47. ### ¿Qué formas correctas tendríamos en Bash para aplicar una suma entre dos números?
+
+2+5
+
+2+5 | bash
+
+(2+5) | bash
+
+echo (2+5)
+
+- [-] echo 2+5 | bc
+
+- [-] echo "2+5" | bc
+
+echo $(2+5) | bc
+
+ - [-] echo $((2+5)) | bc
+ 
+- [-] echo $((2+5))
+
+48. ### ¿Cómo hago para saber el tiempo que tarda en ejecutarse un comando?
+```
+time ls -l
+```
+
+49. ### . ¿Es el Kernel el núcleo del sistema operativo?
+```
+verdader
+```
+
+50.  ### ¿Qué se va a almacenar en el archivo 'file' tras ejecutar el comando indicado?
+![[Pasted image 20240517140830.png]]
+(whoami 3>&1 1>&2 2>&3) > file 
+```
+Salida del stdout al archivo file
+```
+
+51. ### ¿Qué conseguimos con la operatoria 3>&1 1>&2 2>&3?
+```
+Conseguimos intercambiar stderr con stdout y stdout con stderr
+```
+
+52. ### ¿Cuál es la representación en octal del siguiente permiso?
+![[Pasted image 20240517141548.png]]
+.--x-----x
+```
+101
+```
+
+53. ### ¿Qué se almacenará en el archivo file?
+![[Pasted image 20240517142857.png]]
+excec 3<> file 
+whoam 2>&3
+
+- [-] Los errores del comando ejecutado  
+- [-] El stderr
+
+54. ### ¿Qué se estará almacenando en el archivo file tras la ejecución del último comando?
+![[Pasted image 20240517144006.png]]
+exec 3<> file
+exec 4>&3
+whoami 2>&1 >&4
+
+```
+2.- El stderr del comando 'whoami'
+```
+
+55. ### ¿En qué directorios se guardan generalmente los programas?
