@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "941781ae3e1e50c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "xd.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -150,8 +163,10 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
-    "INTRODUCCIÓN A LINUX/Cuestionario 4.md",
+    "INTRODUCCIÓN A LINUX/Prueba.md",
     "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos 5.md",
+    "xd.md",
+    "INTRODUCCIÓN A LINUX/Cuestionario 4.md",
     "INTRODUCCIÓN A LINUX/Descriptores de archivo 3.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.).md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
@@ -161,7 +176,6 @@
     "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Personalización de entorno en Linux.md",
-    "INTRODUCCIÓN A LINUX/Prueba.md",
     "IMG/Pasted image 20240517144006.png",
     "IMG/Pasted image 20240517143844.png",
     "IMG/Pasted image 20240517142857.png",
@@ -186,7 +200,6 @@
     "Personalización de entorno en Linux/Despliegue de la Polybar 4-11.md",
     "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
     "Personalización de entorno en Linux",
     "MAQUINAS REALIZADAS",
     "Introducción al Hacking/Reconocimiento con Nmap",
