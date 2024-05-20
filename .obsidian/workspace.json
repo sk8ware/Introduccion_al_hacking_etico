@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
+                "file": "INTRODUCCIÓN A LINUX/Descriptores de archivo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
+                "file": "INTRODUCCIÓN A LINUX/Descriptores de archivo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
+                "file": "INTRODUCCIÓN A LINUX/Descriptores de archivo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano.md"
+                "file": "INTRODUCCIÓN A LINUX/Descriptores de archivo.md"
               }
             }
           }
@@ -150,9 +150,10 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
+    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
+    "INTRODUCCIÓN A LINUX/Descriptores de archivo.md",
     "INTRODUCCIÓN A LINUX/Comandos básicos de Linux 1-57.md",
     "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0-57.md",
-    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano.md",
     "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Personalización de entorno en Linux.md",
@@ -186,7 +187,6 @@
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/WordPress (1-2).md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/WordPress (2-2).md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/XML External Entity Injection (XXE).md",
     "Personalización de entorno en Linux",
     "MAQUINAS REALIZADAS",
     "Introducción al Hacking/Reconocimiento con Nmap",
