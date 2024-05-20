@@ -1,4 +1,9 @@
 
+----
+hola ia me podrias ayudar con algo, tengo un repositorio conectado con mi obsidian y estoy creando unos apuntes con información muy valiosa que deseo que sea mi portafolio a futuro, me podrias ayudar a mejorar estos apuntes, agregando puntos y comas, agregar un poco de información y mejor explicación a detalle pero sin tratar de cambiar mi esencia y ganas de que aprendan y quede todo claro, es lo siguiente :
+
+------
+
 
 1.- ### 1. ¿Cuál sería la expresión a establecer para una tarea Cron que quiero que se ejecute al tercer minuto de cada hora?
 
