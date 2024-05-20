@@ -2,7 +2,7 @@
 
 
 -----
-- TAG: #LECTURA #INTERPRETACIÓN #PERMISOS
+- TAG: #LECTURA #INTERPRETACIÓN #PERMISOS #TOUCH #NANO #VI 
 -----
 Te dejo por aquí algunos materiales de apoyo por si quieres indagar más en los permisos de Linux:
 
@@ -12,25 +12,6 @@ Te dejo a mano algunos recursos más adicionales para que puedas fortalecer la b
 
 - Permisos en Linux | Cómo son y cómo se cambian: [https://www.softzone.es/programas/linux/permisos-archivos-directorios-linux/](https://www.softzone.es/programas/linux/permisos-archivos-directorios-linux/)
 - Cambiar permisos con comandos: [https://www.hostinger.es/tutoriales/cambiar-permisos-y-propietarios-linux-linea-de-comandos/](https://www.hostinger.es/tutoriales/cambiar-permisos-y-propietarios-linux-linea-de-comandos/)
------
-## Touch y redirectores
-
-Empezamos explicando un poco sobre los redirectores de la siguiente manera 
-```
-cd Desktop
-touch file.txt
-echo "probando" > file.txt  
-```
-
-Pero si volvemos a utilizar el mismo comando no nos va a permitir acumular la información, es decir abra un solo output cuando abramos el archivo `file`, para poder realizar un *apent* (apilar) y que no nos sobre escriba el archivo, solo debemos utilizar doble mayor `>>` 
-
-## Nano 
-
-Con nano podremos crear archivos en donde podremos agregar toda la información manualmente
-
-## Vi
-
-De inicio con vi tambien lo podemos crear hasta poderlo mejorar con **nvim** 
 
 -----
 ## Touch y Redirecciones
