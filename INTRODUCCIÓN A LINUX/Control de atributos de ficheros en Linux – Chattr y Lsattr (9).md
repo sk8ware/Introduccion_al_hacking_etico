@@ -2,7 +2,7 @@
 ----
 - TAG: #CONTROL #ATRIBUTOS #FICHEROS #LINUX #CHATTR #LSATTR
 ----
-¿Es la primera vez que ves los comandos **Chattr** y **Lsattr**?, puedes indagar un poco más en el uso de estos en los siguientes enlaces que te comparto:
+>¿Es la primera vez que ves los comandos **Chattr** y **Lsattr**?, puedes indagar un poco más en el uso de estos en los siguientes enlaces que te comparto:
 
 - Control de atributos de ficheros Linux: [Chattr y Lsattr](https://rm-rf.es/chattr-y-lsattr-visualizar-y-modificar-atributos-en-sistemas-de-ficheros-linux/#:~:text=El%20primer%20comando%2C%20lsattr%20permite,chmod%2C%20chown%2Csetfacl%E2%80%A6))
 - Comandos Chattr y Lsattr en Linux: [https://programmerclick.com/article/5604675172/](https://programmerclick.com/article/5604675172/)
