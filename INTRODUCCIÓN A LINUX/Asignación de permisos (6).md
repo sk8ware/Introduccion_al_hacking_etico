@@ -130,3 +130,46 @@ Si ingresamos como el usuario **pepe** y nos dirigimos al directorio **prueba** 
 ```bash
 touch prueba/archivo_nuevo.txt
 ```
+
+----
+### Eliminación del usuario 
+
+Para eliminar un usuario que fue creado con `useradd` en Linux, puedes usar el comando `userdel`. Este comando permite eliminar el usuario y, opcionalmente, su directorio de inicio y otros archivos asociados. Aquí te dejo los pasos detallados:
+
+### Eliminar un Usuario sin Eliminar su Directorio de Inicio
+
+Si deseas eliminar un usuario pero conservar su directorio de inicio y otros archivos, utiliza el siguiente comando:
+
+```bash
+sudo userdel pepe
+```
+
+### Eliminar un Usuario y su Directorio de Inicio
+
+Si deseas eliminar un usuario junto con su directorio de inicio y otros archivos asociados, utiliza el comando con la opción `-r`:
+
+```bash
+sudo userdel -r pepe
+```
+
+---
+## Elimininación de grupos 
+
+**Eliminar el Grupo**:
+
+1. Utiliza el comando `groupdel` seguido del nombre del grupo que deseas eliminar. En este caso, el grupo se llama `Alumnos`:
+    
+```bash
+sudo groupdel Alumnos
+```
+
+2. **Verificar la Eliminación**:
+    
+    - Puedes verificar que el grupo ha sido eliminado revisando el archivo `/etc/group`:
+        
+        ```bash
+        cat /etc/group | grep Alumnos
+        ```
+        
+    
+- Si el grupo no aparece en el listado, ha sido eliminado correctamente.
