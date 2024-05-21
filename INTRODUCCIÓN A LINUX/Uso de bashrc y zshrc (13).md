@@ -12,52 +12,82 @@ Por aquí te dejo algunos enlaces de interés por si quieres entender un poco me
 Mi recomendación personal es que utilicéis ZSH en vez de BASH, desde que investiguéis un poco diferencias entre ambas entenderéis por qué merece la pena.
 
 ----
-Empezamos listando directorios ocultos con 
-```
+# Trabajando con Directorios Ocultos y Configuraciones en Zsh
+
+## Listado de Directorios Ocultos
+
+Para listar los directorios ocultos, utilizamos el siguiente comando:
+
+```sh
 ls -la
 ```
 
-`a` = Permite mostrar directorios ocultos que empiecen con `.` 
-`.` = Nos permite crear directorios ocultos
+- `-a`: Permite mostrar directorios ocultos que empiecen con `.`.
+- `.`: Nos permite crear directorios ocultos.
+
+Para crear un directorio oculto, usamos:
 
 ```zsh
 mkdir .prueba
 ```
 
-Buenos nosotros como utilizamos una `zsh` como tipo del `shell`, lo cual lo podemos ver con 
-```
+## Identificación del Tipo de Shell
+
+Como estamos utilizando `zsh` como tipo de shell, podemos verificarlo con:
+
+```sh
 echo $SHELL
 ```
 
-Asi que podemos econtrar nuestro archivo `.zshrc` en nuestra ruta personal de usuario
-Vamos crear una función de ejemplo para que puedan integrar en su **.zshrc** y agregar las funciones que quieran, por ejemplo si queremos crear una función que nos muestre nuestra dirección ip privada podemos hacer lo siguiente:
-```
+## Archivo de Configuración `.zshrc`
+
+Podemos encontrar nuestro archivo `.zshrc` en la ruta personal de usuario. Vamos a crear una función de ejemplo para integrarla en nuestro `.zshrc` y agregar las funciones que queramos.
+
+### Creación de una Función para Mostrar la Dirección IP Privada
+
+Si queremos crear una función que nos muestre nuestra dirección IP privada, podemos hacer lo siguiente:
+
+```sh
 hostname -I | awk '{print $1}'
 ```
 
-Esta función nos permite filtrar solo por la primera dirección ip o tenemos otra forma de hacerlo con `cut`
-```
+Esta función nos permite filtrar solo la primera dirección IP. También podemos hacerlo usando `cut`:
+
+```sh
 hostname -I | cut -d ' ' -f 1
 ```
-`-d` = Delimitador del espacio 
-`' '` = Espacio entre las direcciones ip 
-`-f` = Fead (campo)
-`1` = Campo 1 
 
-Ahora si queremos mostrar la dirección ip por consola con un mensaje lo podemos realizar de la siguiente manera
+- `-d`: Delimitador del espacio.
+- `' '`: Espacio entre las direcciones IP.
+- `-f`: Field (campo).
+- `1`: Campo 1.
+
+### Mostrar la Dirección IP con un Mensaje
+
+Para mostrar la dirección IP en la consola con un mensaje, podemos realizarlo de la siguiente manera:
+
 ```zsh
-echo "Tu dirección ip es: $(hostname -I | awk '{print $1}')"
+echo "Tu dirección IP es: $(hostname -I | awk '{print $1}')"
 ```
-Ya que si le agregamos el signo `$` antes del `()` podemos hacer que nos imprima esa cadena despues del `echo` 
 
-Ahora para que puedan entender para que sirve el `.zshrc` nos podemos copiar el codigo de arriba
-Y al final de todo podemos agregar la nueva función 
+Si agregamos el signo `$` antes de los paréntesis `()`, podemos hacer que se imprima esa cadena después del `echo`.
+
+## Integración de la Función en `.zshrc`
+
+Para que puedan entender para qué sirve el archivo `.zshrc`, podemos copiar el código anterior. Al final de todo, agregamos la nueva función:
+
 ```bash
-function vermiip(){
-      echo "Tu dirección ip es: $(hostname -I | awk '{print $1}')"
+function vermiip(){      
+       echo "Tu dirección IP es: $(hostname -I | awk '{print $1}')" 
 }
 ```
 
-Ahora si guardamos y volvemos a cargar veremos que si escribimos `vermiip` nos mostrara que si funciona al darnos la respuesta en la terminal 
+## Cargar y Probar la Nueva Función
 
-Y ahora podemos hacer lo que se les de la gana creando funciones ;)
+Guardamos el archivo y recargamos la configuración. Si escribimos `vermiip` en la terminal, nos mostrará la dirección IP, confirmando que la función funciona correctamente.
+
+```sh
+source ~/.zshrc
+```
+
+Ahora pueden crear las funciones que deseen y personalizar su entorno de trabajo.
