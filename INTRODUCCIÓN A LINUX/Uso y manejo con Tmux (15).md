@@ -6,30 +6,179 @@
 
 - Guía de atajos y comandos de Tmux: [https://hack4u.io/wp-content/uploads/2022/05/Tmux-Cheat-Sheet.pdf](https://hack4u.io/wp-content/uploads/2022/05/Tmux-Cheat-Sheet.pdf)
 -----
-De primera solemos tener instalada la aplicación de tmux en nuestro sistema, pero si no lo tienen lo pueden hacer facilmente con `apt install tmux`  o buscarlo con `apt search tmux` 
+# Uso de tmux: Guía Básica
 
-Si sale un error al abrir el tmux por primera vez pueden realizar 
+## Instalación de tmux
+
+Para empezar, debemos asegurarnos de tener instalada la aplicación tmux en nuestro sistema. Si no la tienen, pueden instalarla fácilmente con:
+
+```bash
+sudo apt install tmux
 ```
+
+O buscarla con:
+
+```bash
+apt search tmux
+```
+
+Si surge un error al abrir tmux por primera vez, pueden solucionarlo ejecutando:
+
+```bash
 touch ~/.hushlogin
 ```
 
-Por lo general siempre viene con un diseño predeterminado lo cual lo podemos modificar con [oh my tmux](https://github.com/gpakosz/.tmux)  en un repositorio de `git hub` y seguimos las instrucciones que nos indica tanto como sk8ware y root
-(En caso de que no se aplique la configuración en usuario no provilegiado use `tmux kill-server` y volver a realizar los pasos de `git hub` )
+## Personalización de tmux con Oh My Tmux
 
-El primer numero que indica a la izquierda es numero de sesión que muestra por defecto el `0` con `tmux new -s Academia` o si ya te encuentras adentro de **tmux** puedes hacer un `Ctrl + b (sueltas) + Shift + 4` 
-Una vez instala y dentro de `tmux` podemos ejecutar `Ctrl + b (sueltas) + ,` para renombrar la pagina actual 
-Para crear una nueva ventana sería, `Ctrl + b (sueltas) + c` y la puede volver a renombrar
-Para moverte por ventanas es `Ctrl + b (sueltas) + 1` para ir a la ventana 1
-Para realizarlo con el teclado sería `Ctrl + m (sueltas) + mouse` puedes activar el control de mouse en tmux
-Para abrir una ventana debajo y poder maniobrar en doble pantalla seria con `Ctrl + b (sueltas) + Shift + 2` o de forma lateral con `Ctrl + b (sueltas) + Shift + 5 ` 
-Para maniobrar en ambas ventanas podemos utilizar `Ctrl + b (sueltas) + O ` o con las flechas para arriba y abajo
-Si queremos abrirnos una tercera ventana seria de igual manera con `Ctrl + b (sueltas) + Shift + 2` y para maniobrar de igual manera con `Ctrl + b (sueltas) + O `
-Para cerrar la ventana se puede utilizar `exit` o `Ctrl + b (sueltas) + x ` 
-Para ajustar el `size` podemos salir al modo mouse con `Ctrl + m (sueltas) + mouse` o `Ctrl + b + (tener aplastado el Ctrl y mover con las teclas)`
+Por lo general, tmux viene con un diseño predeterminado que podemos modificar utilizando [Oh My Tmux](https://github.com/gpakosz/.tmux). Este repositorio de GitHub proporciona instrucciones claras para usuarios tanto regulares como root.
 
-Algo para tomar en cuenta es que si hacemos un `cat /etc/hosts` y hace un `Ctrl + Shift + c` para copiar y `Ctrl + Shift + v` para pegar, hay otra manera para poderlo hacer `Ctrl + b (sueltas) + shift + [ ` nos movemos por la lineas para copiar la que deseemos y selecionar lo que queremos copiar con `Ctrl + espacio ` y para poder copiar el la clipboard podemos hacer `Alt + W ` 
-Para pegarlo podemos hacer un `Ctrl + b (sueltas) + shift + ] ` 
+En caso de que la configuración no se aplique a un usuario no privilegiado, pueden usar:
 
-Viene bueno utilizar **tmux** cuando realizamos varios procesos en segundo plano con `Ctrl + b (sueltas) + D` hace un detachet y cerramos la ventana y podemos ver la sesiones abiertas en tmux con la siguiente función `tmux list-sessions`
-Para conectarnos a esta sesión podemos hacer un `tmux attach` si solo es una, si es una en especifico puede ser con `tmux attach -t Academia`
-Para migrar de sesion en caso de que tengamos mas de 2 podemos hacer `Ctrl + b (sueltas) + W` 
+```bash
+tmux kill-server
+```
+
+y luego repetir los pasos indicados en el repositorio de GitHub.
+
+## Comandos Básicos de tmux
+
+### Crear y Manejar Sesiones
+
+El número que aparece a la izquierda es el número de sesión, que por defecto es `0`. Para crear una nueva sesión con un nombre específico, pueden usar:
+
+```bash
+tmux new -s Academia
+```
+
+Si ya están dentro de tmux, pueden crear una nueva sesión con:
+
+```css
+Ctrl + b (sueltas) + Shift + 4
+```
+
+### Renombrar Ventanas
+
+Una vez dentro de tmux, pueden renombrar la ventana actual con:
+
+```css
+Ctrl + b (sueltas) + ,
+```
+
+### Crear y Navegar Entre Ventanas
+
+Para crear una nueva ventana, usen:
+
+```css
+Ctrl + b (sueltas) + c
+```
+
+Luego, pueden renombrar la ventana usando el mismo comando para renombrar.
+
+Para moverse entre ventanas:
+
+```css
+Ctrl + b (sueltas) + 1
+```
+
+Activen el control de mouse en tmux con:
+
+```css
+Ctrl + b (sueltas) + m
+```
+
+### Dividir la Pantalla
+
+Para abrir una ventana debajo y poder maniobrar en doble pantalla:
+
+```css
+Ctrl + b (sueltas) + Shift + 2
+```
+
+Para dividirla de forma lateral:
+
+```css
+Ctrl + b (sueltas) + Shift + 5
+```
+
+Para maniobrar entre ventanas:
+
+```css
+Ctrl + b (sueltas) + o
+```
+o con las flechas de dirección.
+
+### Cerrar Ventanas
+
+Para cerrar una ventana, pueden usar:
+
+```bash
+exit
+```
+
+o:
+
+```css
+Ctrl + b (sueltas) + x
+```
+
+### Ajustar el Tamaño de las Ventanas
+
+Para ajustar el tamaño de las ventanas, salgan al modo mouse con:
+
+```css
+Ctrl + b (sueltas) + m
+```
+
+O mantengan presionado `Ctrl` mientras usan las teclas de dirección.
+
+## Copiar y Pegar en tmux
+
+Para copiar y pegar texto de manera eficiente en tmux:
+
+1. Para copiar:
+    
+    - Hagan `cat /etc/hosts`
+    - Copien con `Ctrl + Shift + c`
+    - Peguen con `Ctrl + Shift + v`
+2. Alternativamente, usen:
+    
+    - `Ctrl + b (sueltas) + Shift + [`
+    - Naveguen por las líneas para seleccionar lo que desean copiar con `Ctrl + espacio`
+    - Copien al portapapeles con `Alt + w`
+3. Para pegar:
+    
+    - `Ctrl + b (sueltas) + Shift + ]`
+
+## Uso de tmux con Procesos en Segundo Plano
+
+tmux es especialmente útil para manejar varios procesos en segundo plano. Para hacer un detach y cerrar la ventana:
+
+```css
+Ctrl + b (sueltas) + d
+```
+
+Para ver las sesiones abiertas:
+
+```bash
+tmux list-sessions
+```
+
+Para reconectarse a una sesión:
+
+```bash
+tmux attach
+```
+
+(si solo hay una sesión) o:
+
+```bash
+tmux attach -t Academia
+```
+
+(si es una sesión específica).
+
+Para migrar entre sesiones si tienen más de dos:
+
+```css
+Ctrl + b (sueltas) + w
+```
