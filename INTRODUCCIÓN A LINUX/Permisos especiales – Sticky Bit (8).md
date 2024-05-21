@@ -11,28 +11,94 @@
 
 ----
 
-En este momento nos encontramos como usuario `sk8ware` y nos dirigimos a nuestro escritorio `Desktop` y como usuario `root` nos creamos un directorio `pruebaspepito` y le cambiamos de grupos 
-```
-chown pepe:pepe pruebaspepito/
+## Uso del Sticky Bit para Proteger Archivos en Directorios Compartidos
+
+En este momento, nos encontramos como el usuario `sk8ware`. Nos dirigimos a nuestro escritorio `Desktop` y, como usuario `root`, creamos un directorio `pruebaspepito` y cambiamos su propietario y grupo a `pepe`.
+
+### Creación y Configuración de Directorio
+
+Primero, creamos el directorio y cambiamos el propietario y grupo:
+
+```sh
+mkdir /home/sk8ware/Desktop/pruebaspepito chown pepe:pepe /home/sk8ware/Desktop/pruebaspepito/
 ```
 
+### Modificación de Permisos
 
-Y ahora le cambiamos los permisos para se pueda escribir en grupos y otros, lo podemos hacer de dos maneras 
-```
-chmod g+w,o+w pruebaspepito/
-```
+Cambiamos los permisos para que el grupo y otros puedan escribir en el directorio. Esto se puede hacer de dos maneras:
 
-O de la manera que les habia enseñado con 
-```
-chmod 777 pruebaspepito/
-```
-
-Nos logeamos como `pepe` al directorio `pruebas pepito` y creamos un archivo `echo hola probando` y lo metemos en `> file.txt` 
-Y ahora salimos y desde nuestro escritorio `sk8ware` podemos darnos cuenta que el archivo fue creado en nuestra maquina y vemos que en los permisos despues del `ls -l` no tenemos permisos de alterar el archivo, pero el directorio `pruebas pepito` si tiene todos los permisos para otros, asi que si hacemos un `rm file.txt` se eliminara dado a que el permiso que le precede si tiene permiso que se manipule archivos 
-
-Para evitar que nos suceda esto podemos logearnos de nuevo como `pepe` y regresar a la ruta donde podamos ver el directorio `pruebas pepito` y le aplicamos el `Sticky Bit` de la siguiente manera 
-```
-chmod +t pruebaspepito/ 
+1. Utilizando opciones específicas:
+    
+```sh
+chmod g+w,o+w /home/sk8ware/Desktop/pruebaspepito/`
 ```
 
-Ahora lo que consegimos con esto 
+2. Asignando permisos completos (lectura, escritura y ejecución para todos):
+    
+```sh 
+chmod 777 /home/sk8ware/Desktop/pruebaspepito/`
+```    
+
+### Creación y Manipulación de Archivos
+
+Nos logueamos como `pepe`, navegamos al directorio `pruebaspepito`, y creamos un archivo:
+
+```sh
+su pepe cd /home/sk8ware/Desktop/pruebaspepito echo "hola probando" > file.txt
+```
+
+Luego, salimos de la sesión de `pepe` y volvemos a nuestro usuario `sk8ware`. Verificamos los permisos del archivo creado:
+
+```sh
+ls -l /home/sk8ware/Desktop/pruebaspepito
+```
+
+Notamos que, aunque `sk8ware` no tiene permisos de alterar el archivo, el directorio `pruebaspepito` tiene permisos completos para otros. Por lo tanto, podemos eliminar el archivo:
+
+```sh
+rm /home/sk8ware/Desktop/pruebaspepito/file.txt
+```
+
+### Protección con Sticky Bit
+
+Para evitar que los archivos creados por un usuario sean eliminados por otros usuarios que tienen permisos de escritura en el directorio, usamos el `Sticky Bit`. Esto garantiza que solo el propietario del archivo (o el root) pueda eliminar o renombrar los archivos en el directorio.
+
+#### Aplicación del Sticky Bit
+
+Nos logueamos de nuevo como `pepe` y aplicamos el `Sticky Bit` al directorio `pruebaspepito`:
+
+```sh
+su pepe cd /home/sk8ware/Desktop 
+chmod +t pruebaspepito/
+```
+
+Verificamos los permisos del directorio para asegurarnos de que el `Sticky Bit` se ha aplicado correctamente:
+
+```sh
+ls -ld /home/sk8ware/Desktop/pruebaspepito
+```
+
+El permiso del directorio debería mostrarse como `drwxrwxrwt`, donde la `t` al final indica que el `Sticky Bit` está activado.
+
+### Efecto del Sticky Bit
+
+Ahora, si creamos de nuevo un archivo en el directorio `pruebaspepito` y tratamos de eliminarlo desde el usuario `sk8ware`, veremos que no se permite la eliminación:
+
+1. Crear el archivo como `pepe`:
+    
+```sh
+su pepe 
+cd /home/sk8ware/Desktop/pruebaspepito 
+echo "nuevo archivo" > file.txt`
+```    
+2. Intentar eliminarlo como `sk8ware`:
+    
+```sh
+su sk8ware rm /home/sk8ware/Desktop/pruebaspepito/file.txt`
+```    
+
+El sistema no permitirá la eliminación, mostrando un mensaje de "Operación no permitida".
+
+### Resumen del Sticky Bit
+
+El `Sticky Bit` es una herramienta esencial para proteger archivos en directorios compartidos, evitando que usuarios no propietarios eliminen o renombren archivos que no les pertenecen. Es especialmente útil en directorios como `/tmp`, donde múltiples usuarios tienen permisos de escritura.
