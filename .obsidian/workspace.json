@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
+                "file": "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
+                "file": "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
+                "file": "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md"
+                "file": "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc.md"
               }
             }
           }
@@ -150,14 +150,20 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
+    "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
+    "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc.md",
+    "INTRODUCCIÓN A LINUX/Privilegios especiales – Capabilities (11).md",
+    "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
+    "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
+    "INTRODUCCIÓN A LINUX/Prueba.md",
+    "INTRODUCCIÓN A LINUX/Permisos especiales – SUID y SGID (10).md",
+    "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
+    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
-    "INTRODUCCIÓN A LINUX/Permisos especiales – SUID y SGID (10).md",
-    "INTRODUCCIÓN A LINUX/Prueba.md",
     "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "INTRODUCCIÓN A LINUX/Notación octal de permisos (7).md",
-    "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
     "INTRODUCCIÓN A LINUX/Permisos especiales – Sticky Bit (8).md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
     "xd.md",
@@ -166,13 +172,11 @@
     "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
     "INTRODUCCIÓN A LINUX/Cuestionario (4).md",
     "INTRODUCCIÓN A LINUX/Descriptores de archivo (3).md",
-    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
     "INTRODUCCIÓN A LINUX/Comandos básicos de Linux (1).md",
     "xd.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.).md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
     "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0.md",
-    "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Personalización de entorno en Linux.md",
     "IMG/Pasted image 20240517144006.png",
     "IMG/Pasted image 20240517143844.png",
@@ -180,14 +184,10 @@
     "IMG/Pasted image 20240517141548.png",
     "IMG/Pasted image 20240517140830.png",
     "IMG/Pasted image 20240517104905.png",
-    "Over The Wire (Jugando con comandos Linux)/Bandit0.md",
-    "README.md",
     "IMG/pruebalinux.png",
     "IMG/pruebalinux1.png",
     "INTRODUCCIÓN A LINUX",
-    "MAQUINAS REALIZADAS/Hospital.md",
     "Over The Wire (Jugando con comandos Linux)",
-    "MAQUINAS REALIZADAS/BUILDER.md",
     "Personalización de entorno en Linux",
     "MAQUINAS REALIZADAS",
     "Introducción al Hacking/Reconocimiento con Nmap",
