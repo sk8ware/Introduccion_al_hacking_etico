@@ -109,3 +109,7 @@ man find
 ## Practica
 
 Pon en práctica todos estos comandos para dominarlos y aprovechar al máximo sus funcionalidades.
+
+# Script de s4vitar para crear una red wifi y robar credenciales
+
+https://github.com/s4vitar/evilTrust/tree/master
