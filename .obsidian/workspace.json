@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kitty",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bc92247071237051",
@@ -148,11 +149,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "1652fb52d9c0e77b",
+  "active": "4e2f68534d54d90a",
   "lastOpenFiles": [
-    "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
-    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
+    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+    "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
     "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
     "INTRODUCCIÓN A LINUX/Comandos básicos de Linux (1).md",
     "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
