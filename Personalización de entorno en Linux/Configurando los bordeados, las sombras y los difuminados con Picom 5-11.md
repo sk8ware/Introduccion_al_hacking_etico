@@ -28,5 +28,4 @@ Recordad que este archivo es totalmente personalizable y debéis ajustarlo en ba
 - Creamos el siguiente recurso en `picom.conf` y pegamos el siguiente recurso [Archivo picom.conf](https://hack4u.io/wp-content/uploads/2022/09/picom.conf_.txt)
 - Agregamos la función **picom** en nuestra configuración `bspwmrc` que se encuentra en *nano /home/ski8ware/.config/bspwm/bspwmrc* como `picom &` debajo de las otras funciones.
 - En **picom.conf**  el apartado de *CORNERS* podemos ajustar la nitidez de nuestra terminal, *OPACITY* para la opacidad, *BLUR* para el difuminado de la terminal.
-- Y en ` cd ~/.config/kitty/kitty.conf ` para la transparencia de la kitty.
 - Agregamos la siguiente línea en nuestra configuración `bspwmrc` *bspc config border_width 0.2* 
