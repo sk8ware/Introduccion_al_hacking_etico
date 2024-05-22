@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+                "file": "INTRODUCCIÓN A LINUX/Prueba.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,8 +49,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "¿Cómo puedo saber en qué consola me encuentro? ",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -66,11 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
     "id": "bc92247071237051",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+                "file": "INTRODUCCIÓN A LINUX/Prueba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+                "file": "INTRODUCCIÓN A LINUX/Prueba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md"
+                "file": "INTRODUCCIÓN A LINUX/Prueba.md"
               }
             }
           }
@@ -150,23 +151,33 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
-    "INTRODUCCIÓN A LINUX/Creación de scripts en Bash (17).md",
-    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+    "Pasted image 20240522140053.png",
+    "Pasted image 20240522121349.png",
+    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
     "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
-    "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
     "INTRODUCCIÓN A LINUX/Comandos básicos de Linux (1).md",
-    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
-    "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc (13).md",
-    "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
-    "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
+    "Pasted image 20240522113521.png",
+    "Pasted image 20240522113101.png",
+    "Pasted image 20240522112751.png",
+    "Pasted image 20240522112431.png",
+    "Pasted image 20240522111514.png",
+    "INTRODUCCIÓN A LINUX/Descriptores de archivo (3).md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Creación de tus propios scripts en Lua para nmap.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
     "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
-    "INTRODUCCIÓN A LINUX/Privilegios especiales – Capabilities (11).md",
     "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
     "INTRODUCCIÓN A LINUX/Permisos especiales – SUID y SGID (10).md",
+    "INTRODUCCIÓN A LINUX/Privilegios especiales – Capabilities (11).md",
+    "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc (13).md",
+    "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
+    "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
+    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+    "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
+    "INTRODUCCIÓN A LINUX/Creación de scripts en Bash (17).md",
+    "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
     "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
-    "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "INTRODUCCIÓN A LINUX/Notación octal de permisos (7).md",
     "INTRODUCCIÓN A LINUX/Permisos especiales – Sticky Bit (8).md",
@@ -174,18 +185,8 @@
     "xd.md",
     "IMG/Pasted image 20240520192755.png",
     "IMG/Pasted image 20240520192356.png",
-    "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
-    "INTRODUCCIÓN A LINUX/Cuestionario (4).md",
-    "INTRODUCCIÓN A LINUX/Descriptores de archivo (3).md",
-    "xd.md",
     "IMG/Pasted image 20240517144006.png",
     "IMG/Pasted image 20240517143844.png",
-    "IMG/Pasted image 20240517142857.png",
-    "IMG/Pasted image 20240517141548.png",
-    "IMG/Pasted image 20240517140830.png",
-    "IMG/Pasted image 20240517104905.png",
-    "IMG/pruebalinux.png",
-    "IMG/pruebalinux1.png",
     "INTRODUCCIÓN A LINUX",
     "Over The Wire (Jugando con comandos Linux)",
     "Personalización de entorno en Linux",
