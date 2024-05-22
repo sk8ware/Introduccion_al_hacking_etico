@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bc92247071237051",
@@ -149,10 +148,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "4e2f68534d54d90a",
+  "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
-    "INTRODUCCIÓN A LINUX/Prueba.md",
+    "INTRODUCCIÓN A LINUX/Creación de scripts en Bash (17).md",
     "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+    "INTRODUCCIÓN A LINUX/Prueba.md",
     "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
     "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
     "INTRODUCCIÓN A LINUX/Comandos básicos de Linux (1).md",
@@ -178,7 +178,6 @@
     "INTRODUCCIÓN A LINUX/Cuestionario (4).md",
     "INTRODUCCIÓN A LINUX/Descriptores de archivo (3).md",
     "xd.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.).md",
     "IMG/Pasted image 20240517144006.png",
     "IMG/Pasted image 20240517143844.png",
     "IMG/Pasted image 20240517142857.png",
