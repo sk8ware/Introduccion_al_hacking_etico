@@ -9,6 +9,18 @@ Por aquí les dejo algunos recursos de apoyo para profundizar sobre el uso de de
 Esta parte es fundamental, sobre todo de cara a las clases de scripting en Bash que tendremos más adelante, pues haremos mucho uso de estos.
 
 ----
+En el contexto de redirección de comandos en la mayoría de los shells de Unix y Linux, los números 1 y 2 siempre tienen un significado específico:
+
+- `1` se refiere a `stdout` (la salida estándar).
+- `2` se refiere a `stderr` (la salida estándar de errores).
+
+Aquí están los descriptores de archivo más comunes:
+
+- `0`: `stdin` (la entrada estándar).
+- `1`: `stdout` (la salida estándar).
+- `2`: `stderr` (la salida estándar de errores).
+---
+
 Podemos crear un descriptor de archivo de la siguiente manera identificado con el numero `3` 
 ```
 exec 3 <> file 
