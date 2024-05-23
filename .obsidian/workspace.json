@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md",
+                "file": "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md",
+                "file": "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md",
+                "file": "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md"
+                "file": "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md"
               }
             }
           }
@@ -148,15 +148,17 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "1652fb52d9c0e77b",
+  "active": "4e2f68534d54d90a",
   "lastOpenFiles": [
-    "Pasted image 20240522200109.png",
-    "Python Ofensivo/Introducción a Python/Historia y filosofía de Python.md",
-    "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md",
-    "README.md",
-    "Python Ofensivo/Introducción a Python",
-    "Python Ofensivo",
+    "Python Ofensivo/Conceptos básicos de Python (2)",
+    "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
+    "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
+    "IMG/historia y filosofía de  python.png",
+    "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
+    "README.md",
+    "Python Ofensivo/Introducción a Python (1)",
+    "Python Ofensivo",
     "IMG/pruebalinux7.png",
     "IMG/pruebalinux6.png",
     "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
@@ -184,10 +186,8 @@
     "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
-    "INTRODUCCIÓN A LINUX/Notación octal de permisos (7).md",
     "IMG/Pasted image 20240520192755.png",
     "IMG/Pasted image 20240520192356.png",
-    "IMG/Pasted image 20240517144006.png",
     "INTRODUCCIÓN A LINUX",
     "Over The Wire (Jugando con comandos Linux)",
     "Personalización de entorno en Linux",
