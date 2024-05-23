@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python/Historia y filosofía de Python.md",
+                "file": "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "bc92247071237051",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python/Historia y filosofía de Python.md",
+                "file": "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python/Historia y filosofía de Python.md",
+                "file": "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python/Historia y filosofía de Python.md"
+                "file": "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md"
               }
             }
           }
@@ -151,8 +150,10 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
-    "README.md",
+    "Pasted image 20240522200109.png",
     "Python Ofensivo/Introducción a Python/Historia y filosofía de Python.md",
+    "Python Ofensivo/Introducción a Python/Características y ventajas de Python.md",
+    "README.md",
     "Python Ofensivo/Introducción a Python",
     "Python Ofensivo",
     "INTRODUCCIÓN A LINUX/Prueba.md",
@@ -184,8 +185,6 @@
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "INTRODUCCIÓN A LINUX/Notación octal de permisos (7).md",
-    "INTRODUCCIÓN A LINUX/Permisos especiales – Sticky Bit (8).md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Request Forgery (SSRF).md",
     "IMG/Pasted image 20240520192755.png",
     "IMG/Pasted image 20240520192356.png",
     "IMG/Pasted image 20240517144006.png",
