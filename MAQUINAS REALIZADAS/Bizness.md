@@ -116,3 +116,72 @@ nmap -sC -p22,80,443,44459
 
 `-sC` significa el tipo de script que deseamos enviar al puerto solicitado
 Recuerden que nmap contiene muchos scripts escritos en lua buscando con `locate .nse`
+Como me interesa encontrar la version y el servicio podemos usar `-sV` o conpactarle con `sCV` 
+Y para finalizar indicamos la dirección ip y nos guardamos como archivo nmap con `oN targeted`
+```
+nmap -sCV -p22,80,443,44459 10.10.11.252 -oN targeted
+```
+
+Ahora podemos revisar el archivo en estilo java 
+```
+cat targeted -l java 
+```
+
+Podemos observar información importante como la que hay en el puerto 22 y buscar por la pagina `launchpad` para ver a los que nos estamos enfrentando, asi que nos damos cuenta que estamos enfrentando un ubuntu `bullseye` 
+
+En el puerto 80 vemos que hay un redireccionamiento a una pagina `https://bizness.htb/` 
+
+Pero si le hacemos un `ping` a https://bizness.htb/ no va a saber que es asi que le agregamos en nuestra lista de hosts
+```
+nvim /etc/hosts
+```
+
+la siguiente dirección 
+```
+10.10.11.252 bizness.htb
+```
+
+Adicional le podemos aplicar un `whatweb` para identificar las tecnologias por detras  
+```
+whatweb http://bizness.htb
+```
+
+Recuerden que el certificado ssl lo podemos ver de la siguiente manera
+```
+openssl s_client -connect bizness.htb:443
+```
+Viene bien aveces revisar el certificado por que en ocaciones en comant name se puede observar subdominios o correos, etc
+
+Si nos dirigimos al final y vemosenel apartado de `powered by BootstrapMade` y tratamos de buscar un sploit y vemos un archivo importante en `git hub` y vemos que nos da un autentication bypass, de primera nos hace pensar que tiene un panel de logeo 
+Ahora realizaremos el siguiente comando con `wfuzz` para encontrar directorios o archivos
+```
+wfuzz -c --hc=404,302 -t 200 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt https://bizness.htb/FUZZ
+```
+
+Usando fuerza bruta para encontrar los direcctorios de la pagina web encontramos un archivo `/control` y si lo buscamos como directorio en la pagina web nos va a reflejar que no existe, asi que volvemos a usar el comando de arriba pero ahora con el directorio `/control`
+```
+wfuzz -c --hc=404,302 -t 200 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt https://bizness.htb/control/FUZZ
+```
+
+Ocultamos todos que contengan mas de 1596 palabras con --hw=1596
+```
+wfuzz -c --hc=404,302 --hw=1596 -t 200 -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt https://bizness.htb/control/FUZZ
+```
+
+Y podemos encontrar la pagina de `login` asi que ingresamos a la pagina `https://bizness.htb/control/login` 
+Nos mostrara una pagina de logeo con usuario y constraseña asi que de primeras buscamos usuario y contraseñas default de `ofbiz` y vemos que no nos permite, la han cambiado de un principio 
+
+Empezamos a buscar exploit para `ofbiz` que encontramos de `CVE-2023-51467` La vulneravilidad permite al atacante omitir el paso de autenticación haciendo un `Server-Side Request Forgery (SSRF)` y `Pre-auth RCE` con la vulneravilidad `CVE-2023-49070` 
+
+Dejo el primer repositorio que les va a servir de mucho :
+- [Apache-OFBiz-Authentication-Bypass](https://github.com/jakabakos/Apache-OFBiz-Authentication-Bypass)
+En la carpeta (xdetection.py) de github podemos ver un poco sobre el detector en python 
+Nos dirigimos a nuestra carpeta `content` y nos clonamos el repositorio 
+```
+git clone https://github.com/jakabakos/Apache-OFBiz-Authentication-Bypass/
+```
+
+Y usamos la siguiente herramienta para saber si es vulnerable o no 
+```
+python3 xdetection.py --url https://bizness.htb
+```
