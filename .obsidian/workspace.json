@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
+                "file": "MAQUINAS REALIZADAS/Bizness.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bat ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
+                "file": "MAQUINAS REALIZADAS/Bizness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
+                "file": "MAQUINAS REALIZADAS/Bizness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md"
+                "file": "MAQUINAS REALIZADAS/Bizness.md"
               }
             }
           }
@@ -148,11 +148,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "4e2f68534d54d90a",
+  "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
+    "Personalización de entorno en Linux/Instalación de Batcat y Lsd 7-11.md",
+    "MAQUINAS REALIZADAS/Bizness.md",
+    "MAQUINAS REALIZADAS/BUILDER.md",
+    "MAQUINAS REALIZADAS/Hospital.md",
+    "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
     "Python Ofensivo/Conceptos básicos de Python (2)",
     "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
-    "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
     "IMG/historia y filosofía de  python.png",
     "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
@@ -183,9 +187,6 @@
     "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
     "INTRODUCCIÓN A LINUX/Creación de scripts en Bash (17).md",
     "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
-    "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
-    "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
-    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "IMG/Pasted image 20240520192755.png",
     "IMG/Pasted image 20240520192356.png",
     "INTRODUCCIÓN A LINUX",
@@ -194,7 +195,6 @@
     "MAQUINAS REALIZADAS",
     "Introducción al Hacking/Reconocimiento con Nmap",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
-    "Introducción al Hacking/Introducción a Docker",
-    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS"
+    "Introducción al Hacking/Introducción a Docker"
   ]
 }
