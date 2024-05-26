@@ -82,6 +82,9 @@ alias lla='lsd -lha --group-dirs=first'
 
 alias ls='lsd --group-dirs=first'
 ```
+
+Si no funciona salir y reiniciar el sistema, volver a instalar `bat`
+
 ----
 # Solución a error cuando se trata de abrir burpsuite 
 - Si tratamos de abrir *burpsuite* por lo general suele salir un mensaje de error, para ello hay un recurso en donde nos explican paso a paso como solucionarlo:
