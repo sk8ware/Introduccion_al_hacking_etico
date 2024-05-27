@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md"
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md"
               }
             }
           }
@@ -150,10 +150,10 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
-    "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
-    "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
+    "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
     "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
     "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
     "MAQUINAS REALIZADAS/Bizness.md",
