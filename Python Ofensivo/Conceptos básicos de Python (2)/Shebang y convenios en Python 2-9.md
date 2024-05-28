@@ -42,7 +42,8 @@ nvim test.py
 Al crear el script, es importante incluir el hashbang o shebang para especificar el intérprete de Python que vamos a usar. Podemos utilizar `#!/usr/bin/python3` si estamos seguros de la ruta del intérprete, o `#!/usr/bin/env python3` para mayor flexibilidad:
 
 ```sh
-#!/usr/bin/env python3 print("hola")
+#!/usr/bin/env python3 
+print("hola")
 ```
 
 Para ejecutar el script, utilizamos:
