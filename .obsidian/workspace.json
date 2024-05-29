@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "MAQUINAS REALIZADAS/Bizness.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "bc92247071237051",
