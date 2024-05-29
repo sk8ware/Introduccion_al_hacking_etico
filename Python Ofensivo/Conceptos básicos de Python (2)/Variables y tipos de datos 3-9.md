@@ -341,3 +341,44 @@ Y con `y` seria la siguiente respuesta
 4
 5
 ```
+
+Para la creación de indices y que nos muestre el valor `12` representado en todos los valores podriamos utilizar la siguiente función
+```python
+indices = [x for x, y in enumarate(mi_lista) if y == 12]
+```
+
+
+Con `.count` podemos saber cuantas veces sale repetidas el mismo número
+```
+mi_lista.count(12)
+```
+
+Lo podrían imprimir de la siguiente manera para verlo de mejor manera esteticamente 
+```
+mi_lista(f"[+]Mi lista tiene un total{mi_lista.count(12)} elementos")
+```
+
+En listas se puede realizar el siguiente comando para saber que números se encuentran repetidos y luego hharemos que no exista archivos repetidos
+```
+mi_lista = sorted(mi_lista)
+```
+
+Volvemos a imprimir nuestra variable y se mostrará todo muy bien organizado, si vemos números repetidos sencillamente las eliminamos con el siguiente comando
+```
+set(mi_lista)
+```
+
+Este ejemplo se puede aplicar tanto este organizado o no, se puede practicar de varias maneras agregando numeros en desorden y tratar de eliminar los números repetidos.
+
+Se puede imprimir el número mas alto de la siguiente manera con la función `max`
+```python
+print(f"[+]El número mas alto es: {max(mi_lista)}")
+```
+
+O si desean ver el mínimo sería con `min`
+
+Para sumar los valores de mi_lista podemos realizarlo de la siguiente manera
+```
+sum(mi_lista) / len(mi_lista)
+```
+
