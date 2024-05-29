@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md",
+                "file": "MAQUINAS REALIZADAS/Bizness.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md",
+                "file": "MAQUINAS REALIZADAS/Bizness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md",
+                "file": "MAQUINAS REALIZADAS/Bizness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md"
+                "file": "MAQUINAS REALIZADAS/Bizness.md"
               }
             }
           }
@@ -150,13 +150,15 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
+    "Pasted image 20240528211559.png",
+    "IMG/PerfilBizness.png",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos 3-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md",
     "MAQUINAS REALIZADAS/Bizness.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
     "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
     "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
     "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
@@ -186,9 +188,7 @@
     "INTRODUCCIÓN A LINUX/Permisos especiales – SUID y SGID (10).md",
     "INTRODUCCIÓN A LINUX/Privilegios especiales – Capabilities (11).md",
     "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc (13).md",
-    "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
     "IMG/Pasted image 20240520192755.png",
-    "IMG/Pasted image 20240520192356.png",
     "INTRODUCCIÓN A LINUX",
     "Over The Wire (Jugando con comandos Linux)",
     "Personalización de entorno en Linux",
