@@ -3,6 +3,9 @@
 ```
 hola ia me podrias ayudar con algo, tengo un repositorio conectado con mi obsidian y estoy creando unos apuntes con información muy valiosa que deseo que sea mi portafolio a futuro, me podrias ayudar a mejorar estos apuntes, titulos, subtitulos, agregando puntos y comas, agregar un poco de información y mejor explicación a detalle pero sin tratar de cambiar mi esencia y ganas de que aprendan y quede todo claro, y sobre todo los codigos no los cambies, aparte dame uno que dos hashtag para el encabezado de obsidian, es lo siguiente :
 ```
+
+hola ia me podrias ayudar con algo, tengo un repositorio conectado con mi obsidian y estoy creando unos apuntes con información muy valiosa que deseo que sea mi portafolio a futuro, me podrias ayudar a mejorar estos apuntes, titulos, subtitulos, agregando puntos y comas, agregar un poco de información y mejorar la explicación a detalle pero sin tratar de las palabras y el contexto y quede todo claro, y sobre todo no cambies los codigos inrgesados entre ` ` y tripe ` , aparte dame uno que dos hashtag para el encabezado de obsidian, en lo siguiente anotado:
+
 ------
 
  1. ¿Cuál sería la expresión a establecer para una tarea Cron que quiero que se ejecute al tercer minuto de cada hora?
