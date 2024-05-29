@@ -10,7 +10,7 @@ Empezamos Conectandonos a la vpn de htb y enviando el target objetivo que vamos 
 Creamos nuestra carpeta `Bizness` y a continuación hacemos nuestro `mkt` que automaticamente nos crea los archivos necesarios para la auditoria, **nmap, scripts, exploits, content.**
 
 Por si desean esta utilidad de `mkt` es la siguiente:
-```
+```sh
 mkt () {
 	mkdir {nmap,content,exploits,scripts}
 }
@@ -18,23 +18,23 @@ mkt () {
 
 ---
 Ingresamos en nuestra carpeta de scaner nmap para realizar un `ping` para ver si tenemos respuesta de la maquina
-```
+```sh
 ping -c 1 10.10.11.252 
 ```
 
  Si tenemos un paquete enviado y un paquete recivido significa que si tenemos conexión a ella, si el `TTL` que nos muestra tiene proximidad con `64`, Significa que estamos ante una maquina `Linux` 
  Si le hacemos un `-R` al final del todo podemos ver por donde pasa nuestra ip ya que la conexión no es directa
- ```
+ ```sh
  ping -c 1 10.10.11.252 -R
  ```
 
 Tenemos una utilidad para poder identificar el sistema operativo con el siguiente scipt:
-```
+```pyhton
 whichSystem.py 10.10.11.252
 ```
 
 Script en python3:
-```
+```python
 #!/usr/bin/python3
 #coding: utf-8
 
@@ -96,7 +96,7 @@ extractPorts allPorts
 ```
 
 - Utilidad `extractPorts` 
-```
+```python
 extractPorts () {
 	ports="$(cat $1 | grep -oP '\d{1,5}/open' | awk '{print $1}' FS='/' | xargs | tr ' ' ',')" 
 	ip_address="$(cat $1 | grep -oP '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}' | sort -u | head -n 1)" 
