@@ -3,7 +3,7 @@
 - TAG: #OSCP #STYLE #MAQUINA #HTB #eWPT
 ----
 ![[PerfilBizness.png]]
-Hola chicos, hoy vamos estar hackeando la siguiente maquina de Hack The Box 
+Hola chic@s, hoy vamos estar hackeando la siguiente maquina de Hack The Box 
 
 Empezamos Conectandonos a la vpn de htb y enviando el target objetivo que vamos a comprometer
 
@@ -324,7 +324,7 @@ Ahora para decodificar todo con la barra baja y demas podemos dirigirnos a `Cybe
 Escogemos la opción `Replace` y lo colocamos dos veces a la derecho 
 Dejare un ejemplo por aqui :
 
-![[Pasted image 20240528211559.png]]
+![[CyberChef.png]]
 
 Y en la parte del **Output** tendríamos la información con la que podríamos guardar en un archivo `hash` en nuestra consola y antes de salir y guardar debemos hacer `esc + : ` eh inrgesamos este comando `%s/ //g`
 
