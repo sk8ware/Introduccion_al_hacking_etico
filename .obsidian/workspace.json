@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Bizness.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Bizness.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Bizness.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Bizness.md"
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md"
               }
             }
           }
@@ -150,13 +150,16 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos.md",
+    "MAQUINAS REALIZADAS/Bizness.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
     "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
     "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
     "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
-    "MAQUINAS REALIZADAS/Bizness.md",
     "Personalización de entorno en Linux/Instalación de Batcat y Lsd 7-11.md",
     "MAQUINAS REALIZADAS/BUILDER.md",
     "MAQUINAS REALIZADAS/Hospital.md",
@@ -184,9 +187,6 @@
     "INTRODUCCIÓN A LINUX/Privilegios especiales – Capabilities (11).md",
     "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc (13).md",
     "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
-    "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
-    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
-    "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
     "IMG/Pasted image 20240520192755.png",
     "IMG/Pasted image 20240520192356.png",
     "INTRODUCCIÓN A LINUX",
