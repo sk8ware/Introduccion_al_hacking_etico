@@ -1,6 +1,6 @@
 
 ----
-- TAG: 
+- TAG: #Python #Programación #Cadenas #Listas #TypeCasting #Bucles
 - ----
 Las variables en Python son como nombres que se le asignan a los datos que manejamos. Piensa en una variable como un nombre que pones a un valor, para poder referirte a él y utilizarlo en diferentes partes de tu código.
 
