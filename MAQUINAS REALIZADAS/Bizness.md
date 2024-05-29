@@ -2,6 +2,7 @@
 ----
 - TAG: #OSCP #STYLE #MAQUINA #HTB #eWPT
 ----
+![[PerfilBizness.png]]
 Hola chicos, hoy vamos estar hackeando la siguiente maquina de Hack The Box 
 
 Empezamos Conectandonos a la vpn de htb y enviando el target objetivo que vamos a comprometer
@@ -297,3 +298,93 @@ Con el siguiente mensaje :
 # *************************************************************************
 ```
 
+Podemos tratar de filtrar con `grep` la palabra **password**
+```sh
+grep "password" *
+```
+```
+grep "password" * --text | less 
+```
+
+Tratando con este metodo no podremos encontrar gran información la verdad asi que en este punto nos podemos empezar a revisar un poco sobre el codigo del siguiente repositorio de git hub  [HashCrypt.java](https://github.com/apache/ofbiz/blob/trunk/framework/base/src/main/java/org/apache/ofbiz/base/crypto/HashCrypt.java)
+Vemos que tenemos como simbolos al signo `$` y una cadena `SHA` pero se le contempla asi `w+` mas otro signo $ que nos encontramos y vendria otra cadena tipo `salt` que igual se puede representar con `w+` 
+```
+grep -E '\$\w+\$\w+\$' * --text
+```
+
+Y encontramos una información valiosa con la palabra `password:``$SHA$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I` aqui entendemos dos cosas:
+
+salt -> d 
+bytes -> uP0_QaVBpDWFeo8-dRzDqRwXQ2I
+
+Ahora si buscamos la información por **Apache encodeBase64URLSafeString** elegimos la segunda opción filtramos por esto `encodeBase64URLSafeString` y abrimos la información, esta varacion de base64 lo que hace es que contempla los guiones bajos y medio `_` y `-` como `+` y `/` 
+
+Si buscamos los tipos de hash con `hashcat --example-hashes | less` encontramos unos ejemplos con `sha1($salt.$pass)` ahora lo transformaremos en el siguiente ejemplos 
+Ahora para decodificar todo con la barra baja y demas podemos dirigirnos a `Cyberchef` 
+Escogemos la opción `Replace` y lo colocamos dos veces a la derecho 
+Dejare un ejemplo por aqui :
+
+![[Pasted image 20240528211559.png]]
+
+Y en la parte del **Output** tendríamos la información con la que podríamos guardar en un archivo `hash` en nuestra consola y antes de salir y guardar debemos hacer `esc + : ` eh inrgesamos este comando `%s/ //g`
+
+Y de primera parece ser que tiene 40 caracteres `b8fd3f41a541a435857a8f3e751cc3a91c174362` que lo podemos ver de la siguiente manera 
+```sh
+echo -n 'b8fd3f41a541a435857a8f3e751cc3a91c174362' | wc -c
+```
+Salida:
+40
+
+Y como sabiamos que el `salt` se representaba con una `d` en salida de `Password="$SHA$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I` entre los signos de $
+
+Asi que sería 
+```
+b8fd106950690d615ea3cfdd4730ea4705d0d8:d
+```
+
+Este seria nuestro formato de **hash** el cual ya podriamos empezar a craquiar 
+```
+hashcat -a 0 hash /usr/share/wordlists/rockyou.txt
+```
+
+Con esto veriamos el tipo de hashes con los cuales podriamos empezar a craquiar con el `110 o el 120`
+
+Podriamos intentarlo de la siguiente manera 
+```
+hashcat -a 0 -m 120 hash /usr/share/wordlists/rockyou.txt
+```
+
+Y finalmente obtivimos la contraseña que se muestra de la siguiente manera: `monkeybizness`
+ ```sh
+ b8fd3f41a541a435857a8f3e751cc3a91c174362:d:monkeybizness  
+                                                          
+Session..........: hashcat
+Status...........: Cracked
+Hash.Mode........: 120 (sha1($salt.$pass))
+Hash.Target......: b8fd3f41a541a435857a8f3e751cc3a91c174362:d
+Time.Started.....: Tue May 28 22:13:29 2024 (3 secs)
+Time.Estimated...: Tue May 28 22:13:32 2024 (0 secs)
+Kernel.Feature...: Pure Kernel
+Guess.Base.......: File (/usr/share/wordlists/rockyou.txt)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:   599.2 kH/s (0.21ms) @ Accel:256 Loops:1 Thr:1 Vec:8
+Recovered........: 1/1 (100.00%) Digests (total), 1/1 (100.00%) Digests (new)
+Progress.........: 1478656/14344384 (10.31%)
+Rejected.........: 0/1478656 (0.00%)
+Restore.Point....: 1477632/14344384 (10.30%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidate.Engine.: Device Generator
+Candidates.#1....: montanna6 -> monkey-balls
+Hardware.Mon.#1..: Temp: 55c Util: 64%
+
+Started: Tue May 28 22:12:25 2024
+Stopped: Tue May 28 22:13:34 2024
+ ```
+
+y ahora si podriamos logearnos com usuarios **root** para ver la bandera y completar la maquina de **HACK THE BOX**
+```
+su root
+monkeybizness 
+```
+
+-----
