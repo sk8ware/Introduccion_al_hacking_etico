@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "bc92247071237051",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md"
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md"
               }
             }
           }
@@ -152,9 +151,9 @@
   },
   "active": "1652fb52d9c0e77b",
   "lastOpenFiles": [
+    "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Operadores básicos en Python 4-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos 3-9.md",
