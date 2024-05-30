@@ -411,3 +411,63 @@ else:
 ```
 
 Pero si pusieramos un número que no existierá nos reflejaria el mensaje de que no esta en la lista
+
+
+De igual manera como teniamos para continue en los bucles, en los condiconales tenemos `pass`, sirve únicamente para la validación del codigo en caso de que no pase nada con la función
+```python
+#!/usr/bin/python
+
+edad = 20
+nacionalidad = "Ecuatoriano"
+
+# Condicional anidado
+if edad >= 18:
+	if nacionalidad == "argentino":
+		pass
+```
+
+
+Ahora veremos el tipico ejemplo de los números pares
+
+Nuevamente implementando condionales imaginen que tenemos el siguiente ejemplo 
+El simbolo `%` en ocasiones nos permite saber cuando un numero es par o no, asi que lo agregamos dentro del buqle lo argegamos como condición, si divimos e número para 2 y subresto, entoces lo que queremos es verlo en consolo solo numeros pares con print:
+
+```python
+#!/usr/bin/python3
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for number in numbers:
+	if number % 2 == 0:
+		print(number)
+```
+
+Aqui solo lee el numero 2 para saber si imprimir numeros pares o impares dentro de la condición, pero si cambiamos los simbolos por `!=` asi solo vamos a ver los números impares o con `if number % 2 == 1:`
+```python
+#!/usr/bin/python3
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for number in numbers:
+	if number % 2 != 0:
+		print(number)
+```
+
+Y de ultimo ejemplo vamos a emplear un ejemplo donde una variable actua como un valor boleano que puede estar entre true o false
+```python
+#!/usr/bin/python3
+
+numbers = [2, 4, 6, 8, 10]
+todos_son_pares = True
+
+for number in numbers:
+	if number % 2 != 0:
+		todos_son_pares = False
+		break
+
+if todos_son_pares:
+	print("Todos los elementos de la lista son pares")
+else:
+	print("Alguno de los elementos de la lista es impar")
+```
+
