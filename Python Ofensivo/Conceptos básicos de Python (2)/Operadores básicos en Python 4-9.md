@@ -48,19 +48,27 @@ Vamos a crear unos ejemplos básicos para que esto quede muy claro. Empezamos cr
 
 Primero, creamos una variable para la práctica:
 
-python
+```python
+#/usr/bin/python
 
-Copy code
+first_number = 2 
+second_number = 8  
 
-`#/usr/bin/python  first_number = 2 second_number = 8  print(first_number + second_number)`
+print(first_number + second_number)
+```
 
 Podríamos realizar la misma operación de la siguiente manera, almacenando el resultado en una variable:
 
-python
+```python
+#/usr/bin/python 
 
-Copy code
+first_number = 2 
+second_number = 8  
 
-`#/usr/bin/python  first_number = 2 second_number = 8  result = first_number + second_number  print(type(result))`
+result = first_number + second_number 
+
+print(type(result))
+```
 
 De igual manera, podemos hacer esto con la resta, multiplicación y división tan solo cambiando el signo correspondiente en lugar del `+`.
 
@@ -68,11 +76,16 @@ También se puede elevar a la potencia con doble asterisco `**`.
 
 Si deseamos redondear las respuestas, lo podemos hacer con la función `round`:
 
-python
+```python
+#/usr/bin/python 
 
-Copy code
+first_number = 2 
+second_number = 8  
 
-`#/usr/bin/python  first_number = 2 second_number = 8  result = first_number / second_number  print(round(result, 2))`
+result = first_number / second_number  
+
+print(round(result, 2))
+```
 
 ## Formateo de Salidas en Python
 
@@ -80,39 +93,56 @@ Ahora hablaremos un poco sobre los formateos en las salidas de respuesta en Pyth
 
 Podríamos hacer lo siguiente para añadir puntos o comas en los números para distinguir si son miles, cientos, etc.:
 
-python
+```python
+#/usr/bin/python
 
-Copy code
+first_number = 2 
+second_number = 8  
 
-`#/usr/bin/python  first_number = 2 second_number = 8  result = first_number ** second_number  print("{:,}".format(result))`
+result = first_number ** second_number 
+
+print("{:,}".format(result))
+```
 
 Aquí podríamos sustituir las comas por puntos:
 
-python
+```python
+#/usr/bin/python  
 
-Copy code
+first_number = 2 
+second_number = 8  
 
-`#/usr/bin/python  first_number = 2 second_number = 8  result = first_number ** second_number  print("{:,}".format(result).replace(",", "."))`
+result = first_number ** second_number  
+
+print("{:,}".format(result).replace(",", "."))
+```
 
 ## Operador de Módulo `%`
 
 El operador `%` se utiliza para obtener el resto de una división. Por ejemplo:
 
-python
+```python
+#/usr/bin/python  
 
-Copy code
+first_number = 10 
+second_number = 3  
 
-`#/usr/bin/python  first_number = 10 second_number = 3  result = first_number % second_number  print(result)  # Output: 1`
+result = first_number % second_number 
+
+print(result)  # Output: 1
+```
 
 ## Operaciones con Cadenas
 
 Ahora realizaremos operaciones con cadenas:
 
-python
+```python
+first_str = "Hola" 
+second_str = " " 
+third_str  = "Mundo"  
 
-Copy code
-
-`first_str = "Hola" second_str = " " third_str  = "Mundo"  print(first_str + second_str + third_str)`
+print(first_str + second_str + third_str)
+```
 
 Esto nos daría como resultado en la consola `Hola Mundo`. La función `print(first_str * 3)` nos imprime 3 veces la palabra "Hola" ubicada en `first_str`.
 
@@ -122,32 +152,54 @@ En cambio, si solo deseamos repetir una letra en específico, podemos hacerlo co
 
 También podemos realizar operaciones con listas y muchas cosas más. En el siguiente ejemplo veremos cómo combinar la información de dos listas:
 
-python
+```python
+#!/usr/bin/python3  
 
-Copy code
+first_elements = [1, 3, 5, 7, 9] 
+second_elements = [2, 4, 6, 8] 
 
-`#!/usr/bin/python3  first_elements = [1, 3, 5, 7, 9] second_elements = [2, 4, 6, 8]  result = first_elements + second_elements  print(result)`
+result = first_elements + second_elements 
+
+print(result)
+```
 
 Si deseamos mostrar los números en paralelo y en orden, lo podemos hacer de la siguiente manera:
 
-python
+```python
+#!/usr/bin/python3  
 
-Copy code
+odd_numbers = [1, 3, 5, 7, 9] 
+even_numbers = [2, 4, 6, 8] 
 
-`#!/usr/bin/python3  odd_numbers = [1, 3, 5, 7, 9] even_numbers = [2, 4, 6, 8]  result = zip(odd_numbers, even_numbers)  for element in result:     print(element)`
+result = zip(odd_numbers, even_numbers) 
+
+for element in result:  
+	print(element)
+```
 
 Para sumar los números en paralelo, podemos usar la siguiente función:
 
-python
+```python
+#!/usr/bin/python3  
 
-Copy code
+odd_numbers = [1, 3, 5, 7, 9] 
+even_numbers = [2, 4, 6, 8, 10] 
 
-`#!/usr/bin/python3  odd_numbers = [1, 3, 5, 7, 9] even_numbers = [2, 4, 6, 8, 10]  result = map(sum, zip(odd_numbers, even_numbers))  for element in result:     print(element)`
+result = map(sum, zip(odd_numbers, even_numbers)) 
+
+for element in result:     
+	print(element)
+```
 
 Finalmente, para fusionar las sumas en una sola lista en la salida por consola, lo podemos hacer de la siguiente manera:
 
-python
+```python
+#!/usr/bin/python3  
 
-Copy code
+odd_numbers = [1, 3, 5, 7, 9] 
+even_numbers = [2, 4, 6, 8, 10] 
 
-`#!/usr/bin/python3  odd_numbers = [1, 3, 5, 7, 9] even_numbers = [2, 4, 6, 8, 10]  result = list(map(sum, zip(odd_numbers, even_numbers)))  print(result)`
+result = list(map(sum, zip(odd_numbers, even_numbers)))  
+
+print(result)
+```
