@@ -1,6 +1,6 @@
 
 ---
-- TAG:
+- TAG: #Python #Programación #Bucles #Condicionales
 -----
 Los conceptos vistos en esta clase son esenciales para entender cómo crear programas en Python que puedan tomar decisiones y repetir acciones hasta cumplir ciertos criterios. Aquí es donde nuestros programas obtienen la capacidad de responder a diferentes situaciones y datos.
 
@@ -41,12 +41,13 @@ for pepito in range(5):
 	print(pepito)
 ```
 Salida:
-❯ python3 test.py
+```python3
 0
 1
 2
 3
 4
+```
 
 En este caso mostrará la respuesta 01234 ya que cuando especificamos rangos para englobar o elementos de una lista, siempre suele la cantidad que especificamos menos el ultimo número ya que cuenta siempre desde el 0  
 
@@ -60,6 +61,7 @@ for name in names:
     print(f"El nombre para esta vuelta es{name}")
 ```
 
+# while
 Ahora utilizaremos la función `while` para poder dar un pequeño ejemplo y puedan ver las diferencias entre la creación de bucles con diferentes funciones
 ```python
 #!/usr/bin/python3
@@ -74,6 +76,7 @@ while i < 5:
 
 Depende de la instrución que le indiquemos cumplira la función pero si no se indica la instrución while sería un bucle infinito 
 
+# Enumerate
 
 Otra forma de jugar es con `Enumerate` 
 ```python
@@ -87,8 +90,8 @@ for contador, nombre in enumerate(nombres):
 
 Recuerden que enumerate siempre devuelve el indice y el valor
 Va retornando tanto el indice como el valor 
-para ello hay que separarlo en dosvariables
-y el {i+1} permite que no cuente desde 0 y muestre desde 1 
+Para ello hay que separarlo en dos variables
+Y el {i+1} permite que no cuente desde 0 y muestre desde 1 
 
 
 Otro ejemplo podria ser la implementación de diccionarios junto con bucles
@@ -118,18 +121,18 @@ for element in_list:
 ```
 
 
-Para desglozarlo lo podriamos hacer de la siguiente manera
+Para desglozarlo lo podriamos hacer de la siguiente manera:
 ```python
 #!/usr/bin/python3
 
 my_list = [[1, 4, 5], [2, 6, 8], [9, 4, 1]]
 
-for element in my_list:
+for element in_list:
 	for element_in_list in element:
 		print(element)
 ```
 
-Le podemos añadir un poco de estita para verlo de mejor manera en la salida por consola
+Le podemos añadir un poco de estética para verlo de mejor manera en la salida por consola:
 ```python
 #!/usr/bin/python3
 
@@ -142,6 +145,8 @@ for element in my_list:
 ```
 
 Para iterar sobre esta lista se usa `element_in_list` 
+
+# Bucles sobre una lista
 
 Otra forma que tuvieras de jugar con bucles sobre una lista es hacer como se conoce una lista de comprensión (for)
 creando el ^ de cada numero 
@@ -265,6 +270,7 @@ else:
 	print("Bucle concluido exitosamente")
 ```
 
+# While
 
 Asi mismo con los bucles `while` 
 
@@ -353,7 +359,9 @@ mensaje = "Eres mayor de edad" if edad >= 18 else "Eres menor de edad"
 print(mensaje)
 ```
 
-Tambien tenemos a lo que llamamos operadores logicos
+# AND, NOT, OR
+
+También tenemos a lo que llamamos operadores logicos
 **and,  not, or**
 
 En este ejemplo se cumpliria la función **AND**
@@ -426,6 +434,7 @@ if edad >= 18:
 		pass
 ```
 
+# NÚMEROS PARES
 
 Ahora veremos el tipico ejemplo de los números pares
 
