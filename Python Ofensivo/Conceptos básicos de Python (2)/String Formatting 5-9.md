@@ -1,6 +1,7 @@
 
 ----
-- TAG:
+- TAG: #Python #FormateoDeCadenas
+
 -----
 Python proporciona varias maneras de formatear cadenas, permitiendo insertar variables en ellas, así como controlar el espaciado, alineación y precisión de los datos mostrados. Aquí están las técnicas de formateo de cadenas que exploraremos:
 
@@ -20,79 +21,95 @@ En esta clase, nos enfocaremos en cómo utilizar cada uno de estos métodos para
 
 ----
 
-Empezamos creando un archivo `test.py` y practicamos un poco con los siguientes ejercicios:
-```python
-#!/usr/bin/python3
+# Formateo de Cadenas
 
-name = "sk8ware"
+## Creación de un archivo `test.py`
+
+Empezamos creando un archivo `test.py` y practicamos un poco con los siguientes ejercicios:
+
+```python
+#!/usr/bin/python3  
+
+name = "sk8ware" 
+
 print("Hola, mi nombre es " + name)
 ```
 
-Esto nos daría como respuesta
+### Resultado esperado:
+
 ```sh
 Hola, mi nombre es sk8ware
 ```
 
-Claro en este caso no nos representa algun error ya que ambos tipos son variables, pero si cambiaramos el tipo de texto 
+En este caso, no encontramos ningún error ya que ambos tipos son variables. Sin embargo, si cambiáramos el tipo de texto, podríamos enfrentar problemas.
 
- Si quisiera sustitutir  u organizar las variales las podríamos representar con `%s` que significa string
- ```python
-#!/usr/bin/python3
+## Uso de `%s` para formateo de cadenas
 
-name = "sk8ware"
-rol = "lammer"
+Si quisiera sustituir u organizar las variables, las podríamos representar con `%s`, que significa string.
+
+```python
+#!/usr/bin/python3 
+
+name = "sk8ware" 
+rol = "lammer" 
 
 print("Hola, mi nombre es %s y soy un %s " % (name, rol))
 ```
 
-En el caso de que queramos agregar números decimales lo podemos hacer de la siguiente manera agregando `%d` que significa **decimal**
+### Formateo de números decimales con `%d`
+
+En el caso de que queramos agregar números decimales, lo podemos hacer de la siguiente manera, utilizando `%d`, que significa **decimal**:
+
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3 
 
-name = "sk8ware"
-rol = "lammer"
-
-edad = 25 
+name = "sk8ware" 
+rol = "lammer" 
+edad = 25  
 
 print("Hola, mi nombre es %s y soy un %s. Actualmente tengo %d años" % (name, rol, edad))
 ```
 
-Aun que tambien hhubiese funcionado si le agregabamos la función `%s` pero es mejor declararlo en decimal para evitar errores
+Aunque también hubiese funcionado si le agregáramos la función `%s`, es mejor declararlo como decimal para evitar errores.
 
-Tambien tenemos otra forma para poder demostrar este ejemplo de una manera mas simplificada 
+## Uso de `.format()` para formateo de cadenas
+
+También tenemos otra forma de demostrar este ejemplo de una manera más simplificada utilizando el método `.format()`:
+
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3  
 
-name = "sk8ware"
-rol = "lammer"
-
-edad = 25 
+name = "sk8ware" 
+rol = "lammer" 
+edad = 25  
 
 print("Hola, soy {}!".format(name))
 print("Hola, soy {}! y tengo {} años".format(name, edad))
 ```
 
-Se le puede agregar los indices dentro de las de 0 hacia delante `{0}`
+Se pueden agregar índices dentro de las llaves `{0}`, `{1}`, etc., para mayor control:
+
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3  
 
 name = "sk8ware"
-rol = "lammer"
+rol = "lammer" 
+edad = 25  
 
-edad = 25 
-
-print("Hola, soy {}!".format(name))
+print("Hola, soy {}!".format(name)) 
 print("Hola, soy {0}! y tengo {1} años. No es broma, mi nombre real es {0}".format(name, edad))
 ```
 
-Otra forma de hacerlo es con las `f-strings` que se le agrega una `f` antes de las comillas y dentro de las llaves representar por `name`, es una de las maneras mas comodas con las cuales sustituir 
+## Uso de `f-strings` para formateo de cadenas
+
+Otra forma de hacerlo es con las `f-strings`, que se logra añadiendo una `f` antes de las comillas y utilizando llaves `{}` para las variables. Esta es una de las maneras más cómodas para sustituir valores:
+
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3 
 
-name = "sk8ware"
+name = "sk8ware" 
 rol = "lammer"
-
-edad = 25 
+edad = 25   
 
 print(f"Hola, soy {name}!")
 print(f"Hola, soy {name}! y tengo {edad} años. No es broma, mi nombre real es {name}")
