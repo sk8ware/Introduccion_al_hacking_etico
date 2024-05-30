@@ -216,3 +216,198 @@ for i in range(10):
 ```
 
 Si desean ver el numero al que pertenece simplemente le agregan al final del 5 la función `[{i}]` y la `f` antes de las comillas del principio 
+
+En la parte de `else` hay algo que muchos no saben, es que los propios bucles como for, while y demas tambien tienen un `else` solo que aqui es diferente, como les mostraré a continuación 
+```python
+#!/usr/bin/python3
+
+for i in range(10):
+	if i == 10:
+		break
+else:
+	print("Bucle concluido exitosamente")
+```
+
+
+Aqui sabemos qu e`i` empiza valiendo `0` y por eso nunca llegara al `break` 
+A diferencia de que si iteramos hasta el `(16)` y si lo ejecutamos sabremos que sera un codigo exitoso ya que si llegara al break
+```python
+#!/usr/bin/python3
+
+for i in range(16):
+	if i == 10:
+		break
+else:
+	print("Bucle concluido exitosamente")
+```
+
+Si deseamos seguir imprimiendo solicitudes o comandos lo podemos seguir haciendo
+```python
+#!/usr/bin/python3
+
+for i in range(16):
+	if i == 10:
+		break
+else:
+	print("Bucle concluido exitosamente")
+# ---------------------
+print("Continuamos con la ejecución del resto de instrucciones")
+```
+
+Si deseamos que aparezcan los dos mensajes
+```python
+#!/usr/bin/python3
+
+for i in range(6):
+	if i == 10:
+		break
+else:
+	print("Bucle concluido exitosamente")
+```
+
+
+Asi mismo con los bucles `while` 
+
+Ahora vamos a mostrarlo con este siguiente ejemplo, donde `i` equivale a 0 y se lo suma hasta el numero 10, si no pusieramos este numero 10 sería un bucle infinito, pero añadiendo el `i += 1` si llegaría al break y como respuesta tuvieramos la salida del bucle while 
+
+```python
+#!/usr/bin/python3
+
+i = 0 
+
+while i < 10:
+	if i == 10:
+		break
+	i += 1
+else:
+	print("El bucle terminó normalmente")
+```
+
+Ahora si le pedimos que que se imprima "salimos antes de tiempo" si i llega a valer 10 y terminará el bucle dado por la función `break` y por ultimo imprimirá la función print "Estamos fuera del bucle"
+```python
+#!/usr/bin/python3
+
+i = 0 
+
+while i < 16:
+	if i == 10:
+		print("Salimos antes de tiempo")
+		break
+	i += 1
+else:
+	print("El bucle terminó normalmente")
+# -------------------------------------
+print("Estamos fuera del bucle")
+```
+
+La estructura de los condicionales es super basica 
+Vamos a poner el siguiente ejemplo con la variable edad = 20 , para identificar si eres mayor de edad o no 
+```python
+#!/usr/bin/python
+
+edad = 20
+
+if edad >= 18:
+	print("Eres mayor de edad")
+```
+
+Si lo ejecutamos veremos que nos imprime que somos mayores de edad, pero si no tenemos la función `else`no mostrará cuando la respuesta sea menor a 18, asi que para eso deberiamos agregarlo a continuación
+```python
+#!/usr/bin/python
+
+edad = 15
+
+if edad >= 18:
+	print("Eres mayor de edad")
+else:
+	print("Eres menor de edad")
+```
+
+De igual manera podemos jugar con los simbolos 
+
+En las condicionales podemos establecer multiples condiciones partiendo del mismo contexto como a continuación con `elif` 
+```python
+#!/usr/bin/python
+
+edad = 15
+
+if edad < 13:
+	print("Eres un niño")
+elif 13 <= edad < 18:
+	print("Eres un adolecente")
+else:
+	print("Eres un adulto")
+```
+
+`elif` significa como de lo contrarío a la función de arriba, o si esta dentro de ese rango de dos opciones muestre el mensaje "Ers un adolecente", en cambio `else`es como si ninguna de las anteriores se cumple esto es lo que va a pasar
+
+Jugando con la condicionales tambien podemos jugar con las ternarias 
+Operadores ternarios nos permite represntar toda la operatoria en una sola linea
+```python
+#!/usr/bin/python
+
+edad = 17 
+
+mensaje = "Eres mayor de edad" if edad >= 18 else "Eres menor de edad"
+
+print(mensaje)
+```
+
+Tambien tenemos a lo que llamamos operadores logicos
+**and,  not, or**
+
+En este ejemplo se cumpliria la función **AND**
+```python
+#!/usr/bin/python
+
+edad = 20 
+nacionalidad = "Ecuatoriano"
+
+if edad >= 18 and nacionalidad == "Ecuatoriano":
+	print("Puedes votar en las elecciones Ecuatorianas")
+else:
+	print("No eres Ecuatoriano mmv")
+```
+
+
+Con la función **OR** asi no se cumpla la primera función podria seguir saliendo la respues que si  puede votar
+```python
+#!/usr/bin/python
+
+edad = 13
+nacionalidad = "Ecuatoriano"
+
+if edad >= 18 or nacionalidad == "Ecuatoriano":
+	print("Puedes votar en las elecciones Ecuatorianas")
+else:
+	print("Chiii no eres Ecuatoriano ñañoshh")
+```
+
+Y aplicando la función **NOT** se vería de la siguiente manera
+```python
+#!/usr/bin/python
+
+edad = 20
+nacionalidad = "Española"
+
+if edad >= 18 or nacionalidad != "Ecuatoriano":
+	print("Puedes votar en las elecciones Ecuatorianas")
+else:
+	print("Chiii no eres Ecuatoriano ñañoshh")
+```
+Con respuesta que puedes seguir votando en las elecciones ecuatorianas
+
+Los condicionales tambein nos pueden servir para determinar o detectar elementos existentes en una lista y varios ejemplos mas
+Pondre un ejemplo a continuación 
+```python
+#!/usr/bin/python
+
+mi_lista = [1, 4, 6, 12, 14, 18, 79]
+
+if 18 in mi_lista:
+	print("Este número está en la lista")
+else:
+	print("Este número no está en la lista")
+```
+
+Pero si pusieramos un número que no existierá nos reflejaria el mensaje de que no esta en la lista
