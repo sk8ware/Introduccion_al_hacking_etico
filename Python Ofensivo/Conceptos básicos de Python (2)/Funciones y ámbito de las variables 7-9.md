@@ -1,6 +1,6 @@
 
 -----
-- TAG: 
+- TAG: #programación #python #funciones #ámbito #variables 
 -----
 En esta clase nos sumergimos en dos conceptos fundamentales de la programación en Python que potencian la modularidad y la gestión eficaz de los datos dentro de nuestros programas.
 
@@ -28,8 +28,7 @@ Estos son temas muy importantes que vamos a estar viendo muy seguido en el resto
 
 # Funciones
 
-Como ya hemos explicado lo teórico, vamos a empezar con lo práctico con el siguiente ejemplo 
-Son bloques de codigo que son reusables y que realizan una tarea en especifico
+Como ya hemos explicado lo teórico, vamos a empezar con lo práctico con el siguiente ejemplo. Las funciones son bloques de código reutilizables que realizan una tarea específica.
 ```python
 #!/usr/bin/python3
 
@@ -40,11 +39,11 @@ saludo()
 
 ```
 
-# def
+### Definición de Funciones
 
-Significa  `define` que nos permite **definir** algo, como la función demostrada
-Le definimos un **hola mundo** con `print` 
-Lo comodo de las funciones es que podemos asignar el nombre que nosotros queramos, pasandole a la función un argumento, y la variable "nombre" cambiaría a valer el nombre "Manuel" en la parte de **saludo**
+La palabra clave `def` significa **define** y nos permite definir una función. En el ejemplo anterior, definimos una función simple que imprime **¡Hola mundo!** utilizando `print`.
+
+Una de las ventajas de las funciones es que podemos asignarles cualquier nombre y pasarles argumentos. Por ejemplo, si queremos que la función `saludo` reciba un nombre, podemos hacerlo de la siguiente manera:
 
 ```python
 #!/usr/bin/python3
@@ -54,6 +53,8 @@ def saludo(nomrbe):
 
 saludo("Manuel")
 ```
+
+### Retorno de Valores
 
 La particularidad de las funciones es que pueden retonar cosas
 Imaginen que `saludo` lo cambiamos a `suma` y le vamos a pasar dos valores 2,8 deseando que el resultado sea la suma de ambos valores, poniendo en una variable que se llame   `resultado` para luego obtener un resultado con la función `print` jugando con **f-string**, ahora debemos declarar las variables `x, y` y ahora como nos va a devolver un resultado, asi que nos tiene que retornar algo y con eso lo hacemos con `return` nos devuelva `x + y` para que 2 valga x y 8 valga y
@@ -69,9 +70,13 @@ print(f"\n[+] La suma de ambos valores es {resultado}")
 ```
 
 
-# Ámbito de las variables 
+## Ámbito de las Variables
 
-Imagen que tenemos la función `mi_funcion()` y definimos una variable `variable_local`, asi que si hacemos un `print`de esta variable, asi que llamamos a esta función con `mi_funcion()`
+El ámbito de una variable se refiere a la parte del código donde la variable es accesible. Existen dos tipos de ámbitos: local y global.
+
+### Variables Locales
+
+Una variable definida dentro de una función solo es accesible dentro de esa función. Por ejemplo:
 ```python
 #!/usr/bin/python3
 
@@ -83,9 +88,12 @@ mi_funcion()
 ```
 
 
-En este caso la variable `variable_local` únicamente existe bajo el contexto de la propida definición de la función, internamente claro?
+En este caso, la variable `variable_local` solo existe dentro del contexto de la definición de la función y no es accesible desde fuera de la misma.
 Pero afuera no es accesible
-Por eso es muy diferente cuando definimos una **variable global**, de la siguiente manera podríamos agregar una variable global 
+
+### Variables Globales
+
+Una variable definida fuera de cualquier función es una **variable global** y es accesible desde cualquier parte del código. Por ejemplo:
 
 ```python
 #!/usr/bin/python3
@@ -100,7 +108,10 @@ mi_funcion()
 print(variable_global)
 ```
 
-Muy distinto si nosotros aqui le agregamos la función `global variable`  ya que cambia todo el panorama
+### Modificación de Variables Globales
+
+Si necesitamos modificar una variable global dentro de una función, podemos usar la palabra clave `global`:
+
 ```python
 #!/usr/bin/python
 
