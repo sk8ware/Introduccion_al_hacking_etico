@@ -22,7 +22,7 @@ Ingresamos en nuestra carpeta de scaner nmap para realizar un `ping` para ver si
 ping -c 1 10.10.11.252 
 ```
 
- Si tenemos un paquete enviado y un paquete recivido significa que si tenemos conexión a ella, si el `TTL` que nos muestra tiene proximidad con `64`, Significa que estamos ante una maquina `Linux` 
+ Si tenemos un paquete enviado y un paquete recibido significa que si tenemos conexión a ella, si el `TTL` que nos muestra tiene proximidad con `64`, Significa que estamos ante una maquina `Linux` 
  Si le hacemos un `-R` al final del todo podemos ver por donde pasa nuestra ip ya que la conexión no es directa
  ```sh
  ping -c 1 10.10.11.252 -R
