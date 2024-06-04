@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "605d89a087893d3d",
+    "id": "87e37a4e1093baa4",
     "type": "split",
     "children": [
       {
-        "id": "5a62e2c2143d29bf",
+        "id": "56918b3010503b96",
         "type": "tabs",
         "children": [
           {
-            "id": "1652fb52d9c0e77b",
+            "id": "9f3f553ece1f5260",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,30 +26,30 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "44dd163bbc32c892",
+    "id": "93f8780cd73fd2ea",
     "type": "split",
     "children": [
       {
-        "id": "eb603df04e412489",
+        "id": "619ae96e10f5e9d2",
         "type": "tabs",
         "children": [
           {
-            "id": "4e2f68534d54d90a",
+            "id": "0db3b62288edaab4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "591ac240de3c9914",
+            "id": "00e6e4d3cd235765",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "f-string",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,34 +59,36 @@
             }
           },
           {
-            "id": "ed4910daaa7ea79f",
+            "id": "84196db1e48bea43",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "bc92247071237051",
+    "id": "a3d3cc6907f7cde2",
     "type": "split",
     "children": [
       {
-        "id": "13b575d41612b867",
+        "id": "0def453cd98d46c4",
         "type": "tabs",
         "children": [
           {
-            "id": "c39884c17582991b",
+            "id": "52ff5cade8c600d6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +100,19 @@
             }
           },
           {
-            "id": "b65217b365063f97",
+            "id": "96a8556b18385615",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "084c956877ff54f6",
+            "id": "8859a320c273d12a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,17 +123,16 @@
             }
           },
           {
-            "id": "39267ac9c83b97f5",
+            "id": "bab6afa6e4097e62",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md"
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -149,54 +150,53 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "1652fb52d9c0e77b",
+  "active": "00e6e4d3cd235765",
   "lastOpenFiles": [
-    "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
-    "INTRODUCCIÓN A LINUX/Prueba.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Operadores básicos en Python 4-9.md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
+    "MAQUINAS REALIZADAS/Bizness.md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
+    "README.md",
+    "Welcome.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Reconocimiento de imágenes.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos 3-9.md",
-    "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
-    "MAQUINAS REALIZADAS/Bizness.md",
-    "xd.md",
-    "Sin título.canvas",
-    "Introducción al Hacking/Reconocimiento con Nmap/Google Dorks - Google Hacking (Los 18 Dorks más usados).md",
-    "MAQUINAS REALIZADAS/Hospital.md",
-    "MAQUINAS REALIZADAS/BUILDER.md",
-    "Introducción al Hacking/Introducción a Docker/Despliegue de máquinas vulnerables con Docker-Compose (1-2).md",
-    "Introducción al Hacking/Introducción a Docker/DOCKER.md",
-    "Introducción al Hacking/Introducción a Docker/Creación y construcción de imágenes.md",
-    "Introducción al Hacking/Introducción a Docker/Comandos comunes para la gestión de contenedores.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/El modelo OSI – En qué consiste y cómo se estructura la actividad de red en capas.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones MAC (OUI y NIC).md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Qué es y cómo se interpreta una máscara de red.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – CIDRs y cálculo total de hosts.md",
-    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Tipos de explotación (Manuales y Automatizadas).md",
-    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Reverse Shells, Bind Shells y Forward Shells.md",
-    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
-    "IMG/CyberChef.png",
-    "IMG/PerfilBizness.png",
-    "Python Ofensivo/Conceptos básicos de Python (2)",
-    "IMG/historia y filosofía de  python.png",
+    "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
+    "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
+    "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
     "Python Ofensivo/Introducción a Python (1)",
+    "Python Ofensivo\\Introducción a Python (1)",
+    "Python Ofensivo/Conceptos básicos de Python (2)",
     "Python Ofensivo",
+    "Python Ofensivo\\Conceptos básicos de Python (2)",
+    "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
+    "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
+    "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
+    "Personalización de entorno en Linux/Instalación de Batcat y Lsd 7-11.md",
+    "Personalización de entorno en Linux",
+    "MAQUINAS REALIZADAS",
+    "Introducción al Hacking/Reconocimiento con Nmap",
+    "Introducción al Hacking\\Reconocimiento con Nmap",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
+    "IMG/pruebalinuxx.png",
     "IMG/pruebalinux7.png",
     "IMG/pruebalinux6.png",
     "IMG/pruebalinux5.png",
     "IMG/pruebalinux4.png",
     "IMG/pruebalinux3.png",
-    "IMG/pruebalinuxx.png",
+    "IMG/pruebalinux1.png",
+    "IMG/pruebalinux.png",
     "IMG/pruebalinux 1.png",
-    "INTRODUCCIÓN A LINUX",
-    "Over The Wire (Jugando con comandos Linux)",
-    "Personalización de entorno en Linux",
-    "MAQUINAS REALIZADAS",
-    "Introducción al Hacking/Reconocimiento con Nmap",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web",
-    "Introducción al Hacking/Introducción a Docker"
+    "IMG/historia y filosofía de  python.png"
   ]
 }
