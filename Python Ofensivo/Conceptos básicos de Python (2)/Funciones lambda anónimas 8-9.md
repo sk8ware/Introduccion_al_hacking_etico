@@ -1,6 +1,6 @@
 
 ---
-- TAG: 
+- TAG: #Python #LambdaFunctions #Programming
 ----
 Esta clase se centra en una característica poderosa y expresiva de Python que permite la creación de funciones en una sola línea: las funciones lambda.
 
@@ -22,9 +22,15 @@ Al dominar las funciones lambda, ampliarás tu conjunto de herramientas de progr
 
 ----
 # Lambda anónimas python 
+## Introducción
+
+En este documento exploraremos las funciones lambda en Python a través de varios ejemplos prácticos. Las funciones lambda, también conocidas como funciones anónimas, son útiles para escribir funciones pequeñas y de una sola línea.
+
+## Ejemplo Sencillo
 
 Empezaremos creando un ejercicio sencillo para poderlo explicar de mejor manera 
 creamos un archivo `test.py` y creamos e imprimimos la función `mi_funcion` 
+
 ```python
 #!/usr/binpython3
 
@@ -34,7 +40,10 @@ print(mi_funcion())
 
 ```
 
+## Lambdas con Argumentos
+
 A la misma función se le puede agregar argumentos de la siguiente manera:
+
 ```python
 #!/usr/bin/python3
 
@@ -46,6 +55,8 @@ print(cuadrada(6))
 
 Hemos representado el número 6 elevado al cuadrado que recuerden siempre se lo representa al número con la x por ejemplo y a x lo elevamos al cuadrado con `**`
 
+## Suma de Dos Valores
+
 Si deseamos también que se sumen dos valores con dos diferentes argumentos se lo pueden hacer de la siguiente manera
 ```python
 #!/usr/bin/python3
@@ -54,6 +65,8 @@ suma = lambda x, y:x+y
 
 print(suma(6, 8))
 ```
+
+## Uso de Lambdas en Contextos Más Realistas
 
 Ahora crearemos un ejercicio como en entorno más realista donde convertiremos los siguientes números al cuadrado con la función lambda 
 ```python
@@ -68,10 +81,16 @@ print(cuadrados)
 
 Recuerden que **map** tine dos argumentos `función` y un `iterable`, donde numeros viene sinedo una lista iterable y `list` nos permite visualizarlos como lista
 
+## Funciones `filter` y `reduce`
+
 También tenemos las funciones  **filter** y **reduce** las cuales las podemos utilizar para funciones **lambda**
 
 Para saber si los números son par o no utilizamos el signo de porcentaje y si a ese número lo dividimos para 2 y su resultado es 0 es por que es número par
-Para filter es la misma función que `map` se necesita siempre los dos argumentos que son la `función` y un `iterable`
+
+### Filtrar Números Impares
+
+Para `filter` es la misma función que `map` se necesita siempre los dos argumentos que son la `función` y un `iterable`
+
 ```python
 #!/usr/bin/python3
 
@@ -84,7 +103,9 @@ print(impares)
 
 La función `==` nos permite mostrar los números para los números iterables y la función != nos permite mostrar los impares 
 
-Con la función reduce 
+### Reducir una Lista a un Producto
+
+Con la función `reduce `
 
 Del modulo `from functools` nos permite importar la función `reduce` para fusionarla con nuestra función `lambda` 
 De igual manera funciona como filter y map con su dos argumentos y el iterable
@@ -100,4 +121,6 @@ producto = reduce(lambda x, y: x*y, numeros)
 print(producto)
 ```
 
-La función lambda no se la utiliza muy seguido a más que sea para alguna refactorización de codigo 
+## Consideraciones Finales
+
+Las funciones lambda no se utilizan con frecuencia a menos que se necesiten para alguna refactorización de código o para escribir funciones pequeñas y rápidas.
