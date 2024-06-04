@@ -142,6 +142,7 @@ req2.withCredentials = true;
 req2.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 req2.send(data);
 ```
+
 >**Tips o datos:**
 - El **prompt("Introduce tu correo, a@a.com" );** Muestra un mensaje de alerta pidiendo su correo
 - La pagina https://jwt.io nos permite observar  jason wen tocken
