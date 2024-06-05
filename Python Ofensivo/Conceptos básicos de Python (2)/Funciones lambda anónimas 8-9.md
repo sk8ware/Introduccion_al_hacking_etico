@@ -1,4 +1,4 @@
-
+ 
 ---
 - TAG: #Python #LambdaFunctions #Programming
 ----
