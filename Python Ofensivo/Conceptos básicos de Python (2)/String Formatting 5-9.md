@@ -1,6 +1,6 @@
 
 ----
-- TAG: #Python #FormateoDeCadenas
+- TAG: #Python #FormateoDeCadenas 
 
 -----
 Python proporciona varias maneras de formatear cadenas, permitiendo insertar variables en ellas, así como controlar el espaciado, alineación y precisión de los datos mostrados. Aquí están las técnicas de formateo de cadenas que exploraremos:
