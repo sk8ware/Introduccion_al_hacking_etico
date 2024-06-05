@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "a3d3cc6907f7cde2",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas.md"
               }
             }
           }
@@ -150,8 +151,11 @@
   },
   "active": "9f3f553ece1f5260",
   "lastOpenFiles": [
-    "INTRODUCCIÓN A LINUX/Prueba.md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas.md",
+    "README.md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración del servicio SSH.md",
+    "INTRODUCCIÓN A LINUX/Prueba.md",
     "IMG/Python9.png",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)",
     "IMG/Python10.png",
@@ -180,9 +184,7 @@
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
     "MAQUINAS REALIZADAS/Bizness.md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
-    "README.md",
     "Welcome.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Reconocimiento de imágenes.md",
     "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
