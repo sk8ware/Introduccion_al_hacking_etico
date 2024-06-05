@@ -1,6 +1,6 @@
 
 ----
-- TAG:
+- TAG: #python #manejo-de-errores #excepciones #Programación 
 -----
 En esta clase, abordaremos el manejo de errores y excepciones, un aspecto crítico para la creación de programas robustos y confiables en Python. Los errores son inevitables en la programación, pero manejarlos correctamente es lo que diferencia a un buen programa de uno que falla constantemente.
 
@@ -30,3 +30,116 @@ En esta clase, aprenderemos a identificar diferentes tipos de excepciones y cóm
 Al final de esta clase, tendrás las habilidades para escribir programas que manejen situaciones inesperadas de manera elegante y mantengan una ejecución limpia y controlada, incluso cuando se encuentren con problemas imprevistos.
 
 ----
+# Manejo de errores y exepciones 
+
+En esta clase vamos a explorar los tipos de errores y cómo solucionarlos.
+
+Pondremos en práctica el siguiente error con el ejemplo a continuación, donde trataremos de dividir un número entre cero y provocar un error. Para manejar el error, usamos `except`:
+```python 
+#!/usr/bin/python3
+
+try:	
+	num = 5/0
+
+except:
+	print("No se puede dividir un núnmero entre cero")
+```
+
+
+Si ejecutamos solo `num = 5 / 0`, veremos que el sistema nos indica que el error es de tipo `ZeroDivisionError`. Podemos manejar este error de la siguiente manera:
+
+```python
+#!/usr/bin/python3
+
+try:
+	
+	num = 5/0
+
+except ZeroDivisionError:
+	
+	print("No se puede dividir un núnmero entre cero")
+```
+
+De esta forma veremos la respuesta de error de mejorar manera 
+
+Si tratamos de mostrar otro tipo de error tratando de imprimir de manera erronea `num = "Hola"/0` el cual nos devolvera un error de tipo `TypeError`
+Así que si deseamos agregar este tipo de error a nuestro ejemplo tendríamos que contemplarlo de la siguiente manera 
+
+```python
+#!/usr/bin/python3
+
+try:
+	
+	num = "Hola"/0
+
+except ZeroDivisionError:
+	
+	print("No se puede dividir un núnmero entre cero")
+
+except TypeError:
+	
+	print("Solo es posible imprimir números enteros")
+```
+
+También podemos jugar con `else` en caso que no se acontezca ninguno de estos errores
+
+```python
+#!/usr/bin/python3
+
+try:
+	
+	num = "Hola"/0
+
+except ZeroDivisionError:
+	
+	print("No se puede dividir un núnmero entre cero")
+
+except TypeError:
+	
+	print("La operatoria matemáticas sólo deben realizarse con números!")
+
+else:
+	
+	print(f"La división de ambos números da como resultado {num}")
+```
+
+En las excepciones también manejamos un concepto que se llama `finally` es bloque de código que se va a ejecutar en las excepciones siempre
+
+```python
+#!/usr/bin/python3
+
+try:
+	
+	num = "Hola"/0
+
+except ZeroDivisionError:
+	
+	print("No se puede dividir un núnmero entre cero")
+
+except TypeError:
+	
+	print("La operatoria matemáticas sólo deben realizarse con números!")
+
+else:
+	
+	print(f"La división de ambos números da como resultado {num}")
+
+finally:
+	
+	print("Esto siempre se va a ejecutar")
+```
+
+La excepciones también se pueden lanzar 
+
+Vamos a jugar con el número `x = -5` y si es x es menor que cero `if x < 0 :` y para emplear una excepción debemos utilizar `raise` 
+
+```python
+#!/usr/bin/python3
+
+x = -5
+
+if x < 0:
+	raise Exception("¡No se pueden utilizar números negativos")
+```
+
+Intenten acontecer y ver todos los tipos de errores que puedan para poder seguir practicando un poco sobre el manejo de errores de excepciones 
