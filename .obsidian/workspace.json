@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python/Listas.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 267.5
   },
   "right": {
     "id": "a3d3cc6907f7cde2",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python/Listas.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python/Listas.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python/Listas.md"
+                "file": "README.md"
               }
             }
           }
@@ -150,9 +150,10 @@
   },
   "active": "9f3f553ece1f5260",
   "lastOpenFiles": [
+    "INTRODUCCIÓN A LINUX/Prueba.md",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas.md",
     "IMG/Python9.png",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python/Listas.md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)",
     "IMG/Python10.png",
     "IMG/Python11.png",
     "IMG/Python6.png",
@@ -170,7 +171,6 @@
     "Introducción al Hacking/Reconocimiento con Nmap/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Manejo de errores y excepciones 9-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
-    "INTRODUCCIÓN A LINUX/Prueba.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Operadores básicos en Python 4-9.md",
