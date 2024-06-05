@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Manejo de errores y excepciones 9-9.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Manejo de errores y excepciones 9-9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Manejo de errores y excepciones 9-9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md"
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Manejo de errores y excepciones 9-9.md"
               }
             }
           }
@@ -151,13 +151,16 @@
   },
   "active": "9f3f553ece1f5260",
   "lastOpenFiles": [
-    "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Manejo de errores y excepciones 9-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos 3-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Operadores básicos en Python 4-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Manejo de errores y excepciones 9-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Operadores básicos en Python 4-9.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
@@ -169,9 +172,6 @@
     "README.md",
     "Welcome.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Reconocimiento de imágenes.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos 3-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
     "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
     "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
     "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
