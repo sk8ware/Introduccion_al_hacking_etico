@@ -35,11 +35,15 @@ Discutiremos las mejores prácticas en el manejo de listas, incluyendo cómo y c
 Al final de esta clase, tendrás un conocimiento profundo de las listas en Python y estarás equipado con las técnicas para manejarlas eficazmente en tus programas. Con esta base sólida, podrás manipular colecciones de datos con confianza y aplicar esta habilidad central en tareas como la manipulación de datos, la automatización y el desarrollo de algoritmos.
 
 ---
-# Listas 
+# Listas en Python
 
-Las listas como tal es una estructura de datos mutables ya que se pueden alterar sus elementos
+## Introducción
 
-Vamos a repasar un poco con los siguientes elementos:
+Las listas en Python son una estructura de datos mutable, lo que significa que sus elementos pueden ser alterados. Vamos a repasar algunos conceptos clave y ejemplos prácticos sobre cómo trabajar con listas.
+
+## Creación y Modificación de Listas
+
+### Añadir Elementos a una Lista
 
 ```python
 #!/usr/bin/python3
@@ -52,11 +56,11 @@ print(len(puertos_tcp))
 
 ```
 
-En este ejemplo creamos una lista y agregamos un valor extra con `.append(1337)` y la función `len()` nos permite enumerar cuantos valores o contenido tenemos en la lista 
+En este ejemplo, creamos una lista y añadimos un valor extra con `.append(1337)`. La función `len()` nos permite contar cuántos elementos hay en la lista.
 
-Recuerden que se pueden crear bucles para correr elemento por elemento y efectuar una operatoria en cada uno es estos 
+### Iterar sobre una Lista
 
-Lo podemos emplear de la siguiente manera agregando con la función `print(f"")` 
+Podemos crear bucles para recorrer cada elemento de la lista y realizar operaciones en cada uno:
 
 ```python
 #!/usr/bin/python3
@@ -69,7 +73,9 @@ for puerto in puertos_tcp:
 	print(f"Este es el puerto {puerto}")
 ```
 
-Ahora con otro ejemplo práctico podemos utilizar de ejemplo las vulneravilidades
+### Eliminar Elementos de una Lista
+
+Otro ejemplo práctico es trabajar con una lista de vulnerabilidades y eliminar un elemento:
 
 ```python
 #!/usr/bin/python3
@@ -83,7 +89,11 @@ print(cve_list)
 
 Aquí podremos ver que tenemos un lista con tres valores que con la función `remove()` y al volver a imprimir después de esta función nos mostrará la lista sin el elemento seleccionado para eliminar.
 
-También podemos ordenar las listas de la siguiente manera con el anterior ejercicio para que nos muestre de menos a mayor número utilizando `.sort()`
+## Ordenar y Revertir Listas
+
+### Ordenar Listas
+
+Podemos ordenar una lista de menor a mayor utilizando `.sort()`:
 
 ```python
 #!/usr/bin/python3
@@ -97,7 +107,9 @@ puertos_tcp.sort()
 print(puertos_tcp)
 ```
 
-Asimismo, podemos invertir el orden con `.reverse`, practicando con otro ejercicio sencillo con ataques de ciberseguridad:
+### Revertir Listas
+
+También podemos invertir el orden de una lista con `.reverse()`, practicando con otro ejercicio sencillo con ataques de ciberseguridad:
 
 ```python
 #!/usr/bin/python3
@@ -111,7 +123,9 @@ attacks.reverse()
 print(attacks)
 ```
 
-Si deseamos acceder a cada elemento de la lista lo podemos realizar de la siguiente manera:
+## Acceso a Elementos de la Lista
+
+Para acceder a un elemento específico de la lista, usamos índices:
 
 ```python
 #!/usr/bin/python3
@@ -123,15 +137,19 @@ primer_ataque = attacks[2]
 print(primer_ataque)
 ```
 
+# Slicing en Listas
+
 Recuerden que podemos manipular diferentes funciones entre los corchetes para elegir la cantidad de datos que deseemos. Cuando el número es negativo, representa la eliminación de datos contando desde el final y empezando desde el número `1` a diferencia de lo normal que se suele contar desde `0`. Siempre que se pongan los dos puntos, comenzará el conteo desde 1.
 - [:3]
 - [:-3]
 - [3:]
 - [-1]
 
-Intenten practicar lo más que puedan con estos ejercicios para comprender mejor cómo nos ayudan a demostrar contenido. Antes de los dos puntos `:`, muestra todos los elementos después del número indicado. Por ejemplo, si el `1` mostraría los datos después de Phishing, comenzando desde DDoS. A diferencia de poner el número a la derecha después de los dos puntos, muestra únicamente el valor o los valores indicados. En este caso, si es el `1`, mostraría tan solo el primer dato que sería Phishing.
+>Intenten practicar lo más que puedan con estos ejercicios para comprender mejor cómo nos ayudan a demostrar contenido. Antes de los dos puntos `:`, muestra todos los elementos después del número indicado. Por ejemplo, si el `1` mostraría los datos después de Phishing, comenzando desde DDoS. A diferencia de poner el número a la derecha después de los dos puntos, muestra únicamente el valor o los valores indicados. En este caso, si es el `1`, mostraría tan solo el primer dato que sería Phishing.
 
-Como también hemos practicado con los bucles **While** podemos crear un bucle de la siguiente manera:
+## Bucle While
+
+Podemos crear un bucle `while` para recorrer los elementos de la lista:
 
 Declaramos un variable que valga `i` que valga cero `0` que representará como nuestro contador y mientras `i` sea igual a la longitud de elementos, para que muestre todos los elementos existentes, para ello necesitamos imprimir attacks en esa posición de índice, de manera que hacemos que el valor `i` valga un número nuevo cada vuelta, le agregamnos este valor ya que por lo normal imprimiría hasta el penúltimo valor  ya que cuenta desde 0 y no llegaría a 5, por eso le agregamos el `i += 1`
 
@@ -147,7 +165,9 @@ while i < len(attacks):
 	i += 1
 ```
 
-También tenemos la forma **Enumerate** para cuando queramos recibir el índice y el valor del elemento correspondiente:
+## Enumerate
+
+Para obtener el índice y el valor de cada elemento, usamos `enumerate`
 
 Creamos una función `for` con el valor `i` para el índice y `attack` para `enumerate`, que nos regresa un índice y el valor de esa lista iterable que se está recorriendo.
 
@@ -161,6 +181,9 @@ for i, attack in enumerate(attacks):
 
 ```
 
+## Convertir Mayúsculas y Minúsculas
+
+### Convertir a Mayúsculas
 
 Ahora, imaginen que deseamos convertir todas las minúsculas en mayúsculas. Podríamos hacerlo de la siguiente manera con la función `.upper()`:
 
@@ -176,7 +199,9 @@ attacks_uppercase = [attacks.upper() for attack in attacks]
 print(attacks_uppercase)
 ```
 
-De igual manera, para convertir todas las letras mayúsculas a minúsculas, podemos hacerlo de la siguiente manera con la función `.lower()`:
+### Convertir a Minúsculas
+
+Para convertir todas las letras a minúsculas, usamos `.lower()`:
 
 ```python
 #!/usr/bin/python3
@@ -189,9 +214,9 @@ print(attacks_uppercase)
 
 ```
 
-Ahora mostraremos como podríamos hacer para poder combinar las listas:
+## Combinar Listas
 
-Utilizaremos la función `zip` para que cuando le pasemos los valores iterables nos lo muestre con la edad después de dos puntos :
+Podemos combinar listas utilizando la función `zip`:
 
 ```python
 #!/usr/bin/python3
@@ -203,7 +228,9 @@ for nombre, edad in zip(nombres, edades):
 	print(f"{nombre} tiene {edad} años") 
 ```
 
-Para eliminar en este tipo de listas, solemos utilizar `del`:
+## Eliminar Elementos de una Lista
+
+### Usar `del`
 
 ```python
 #!/usr/bin/python3
@@ -214,6 +241,8 @@ del nombres[2]
 
 print(names)
 ```
+
+### Usar `remove`
 
 Otra manera de eliminar es `remove`, para no complicarte leyendo en listas más grandes y perderte entre tantos elementos. Lo podemos simplificar de la siguiente manera:
 
@@ -227,6 +256,8 @@ nombres.remove("Pedro")
 print(nombres)
 ```
 
+### Limpiar una Lista
+
 Si deseamos limpiar toda la lista, usamos `.clear`:
 
 ```python
@@ -238,6 +269,8 @@ nombres.clear()
 
 print(nombres)
 ```
+
+### Usar `pop`
 
 Hay ocasiones en que queremos quitar un elemento de la lista y almacenarlo en una variable. Esto es posible con la herramienta `.pop`, que elimina el último elemento de la lista:
 
@@ -277,6 +310,8 @@ print(nombres)
 print(f"El usuario eliminado a sido {usuario_eliminado}")
 ```
 
+### Modificar Elementos de una Lista
+
 Como mencioné al inicio, las listas son mutables y podemos cambiar su contenido por la posición en la que se encuentren, con el mismo nombre de la variable y asignando el número en el que se encuentran ubicados:
 
 ```python
@@ -289,7 +324,7 @@ nombres[2] = "Silvia"
 print(nomrbes)
 ```
 
-ambién podemos agregar otro elemento en una posición específica utilizando la función `.insert`:
+También podemos agregar otro elemento en una posición específica utilizando `.insert()`:
 
 ```python
 #!/usr/bin/python3
@@ -300,6 +335,8 @@ nombres.insert(2, "Silvia")
 
 print(nomrbes)
 ```
+
+### Extender Listas
 
 En caso de tener varias listas, podemos combinarlas de la siguiente manera con la función `.extend()`:
 
