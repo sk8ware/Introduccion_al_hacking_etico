@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md"
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios.md"
               }
             }
           }
@@ -150,9 +150,10 @@
   },
   "active": "9f3f553ece1f5260",
   "lastOpenFiles": [
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas 1-5.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Tuplas 2-5.md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
@@ -186,7 +187,6 @@
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
     "MAQUINAS REALIZADAS/Bizness.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
-    "Welcome.md",
     "Python Ofensivo/Introducción a Python (1)",
     "Python Ofensivo\\Introducción a Python (1)",
     "Python Ofensivo/Conceptos básicos de Python (2)",
