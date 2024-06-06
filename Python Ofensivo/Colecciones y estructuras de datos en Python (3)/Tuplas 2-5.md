@@ -1,6 +1,6 @@
 
 ----
-- TAG: 
+- TAG: #Python #Tuplas #Programación #inmutables
 ----
 En esta clase, dedicaremos nuestro enfoque a las tuplas, una estructura de datos fundamental en Python que comparte algunas similitudes con las listas, pero se distingue por su inmutabilidad.
 
@@ -32,121 +32,137 @@ Abordaremos cuándo es más apropiado utilizar tuplas en lugar de listas y cómo
 Al concluir esta clase, tendrás un entendimiento claro de qué son las tuplas, cómo y cuándo utilizarlas en tus programas, y las prácticas recomendadas para trabajar con este tipo de datos inmutable. Las tuplas son una herramienta poderosa en Python, y saber cómo utilizarlas te permitirá escribir código más seguro y eficiente.
 
 ----
+# Tuplas en Python
 
-Ciertamente se parecen mucho a las listas, teniendo una estructura semejante en este caso su declaratorio no es con corchetes cuadrados `[ ]` sino con paréntesis `( )`, son otra estructura de datos que almacenan una secuencia de elementos pero en este caso estos elementos son inmutables, si desearamos cambiar este tipo de datos nos reflejaria como error.
+## Introducción
 
-Vamos a ver ejemplo practico a continuación sobre las **Tuplas**:
+Las tuplas en Python se parecen mucho a las listas, ya que ambas almacenan una secuencia de elementos. Sin embargo, las tuplas se declaran con paréntesis `( )` en lugar de corchetes cuadrados `[ ]` y, a diferencia de las listas, los elementos de una tupla son inmutables. Esto significa que una vez que una tupla es creada, no se puede modificar.
+
+## Declaración y Acceso
+
+Veamos un ejemplo práctico de cómo trabajar con **tuplas**:
 
 ```python
 #!/usr/bin/python3
 
-example = (1, 2, 3, 4, 5)
+example = (1, 2, 3, 4, 5) 
 
 print(example[1:3])
 ```
 
-Aquí podemos observar que de igual manera como en las listas podemos englobar un rango de elementos sobre la lista o tuplas en este caso.
+En este ejemplo, se observa que, al igual que con las listas, podemos seleccionar un rango de elementos dentro de una tupla.
 
-Pero ahora veremos si tratamos de cambiar el tipo de datos dentro de la tupla no nos permitirá:
+## Inmutabilidad de las Tuplas
+
+Si intentamos cambiar un elemento de una tupla, obtendremos un error:
 
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3  
 
-example = (1, 2, 3, 4, 5)
+example = (1, 2, 3, 4, 5) 
 
 example[0] = 8
 ```
 
-Al intentar ejecutar este comando por consola nos reflejara como error.
+Al ejecutar este comando en la consola, se reflejará un error debido a la inmutabilidad de las tuplas.
 
-Dentro de las tuplas al igual que las listas podemos agregar varios elementos, entre ellos una cadena, una lista, valores boolenaos, etc.
+## Tipos de Elementos en Tuplas
+
+Las tuplas pueden contener diversos tipos de elementos, tales como cadenas, listas, valores booleanos, etc.:
 
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3  
 
-example = (1, "test", [1, 2, 3], 4, True, {'manzanas': 1, 'peras': 5}, 5)
+example = (1, "test", [1, 2, 3], 4, True, {'manzanas': 1, 'peras': 5}, 5) 
 
-for element in example:
+for element in example:   
 	print(element)
 ```
+## Operaciones con Tuplas
 
-De igual manera podemos crear tuplas que contengan listas y listas que contengan tuplas.
+En las Tuplas no tenemos la opción de usar las funciones como `insert()`, `extend()`, `remove()`, `append()`, `pop()`como lo hacíamos con las listas, todas estas funciones no son funcionales ya que las tuplas son inmutables.
 
-En las Tuplas no tenemos la opción de usar las funciones como `insert()`, `extend()`, `remove()`, `append()`, `pop()` como lo hacíamos con las listas, todas estas funciones no son funcionales ya que las tuplas son inmutables
+Ahora mostraremos un ejemplo donde si queremos recibir elementos de esta tupla y asignarle algunas variables lo podemos hacer de esta manera cómoda donde podemos igualar los valores a, b, c, da `mi_tupla`de forma de que cada elemento de esta variable se convertirá en cada una de las variables a, b, c, d
+### Desempaquetado de Tuplas
 
-Ahora mostraremos un ejemplo donde si queremos recibir elementos de esta tupla y asignarle algunas variables lo podemos hacer de esta manera cómoda donde podemos igualar los valores a, b, c, d a `mi_tupla` de forma de que cada elemento de esta variable se convierta en cada una de las variables a, b, c, d 
-
-listando la información de la siguiente manera:
+Podemos asignar los elementos de una tupla a variables de manera cómoda:
 
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3  
 
-mi_tupla = (1, 2, 3, 4)
+mi_tupla = (1, 2, 3, 4)  
 
-a, b, c, d = mi_tupla
+a, b, c, d = mi_tupla  
 
-print(a)
-print(b)
+print(a) 
+print(b) 
 print(c)
 print(d)
 ```
+### Concatenación de Tuplas
 
-A pesar de que no podemos alterar una tupla de manera directa, si lo podemos hacer de manera indirecta:
+Aunque no podemos modificar una tupla directamente, podemos crear nuevas tuplas combinándolas:
 
 ```python
-#!/usr/bin/python
+#!/usr/bin/python 
 
 mi_primera_tupla = (1, 2, 3, 4)
 mi_segunda_tupla = (5, 6, 7, 8, 9)
 
-mi_tercera_tupla = mi_primera_tupla + mi_segunda_tupla
+mi_tercera_tupla = mi_primera_tupla + mi_segunda_tupla 
 
 print(mi_tercera_tupla)
 ```
+### Repetición de Elementos en Tuplas
 
-Para duplicar los elementos de la tupla principal lo podemos hacer con el símbolo `*`
+Podemos duplicar los elementos de una tupla utilizando el símbolo `*`:
 
 ```python
-#!/usr/bin/python
+#!/usr/bin/python  
 
 mi_primera_tupla = (1, 2, 3, 4)
-mi_segunda_tupla = (5, 6, 7, 8, 9)
+mi_segunda_tupla = (5, 6, 7, 8, 9)  
 
-mi_tercera_tupla = mi_primera_tupla*3
+mi_tercera_tupla = mi_primera_tupla * 3 
 
 print(mi_tercera_tupla)
 ```
+### Filtrado de Elementos en Tuplas
 
-también podemos identificar números pares, recuerden que siempre que quieran modificar las tuplas van a tener que crear otra nueva tupla que almacene esos nuevos valores
+Para crear una nueva tupla con solo los números pares, podemos usar la siguiente técnica:
 
-Primero queremos iterar por cada uno de los elementos con `for i in mi_tula` para almacenar todos los valores en `i` asi que listamos con `i` al inicio pero siempre y cuando se cumpla una función entonces agregamos el `if i % 2 == 0` para cuando divida para `2` su resultado sea y finalmente convertimos todo esto en una `tupla`:
+Primero queremos iterar por cada uno de los elementos con `for i in mi_tula`para almacenar todos los valores en `i`así que listamos con `i`al inicio pero siempre y cuando se cumpla una función entonces agregamos el `if i % 2 == 0`para cuando divida para `2`su resultado sea y finalmente convertimos todo esto en una `tupla`:
 
 ```python
-#!/usr/bin/python
+#!/usr/bin/python  
 
-mi_primera_tupla = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+mi_primera_tupla = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
 
-numeros_pares = tuple(i for in mi_tupla if i % 2 == 0)
+numeros_pares = tuple(i for i in mi_primera_tupla if i % 2 == 0)  
 
 print(numeros_pares)
 ```
 
-Y si cambiamos el valor de `0` a `1` nos mostraría todos los números impares
+Si cambiamos el valor de `0` a `1` en la condición, obtendremos todos los números impares.
 
-¿En qué escenarios prácticos esta esto representado para que cobre sentido el porqué no se puedan alterar estos elementos de la tupla a diferencia de las listas ?
+## Casos Prácticos de Uso
 
-En este ejercicio imaginaremos que tenemos un ejemplo práctico con una base de datos creadas con tuplas con usuarios y contraseñas de la siguiente manera:
+### Inmutabilidad en Bases de Datos
+
+La inmutabilidad de las tuplas es útil en situaciones donde los datos no deben ser alterados. Por ejemplo, podemos almacenar credenciales de usuarios en tuplas para asegurar que no sean modificadas:
 
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3  
 
 db1_credencial = ("chemaAlonso", "chema123")
-db2_credencial = ("Hacker", "hacker123")
+db2_credencial = ("Hacker", "hacker123")  
 
-try:
-	db1_credential[0] = "Manolo"
-except TypeError:
+try:   
+	db1_credencial[0] = "Manolo"
+ except TypeError:   
 	print("No es posible manipular los elementos de una tupla")
 ```
 
-Tengan en cuentan los conceptos practicos de tuplas que se parecen mucho a las listas a difencia de los corchetes por los parentesis, que sus elementos son inmutables y se pueden realizar operaciones con estas con varias tuplas 
+## Resumen
+
+Las tuplas en Python son una estructura de datos similar a las listas, pero con la diferencia crucial de que son inmutables. Esta característica permite operaciones seguras con datos que no deben cambiar, como las credenciales de usuarios. A pesar de su inmutabilidad, las tuplas permiten diversas operaciones como concatenación, repetición y filtrado de elementos.
