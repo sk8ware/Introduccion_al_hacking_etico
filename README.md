@@ -27,48 +27,19 @@ En esta sección se cubren diversos aspectos relacionados con el sistema operati
 
 Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 
-Subredes
-- Subredes – CIDRs y cálculo total de hosts
-- Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar
-- Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red
-- Subnetting – Qué es y cómo se interpreta una máscara de red
-- Subredes – Redes extrañas y casos particulares
-- TIPS de subnetting y cálculo veloz de direccionamiento en redes
-
-Temas Generales
-- Direcciones IP (IPv4 e IPv6)
+- **Conceptos básicos de IP, MAC, UDP, TCP, OSI, etc.**
+	- SUBNETTING
+		- Subnetting – CIDRs y cálculo total de hosts
+		- Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar
+		- Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red
+		- Subnetting – Qué es y cómo se interpreta una máscara de red
+		- Subnetting – Redes extrañas y casos particulares
+		- TIPS de subnetting y cálculo veloz de direccionamiento en redes
+        - Direcciones IP (IPv4 e IPv6)
 - Direcciones MAC (OUI y NIC)
 - El modelo OSI – En qué consiste y cómo se estructura la actividad de red en capas
 - Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake
-- **Conceptos básicos de enumeración y explotación**
-    - **IP, MAC, UDP, TCP, OSI, etc.**
-        
-        - Direcciones IP (IPv4 e IPv6)
-        - Direcciones MAC (OUI y NIC)
-        - El modelo OSI – En qué consiste y cómo se estructura la actividad de red en capas
-        - Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake
-    - **Enumeración y explotación**
-        
-        - Enumeración del sistema
-        - Introducción a BurpSuite
-        - Introducción a la explotación de vulnerabilidades
-        - Shells inversos, Shells vinculados y Shells delanteros
-        - Tipos de explotación (Manuales y Automatizadas)
-        - Tipos de cargas útiles (Staging y Non-Staging)
-        
-    - **Enumeración de servicios comunes y gestores de contenido**
-        
-        - **Enumeración de gestores de contenido CMS**
-            
-            - Drupal
-            - Joomla
-            - Magento
-            - WordPress
-            
-        - **Enumeración de servicios comunes**
-            
-            - Enumeración del servicio FTP
-            - Enumeración del servicio HTTP y HTTPS
+ 
 
 <!---
 sk8ware/sk8ware is a ✨ special ✨ repository because its `README.md` appears on your GitHub profile.
