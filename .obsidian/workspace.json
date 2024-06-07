@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
-                "mode": "source",
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md"
+                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md"
               }
             }
           }
@@ -151,11 +151,11 @@
   },
   "active": "9f3f553ece1f5260",
   "lastOpenFiles": [
+    "INTRODUCCIÓN A LINUX/Prueba.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
-    "INTRODUCCIÓN A LINUX/Prueba.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas 1-5.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Tuplas 2-5.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
