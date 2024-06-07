@@ -40,7 +40,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 - El modelo OSI – En qué consiste y cómo se estructura la actividad de red en capas
 - Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake
 ---
-- Conceptos básicos de enumeración y explotación
+- ## Conceptos básicos de enumeración y explotación
 	- Enumeración del sistema
 	- Introducción a BurpSuite
 	- Introducción a la explotación de vulnerabilidades
@@ -48,7 +48,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Tipos de explotación (Manuales y Automatizadas)
 	- Tipos de payloads (Staged y Non-Staged)
 ----
-- Enumeración de servicios comunes y gestores de contenido
+- ## Enumeración de servicios comunes y gestores de contenido
 	- Enumeración de gestores de contenido CMS
 		- Drupal
 		- Joomla
