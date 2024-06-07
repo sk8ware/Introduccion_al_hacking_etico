@@ -1,6 +1,6 @@
 
 ----
-- TAG:
+##  TAG: #EstructuraDeDatos #PythonBásico #Mutables 
 ----
 En esta clase, nos centraremos en los diccionarios, una de las estructuras de datos más poderosas y flexibles de Python. Los diccionarios en Python son colecciones desordenadas de pares clave-valor. A diferencia de las secuencias, que se indexan mediante un rango numérico, los diccionarios se indexan con claves únicas, que pueden ser cualquier tipo inmutable, como cadenas o números.
 
@@ -33,7 +33,11 @@ Enfatizaremos las mejores prácticas para trabajar con diccionarios, incluyendo 
 Al final de esta clase, tendrás una comprensión completa de los diccionarios y estarás listo para utilizarlos para gestionar eficazmente los datos dentro de tus programas. Los diccionarios son una herramienta esencial en Python y saber cómo utilizarlos te abrirá la puerta a un nuevo nivel de programación.
 
 ----
-Los diccionarios son una estructura de datos que almacenan pares de clave:valor, en esta ocasión estamos hablando de una conexión no enumerada, significa que no vamos a tener números o índices como lo hacíamos con las listas o las tuplas, pero por otro lado si son mutables, significa que vamos a poder alterar el contenido.
+# Diccionarios en Python
+
+Los diccionarios son una estructura de datos que almacenan pares de clave
+
+. A diferencia de las listas o las tuplas, los diccionarios no están ordenados, lo que significa que no tienen índices numéricos. Sin embargo, son mutables, lo que nos permite alterar su contenido.
 
 Vamos hacer un pequeña prueba en un archivo para crear nuestro diccionario, pueden usar tanto nano como nvim  
 
