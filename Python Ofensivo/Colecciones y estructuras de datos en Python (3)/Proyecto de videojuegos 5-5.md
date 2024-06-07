@@ -85,11 +85,11 @@ clientes = {
 
 def sumario(juego):
 	# Sumario
-	print(f"\n[i] Resumen del juego {mi_juego}\n")
-	print(f"\t[+] Género del juego: {generos[mi_juego]}")
-	print(f"\t[+] Total de ventas para este juego: {ventas_y_stock[mi_juego][0]} unidades")
-	print(f"\t[+] Total de stock para este juego: {ventas_y_stock[mi_juego][1]} unidades")
-	print(f"\t[+] Clientes que han adquirido el juego: {' , '.join(clientes[mi_juego])}")
+	print(f"\n[i] Resumen del juego {juego}\n")
+	print(f"\t[+] Género del juego: {generos[juego]}")
+	print(f"\t[+] Total de ventas para este juego: {ventas_y_stock[juego][0]} unidades")
+	print(f"\t[+] Total de stock para este juego: {ventas_y_stock[juego][1]} unidades")
+	print(f"\t[+] Clientes que han adquirido el juego: {' , '.join(clientes[juego])}")
 
 for juego in juegos:
 	if ventas_y_stock[juego][0] > tope:
