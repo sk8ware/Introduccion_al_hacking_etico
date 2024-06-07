@@ -40,15 +40,15 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 - El modelo OSI – En qué consiste y cómo se estructura la actividad de red en capas
 - Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake
 
-- #### Conceptos básicos de enumeración y explotación
+- Conceptos básicos de enumeración y explotación
 	- Enumeración del sistema
 	- Introducción a BurpSuite
 	- Introducción a la explotación de vulnerabilidades
 	- Reverse Shells, Bind Shells y Forward Shells
 	- Tipos de explotación (Manuales y Automatizadas)
 	- Tipos de payloads (Staged y Non-Staged)
-
-- #### Enumeración de servicios comunes y gestores de contenido
+----
+- Enumeración de servicios comunes y gestores de contenido
 	- Enumeración de gestores de contenido CMS
 		- Drupal
 		- Joomla
@@ -59,7 +59,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 - Enumeración del servicio SMB
 - Enumeración del servicio SSH
 
-- #### Introducción a Docker
+- Introducción a Docker
 	- Carga de instrucciones en Docker y desplegando nuestro primer contenedor
 	- Comandos comunes para la gestión de contenedores
 	- Creación y construcción de imágenes
@@ -69,7 +69,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Instalación de Docker en Linux
 	- Port Forwarding en Docker y uso de monturas
 
-- #### OWASP TOP 10 y vulnerabilidades web
+- OWASP TOP 10 y vulnerabilidades web
 	- Cross-Site Request Forgery (CSRF)
 	- Cross-Site Scripting (XSS)
 	- Local File Inclusion (LFI)
@@ -80,7 +80,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Server-Side Template Injection (SSTI)
 	- XML External Entity Injection (XXE)
 
-- #### Reconocimiento
+-  Reconocimiento
 	- Alternativas para la enumeración de puertos usando descriptores de archivo
 	- Creación de tus propios scripts en Lua para nmap
 	- Credenciales y brechas de seguridad
