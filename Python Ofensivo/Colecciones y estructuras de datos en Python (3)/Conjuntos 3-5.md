@@ -1,6 +1,6 @@
 
 ----
-- TAG:
+- TAG: #Python #Conjuntos #Programación #Mutables 
 ----
 
 En esta clase, nos adentraremos en los conjuntos, conocidos en Python como ‘**sets**‘. Los conjuntos son una colección de elementos sin orden y sin elementos repetidos, inspirados en la teoría de conjuntos de las matemáticas. Son ideales para la gestión de colecciones de elementos únicos y operaciones que requieren eliminar duplicados o realizar comparaciones de conjuntos.
@@ -33,9 +33,13 @@ Discutiremos cuándo es beneficioso usar conjuntos en lugar de otras estructuras
 Al final de esta clase, tendrás una comprensión completa de los conjuntos en Python y cómo pueden ser utilizados para hacer tu código más eficiente y lógico, aprovechando sus propiedades únicas para manejar datos. Con este conocimiento, podrás implementar estructuras de datos complejas y operaciones que requieren lógica de conjuntos.
 
 ---
-En este blog ya hemos visto las **Listas**, **Tuplas** y ahora veremos los **Conjuntos**(sets) y cada uno de ellos se emplean los diferentes signos `[]`, `()`, `{}`
+# Sets en Python
 
-Dentro de las llaves simplemente abrimos y escribimos nuestro conjunto, pero tomen en cuenta que aquí no se puede enumerar los espacios como lo hacíamos con las Listas y las Tuplas, por otro lado los conjuntos, los elementos tienen que ser únicos, no se pueden repetir elementos iguales ni tampoco los números.
+En este blog ya hemos visto las **Listas** y **Tuplas**. Ahora, veremos los **Conjuntos** (sets). Cada uno de ellos se emplea con diferentes signos: `[]` para listas, `()` para tuplas, y `{}` para conjuntos.
+
+## Definición de Conjuntos
+
+Dentro de las llaves `{}`, simplemente escribimos nuestro conjunto. A diferencia de las listas y tuplas, en los conjuntos no podemos enumerar los elementos, y estos deben ser únicos; es decir, no se pueden repetir elementos iguales, incluidos los números.
 
 ```python
 #!/usr/bin/python3
@@ -45,7 +49,9 @@ mi_conjunto = {1, 2, 3}
 print(mi_conjunto)
 ```
 
-A los conjuntos les podemos agregar nuevos elementos con `.add()`, pero no siempre se van agregar de manera ordenada ya que si empleamos el siguiente ejercicio se darán cuenta que al numero 8 lo manda al inicio
+## Agregar Elementos a un Conjunto
+
+Podemos agregar nuevos elementos a un conjunto usando `.add()`. Sin embargo, los elementos no siempre se agregan en el orden esperado.
 
 ```python
 #!/usr/bin/python3
@@ -56,7 +62,7 @@ mi_conjunto.add(8)
 print(mi_conjunto)
 ```
 
-Podemos agregar más elementos con `.update({})`
+Para agregar múltiples elementos, utilizamos `.update({})`.
 
 ```python
 #!/usr/bin/python3
@@ -67,7 +73,9 @@ mi_conjunto.update({4, 5, 6})
 print(mi_conjunto)
 ```
 
-Dentro de toda esta lista que hemos creado podemos eliminar algún elemento en especificó con `.remove()`
+## Eliminar Elementos de un Conjunto
+
+Podemos eliminar un elemento específico con `.remove()`.
 
 ```python
 #!/usr/bin/python3
@@ -80,7 +88,7 @@ mi_conjunto.remove(3)
 print(mi_conjunto)
 ```
 
-Si deseamos imprimir código de una manera mas limpia podemos emplear la función `.discard()`, esto permitirá que cuando refleje algún tipo de error no nos muestre el stderr y cuando si exista elimine ese elemento 
+Si deseamos eliminar un elemento sin que se genere un error si el elemento no existe, podemos usar `.discard()`.
 
 ```python
 #!/usr/bin/python3
@@ -91,6 +99,10 @@ mi_conjunto.discard(7)
 
 print(mi_conjunto)
 ```
+
+## Operaciones con Conjuntos
+
+### Intersección
 
 Adicional podemos crear intercepciones entre conjuntos con `.intersection` para mostrar todos los elementos repetidos dentro de nuestro conjunto
 
@@ -105,7 +117,9 @@ conjunto_final = mi_primer_conjunto.intersection(mi_segundo_conjunto)
 print(conjutno_final)
 ```
 
-Algo interesante es que también se pueden crear uniones con `.union()` y organizar todos los elementos del conjunto
+### Unión
+
+Para unir todos los elementos de dos conjuntos, utilizamos `.union()`.
 
 ```python
 #!/usr/bin/python3
@@ -120,7 +134,9 @@ print(conjutno_final)
 
 Al momento de imprimir veremos que esta organizado, pero no siempre hay confiar ya que como les había explicado en los **Conjuntos** no esta creado para organizar de manera automática, es probable que mas adelante con otros ejercicios si que muestre ese error.
 
-Con los conjuntos también podemos identificar si un conjunto es un subconjunto de otro conjunto y se los estaré explicando de la siguiente manera con `.issubset()`:
+### Subconjuntos
+
+Podemos verificar si un conjunto es subconjunto de otro con `.issubset()`.
 
 ```python
 #!/usr/bin/python3
@@ -135,9 +151,9 @@ Aquí nos mostraría es que es **True** ya que todos los elementos del primer co
 
 Esto pasa de igual manera con los nombres.
 
-¿Para qué nos puede servir los conjuntos ?
+## Uso de Conjuntos en Listas
 
-Crearemos una lista con números para poderlo imprimir con la función `set()` imprimir un conjunto sin las repeticiones de la lista
+Podemos crear un conjunto a partir de una lista para eliminar duplicados.
 
 ```python
 #!/usr/bin/python
@@ -171,9 +187,11 @@ mi_conjunto = set(range(10000))
 print(1234 in mi_conjunto)
 ```
 
-Y para operar con conjuntos es mucho más practico como les mostraré a continuación:
+## Operaciones Adicionales con Conjuntos
 
-Imaginen si desean saber que usuario están en ambas plataformas
+### Usuarios en Plataformas
+
+Podemos usar conjuntos para comparar usuarios en diferentes plataformas.
 
 ```python
 #!/usr/bin/python3
@@ -202,8 +220,9 @@ print(todos_los_usuarios)
 
 Cuando lo imprimos en la mayoria de los casos suele imprimir en desorden cada vez que lo imprimimos, cuidado con el orden 
 
-Tenemos una caracteristica o utilidad que esta interesante que es `.difference()`
-Para que nos muestre las diferncias entre plataformas, es decir los que no estan repetidos
+### Diferencias Entre Conjuntos
+
+Podemos encontrar diferencias entre conjuntos con `.difference()`.
 
 ```python
 #!/usr/bin/python3
