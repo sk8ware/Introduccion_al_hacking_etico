@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Proyecto de videojuegos 5-5.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "a3d3cc6907f7cde2",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Proyecto de videojuegos 5-5.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Proyecto de videojuegos 5-5.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Proyecto de videojuegos 5-5.md"
+                "file": "README.md"
               }
             }
           }
@@ -151,6 +150,7 @@
   },
   "active": "9f3f553ece1f5260",
   "lastOpenFiles": [
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Proyecto de videojuegos 5-5.md",
     "README.md",
     "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones IP (IPV4 e IPV6).md",
     "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
@@ -160,7 +160,6 @@
     "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
     "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – CIDRs y cálculo total de hosts.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Proyecto de videojuegos 5-5.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
