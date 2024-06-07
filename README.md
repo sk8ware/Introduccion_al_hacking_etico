@@ -100,6 +100,12 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Técnicas de evasión de Firewalls (MTU, Data Length, Source Port, Decoy, etc.)
 	- Uso de scripts y categorías en nmap para aplicar reconocimiento
 	- Validación del objetivo (Fijando un target en HackerOne)
+----
+
+# Personalización del entorno en Linux
+
+En esta sección aprenderán a configurar su entorno como un verdadero hacker
+
 
 <!---
 sk8ware/sk8ware is a ✨ special ✨ repository because its `README.md` appears on your GitHub profile.
