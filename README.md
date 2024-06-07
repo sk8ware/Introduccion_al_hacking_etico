@@ -140,7 +140,21 @@ Domina Python **desde cero** y crea tu propio arsenal de herramientas ofensiva
 	- Características y ventajas de Python
 	- Diferencias entre Python2, Python3, PIP2 y PIP3
 - ## Conceptos básicos de Python
-	- El intérprete de Python 1-9
+	- El intérprete de Python 
+	- Shebang y convenios en Python
+	- Variables y tipos de datos
+	- Operadores básicos en Python
+	- Formato de cadenas
+	- Control de flujo (Condicionales y Bucles)
+	- Funciones y ámbito de las variables
+	- Funciones lambda anónimas
+	- Manejo de errores y excepciones
+- ## Colecciones y estructuras de datos en Python
+	- Listas
+	- Tuplas
+	- Conjuntos
+	- Diccionarios
+	- Proyecto videojuegos
 
 <!---
 sk8ware/sk8ware is a ✨ special ✨ repository because its `README.md` appears on your GitHub profile.
