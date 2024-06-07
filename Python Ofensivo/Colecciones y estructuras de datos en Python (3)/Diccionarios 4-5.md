@@ -39,7 +39,9 @@ Los diccionarios son una estructura de datos que almacenan pares de clave
 
 . A diferencia de las listas o las tuplas, los diccionarios no están ordenados, lo que significa que no tienen índices numéricos. Sin embargo, son mutables, lo que nos permite alterar su contenido.
 
-Vamos hacer un pequeña prueba en un archivo para crear nuestro diccionario, pueden usar tanto nano como nvim  
+### Creación de un Diccionario
+
+Vamos a hacer una pequeña prueba en un archivo para crear nuestro diccionario. Pueden usar tanto `nano` como `nvim`.
 
 ```python
 #!/usr/bin/python3
@@ -50,7 +52,9 @@ print(type(mi_diccionario))
 print(mi_diccionario)
 ```
 
-Pero para acceder a los valores como tal tenemos las claves que serían `nombre`, `edad` e `isla`, en caso de que quisieramos listar alguna clave lo podríamos hacer de la siguiente manera
+### Acceso a los Valores
+
+Para acceder a los valores, usamos las claves. Por ejemplo, para obtener la edad:
 
 ```python
 #!/usr/bin/python3
@@ -60,9 +64,11 @@ mi_diccionario = {"Nombre": "Anthony", "Edad": 22, "Provincia": "Pichincha"}
 print(mi_diccionario["Edad"])
 ```
 
-Dentro de los corchetes pueden cambiar el elmento a su selección para que imprima por consola 
+Dentro de los corchetes, pueden cambiar el elemento según su selección para que imprima el valor correspondiente.
 
-Si deseamos cambiar el nombre o el elemento dentro de nuestro diccionario podemos usarlo ya que es mutable
+### Modificación de Valores
+
+Si deseamos cambiar el nombre o cualquier otro elemento dentro de nuestro diccionario, podemos hacerlo ya que es mutable.
 
 ```python
 #!/usr/bin/python3
@@ -75,7 +81,9 @@ print(mi_diccionario["Nombre"])
 print(mi_diccionario)
 ```
 
-Podemos agregar elementos que no existan en nuestro diccionario simplemente creándolo de la siguiente manera, pero al momento de eliminarlo o quitarlo de tu línea de código ya no aparecerá al momento de imprimirlo 
+### Adición de Nuevos Elementos
+
+Podemos agregar elementos que no existan en nuestro diccionario simplemente asignándolos; pero al momento de eliminarlo o quitarlo de tu línea de código ya no aparecerá al momento de imprimirlo .
 
 ```python
 #!/usr/bin/python3
@@ -87,7 +95,9 @@ mi_diccionario["Profesión"] = "lammer"
 print(mi_diccionario)
 ```
 
-Podemos eliminar elementos de este diccionario de la siguiente manera escogiendo el valor y clave que queramos eliminar 
+### Eliminación de Elementos
+
+Podemos eliminar elementos de este diccionario de la siguiente manera:
 
 ```python
 #!/usr/bin/python3
@@ -96,13 +106,12 @@ mi_diccionario = {"Nombre": "Anthony", "Edad": 22, "Provincia": "Pichincha"}
 
 del mi_diccionario["Edad"]
 
-mi_diccionario["Profesión"] = "lammer"
-
 print(mi_diccionario)
 ```
 
-Cuando tienes un diccionario con muchas claves a lo mejor te interesa saber si una clave dada esta en ese diccionario o no 
+### Comprobación de Claves
 
+Si tienes un diccionario con muchas claves, quizás te interese saber si una clave específica está presente,
 Lo podemos hacer a través de un condicional de la siguiente manera 
 
 ```python
@@ -128,7 +137,9 @@ else:
 	print("Esta clave no existe en el diccionario")
 ```
 
-Para iterar sobre un diccionario lo podemos realizar con bucles `for` ya que son dos pares **clave y valor** lo podríamos hacer de la siguiente manera
+### Iteración Sobre un Diccionario
+
+Podemos iterar sobre un diccionario con bucles `for`. Al iterar, obtenemos tanto la clave como el valor.
 
 ```python
 #!/usr/bin/python3
@@ -142,6 +153,8 @@ for key, value in mi_diccionario.items():
 
 Recuerden que en la parte de la clave y valor lo pueden llamar como ustedes quieran siempre y cuando recuerden estos nombres para poderlos llamar 
 
+### Longitud del Diccionario
+
 Los diccionarios también tiene longitudes, si observamos veremos que tenemos 3, lo podríamos observar de la siguiente manera
 
 ```python
@@ -151,6 +164,8 @@ mi_diccionario = {"Nombre": "Anthony", "Edad": 22, "Provincia": "Pichincha"}
 
 print(f"La longitud del diccionario es de {len(mi_diccionario)}")
 ```
+
+### Limpieza del Diccionario
 
 Con los diccionarios también podemos limpiar todo el contenido con `.clear()`, si lo vemos de la siguiente manera observaremos que hemos limpiado todo
 
@@ -165,6 +180,8 @@ print(f"La longitud del diccionario es de {len(mi_diccionario)} elementos")
 print(mi_diccionario)
 ```
 
+### Diccionarios por Comprensión
+
 Hay un diccionario muy interesante que son los diccionarios de comprensión, creando un ejemplo donde `x` sería la clave, asi que x al principio vale `0` y hara una función empezando desde el cero hasta el 5, ya que se eleva al cuadrado el numero a retornar que seria 0, 1, 2, 3, 4, 5
 
 ```python
@@ -177,7 +194,9 @@ print(cuadrados)
 
 Si deseas organizar el contenido lo podrías englobar solo al elemento de tu interés con `print(cuadrados[5])`
 
-Además hay maneras para obtener todos las claves y valores, si desean ver todas las claves podrían hacerlo de la siguiente manera
+### Obtener Claves y Valores
+
+Podemos obtener todas las claves y valores de un diccionario.
 
 ```python
 #!/usr/bin/python3
@@ -188,7 +207,9 @@ print(cuadrados.keys())
 print(cuadrados.values())
 ```
 
-Si deseamos obtener una respuesta al momento de encontrar el valor del diccionario con `.get()`
+### Uso del Método `.get()`
+
+Para obtener un valor de manera segura, usamos el método `.get()`.
 
 ```python
 #!/usr/bin/python3
@@ -198,7 +219,9 @@ mi_diccionario = {"Nombre": "Anthony", "Edad": 22, "Provincia": "Pichincha"}
 print(mi_diccionario.get("Nombre", "No encontrado"))
 ```
 
-Podemos ampliar un diccionario dado con la función `.update()`
+### Actualización de un Diccionario
+
+Podemos ampliar un diccionario con el método `.update()`.
 
 ```python
 #!/usr/bin/python3
@@ -209,7 +232,9 @@ mi_diccionario2 = {"Profesión": "Hacker", "Mascotas":"Gatos"}
 mi_diccionario.update(mi_diccionario2))
 ```
 
-Pueden haber hasta diccionarios anidados como hemos visto con bucles y condicionales, es lo mismo para diccionarios
+### Diccionarios Anidados
+
+Podemos tener diccionarios anidados, lo que es útil para representar datos más complejos.
 
 ```python
 my_dict = {
@@ -231,11 +256,12 @@ my_dict = {
 print(my_dict["hobbies"]["primero"])
 ```
 
-Pueden cambiarlo por subclave tambien si lo desean anted de primero sería el nombre segundo que seria la subclave
+Pueden cambiarlo por subclave también si lo desean antes de primero sería el nombre segundo, que seria la subclave
+### Iteración Sobre Claves y Valores
 
-La manera de iterar sobre un diccionario es la siguiente, tenemos 3 formas por asi decirlo
+La manera de iterar sobre un diccionario es la siguiente, tenemos 3 formas por así decirlo
 
-Para representar unicamente las claves:
+- Para representar únicamente las claves:
 
 ```python
 #!/usr/bin/python3
@@ -246,9 +272,9 @@ for element in my dict:
 	print(element)
 ```
 
-Tambien se le puede poner como `for element in my_dict.key():`
+También se le puede poner como `for element in my_dict.key():`
 
-Si solo quisieramos iterar por lo valores tendríamos que hacerlo de la siguiente manera
+- Si solo quisiéramos iterar por lo valores tendríamos que hacerlo de la siguiente manera
 
 ```python
 #!/usr/bin/python3
@@ -259,7 +285,7 @@ for element in my_dict.values():
 	print(element)
 ```
 
-Ahora si queremos mostrar la clave y el valor tendríamos que hacerlo de la siguiente manera:
+- Ahora si queremos mostrar la clave y el valor tendríamos que hacerlo de la siguiente manera:
 
 ```python
 #!/usr/bin/python3
