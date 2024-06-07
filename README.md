@@ -1,10 +1,13 @@
 
+# README
+
 Este repositorio contiene una serie de recursos y guías relacionadas con Linux, hacking ético, y desarrollo de habilidades ofensivas en Python.
 
 # Introducción a Linux
 
 En esta sección se cubren diversos aspectos relacionados con el sistema operativo Linux.
 
+---
 - Actualización y Upgradeo del sistema
 - Asignación de permisos
 - Búsquedas a nivel de sistema
@@ -23,8 +26,23 @@ En esta sección se cubren diversos aspectos relacionados con el sistema operati
 - Uso de bashrc y zshrc
 - Uso y manejo con Tmux
 ----
+# Personalización del entorno en Linux
 
+En esta sección aprenderán a configurar su entorno como un verdadero hacker
 
+---
+- Instalación y configuración de Bspwm y Sxhkd
+- Instalación de Polybar, Picom y Rofi
+- Configurando las fuentes, la Kitty e instalación de Feh
+- Despliegue de la Polybar
+- Configurando los bordeados, las sombras y los difuminados con Picom
+- Configurando la ZSH e instalando Powerlevel10k
+- Instalación de Batcat y Lsd
+- Configurando la Polybar
+- Creando nuevos módulos en la Polybar
+- Configuración e integración de NVchad en Neovim
+- Repaso final por todos los atajos definidos
+----
 # Introducción al Hacking
 
 Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
@@ -102,10 +120,27 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Validación del objetivo (Fijando un target en HackerOne)
 ----
 
-# Personalización del entorno en Linux
+# Maquinas
 
-En esta sección aprenderán a configurar su entorno como un verdadero hacker
+Maquinas realizadas en **Hack The Box**
 
+---
+- Builder - **medium difficulty**
+- Bizness - **medium difficulty**
+- Hospital - **medium difficulty**
+----
+
+# Python Ofensivo
+
+Domina Python **desde cero** y crea tu propio arsenal de herramientas ofensivas para enfrentarte a los retos más complejos en ciberseguridad
+
+---
+- ## Introducción a Python
+	- Historia y filosofía de Python
+	- Características y ventajas de Python
+	- Diferencias entre Python2, Python3, PIP2 y PIP3
+- ## Conceptos básicos de Python
+	- El intérprete de Python 1-9
 
 <!---
 sk8ware/sk8ware is a ✨ special ✨ repository because its `README.md` appears on your GitHub profile.
