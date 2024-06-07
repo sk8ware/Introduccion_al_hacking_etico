@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5,
-    "collapsed": true
+    "width": 267.5
   },
   "right": {
     "id": "a3d3cc6907f7cde2",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md"
+                "file": "README.md"
               }
             }
           }
@@ -151,16 +150,24 @@
   },
   "active": "9f3f553ece1f5260",
   "lastOpenFiles": [
-    "INTRODUCCIÓN A LINUX/Prueba.md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
+    "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones IP (IPV4 e IPV6).md",
+    "README.md",
+    "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
+    "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Redes extrañas y casos particulares.md",
+    "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Qué es y cómo se interpreta una máscara de red.md",
+    "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
+    "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
+    "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – CIDRs y cálculo total de hosts.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Proyecto de videojuegos 5-5.md",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
+    "INTRODUCCIÓN A LINUX/Prueba.md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas 1-5.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Tuplas 2-5.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
-    "README.md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración del servicio SSH.md",
     "IMG/Python9.png",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)",
@@ -180,14 +187,6 @@
     "Introducción al Hacking/Reconocimiento con Nmap/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Manejo de errores y excepciones 9-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Operadores básicos en Python 4-9.md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Remote File Inclusion (RFI).md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Log Poisoning (LFI - RCE).md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Local File Inclusion (LFI).md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
-    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
     "Python Ofensivo/Introducción a Python (1)",
     "Python Ofensivo\\Introducción a Python (1)",
     "Python Ofensivo/Conceptos básicos de Python (2)",
