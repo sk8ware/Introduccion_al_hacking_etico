@@ -27,7 +27,7 @@ En esta sección se cubren diversos aspectos relacionados con el sistema operati
 
 Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 
-- #### Conceptos básicos de IP, MAC, UDP, TCP, OSI, etc.
+-  Conceptos básicos de IP, MAC, UDP, TCP, OSI, etc.
 	- SUBNETTING
 		- Subnetting – CIDRs y cálculo total de hosts
 		- Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar
