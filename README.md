@@ -62,7 +62,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 - Enumeración del servicio SMB
 - Enumeración del servicio SSH
 ----
-- Introducción a Docker
+- ## Introducción a Docker
 	- Carga de instrucciones en Docker y desplegando nuestro primer contenedor
 	- Comandos comunes para la gestión de contenedores
 	- Creación y construcción de imágenes
@@ -72,7 +72,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Instalación de Docker en Linux
 	- Port Forwarding en Docker y uso de monturas
 ----
-- OWASP TOP 10 y vulnerabilidades web
+- ## OWASP TOP 10 y vulnerabilidades web
 	- Cross-Site Request Forgery (CSRF)
 	- Cross-Site Scripting (XSS)
 	- Local File Inclusion (LFI)
@@ -83,7 +83,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Server-Side Template Injection (SSTI)
 	- XML External Entity Injection (XXE)
 -----
--  Reconocimiento
+- ## Reconocimiento
 	- Alternativas para la enumeración de puertos usando descriptores de archivo
 	- Creación de tus propios scripts en Lua para nmap
 	- Credenciales y brechas de seguridad
