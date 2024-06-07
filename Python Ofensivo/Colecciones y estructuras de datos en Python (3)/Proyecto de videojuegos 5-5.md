@@ -55,7 +55,7 @@ Ahora le complicaremos un poco más
 ```python
 #!/usr/bin/python3
 
-juegos = ["Super Mario Bros", "Zelda: Breath of Wild", "Cyberpunk 2077", "Final Fantasy VII"]
+juegos = ["Super Mario Bros", "Zelda: Breath of the Wild", "Cyberpunk 2077", "Final Fantasy VII"]
 
 tope = 100
 
@@ -70,7 +70,7 @@ generos = {
 # Ventas y Stock
 ventas_y_stock = {
 	"Super Mario Bros": (400, 200),
-	"Zelda: Breath if the Wild": (60, 120),
+	"Zelda: Breath of the Wild": (60, 120),
 	"Cyberpunk 2077": (60, 120),
 	"Final Fantasy VII": (924, 3)
 }
