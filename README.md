@@ -22,10 +22,14 @@ En esta sección se cubren diversos aspectos relacionados con el sistema operati
 - Sistemas operativos para pentesting
 - Uso de bashrc y zshrc
 - Uso y manejo con Tmux
+----
+
 
 # Introducción al Hacking
 
 Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
+
+---
 
 - ## Conceptos básicos de IP, MAC, UDP, TCP, OSI, etc.
 - SUBNETTING
@@ -48,11 +52,11 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Tipos de payloads (Staged y Non-Staged)
 ----
 - ## Enumeración de servicios comunes y gestores de contenido
-	- Enumeración de gestores de contenido CMS
-		- Drupal
-		- Joomla
-		- Magento
-		- WordPress
+- Enumeración de gestores de contenido CMS
+	- Drupal
+	- Joomla
+	- Magento
+	- WordPress
 - Enumeración del servicio FTP
 - Enumeración del servicio HTTP y HTTPS
 - Enumeración del servicio SMB
