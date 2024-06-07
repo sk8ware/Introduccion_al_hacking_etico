@@ -128,7 +128,7 @@ Maquinas realizadas en **Hack The Box**
 ---
 - Builder - **medium difficulty**
 - Bizness - **medium difficulty**
-- Hospital - **medium difficulty**
+- Hospital - **easy difficulty**
 ----
 
 # Python Ofensivo
