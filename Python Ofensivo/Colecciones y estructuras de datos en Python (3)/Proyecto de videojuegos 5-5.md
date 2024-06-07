@@ -11,3 +11,39 @@ Este enfoque práctico es ideal para afianzar los conceptos teóricos en un cont
 Al concluir, habrás experimentado la satisfacción de construir un proyecto completo que simula un escenario del mundo real, reforzando tu comprensión de cómo las estructuras de datos se utilizan en la creación de software y preparándote para futuros proyectos de programación.
 
 ---
+```python
+#!/usr/bin/python3
+
+# Géneros
+generos = {
+	"Super Mario Bros": "Aventura",
+	"Zelda: Breath of the Wild": "Aventura",
+	"Cyberpunk 2077": "Rol",
+	"Final Fantasy VII": "Rol"
+}
+
+# Ventas y Stock
+ventas_y_stock = {
+	"Super Mario Bros": (400, 200)
+	"Zelda: Breath if the Wild": (60, 120),
+	"Cyberpunk 2077": (60, 120)
+	"Final Fantasy VII": (924, 3)
+}
+
+# Clientes 
+clientes = {
+	"Super Mario Bros": {"Anthony", "David", "Erick", "Claudia"},
+	"Zelda: Breath of the Wild": {"Pepe", "David", "Erick", "Silvia"},
+	"Cyberpunk 2077": {"Mateo", "Jose", "Richard", "Gloria"},
+	"Final Fantasy VII": {"Claudia", "Jose", "Anthony", "Richard", "Paola"}
+}
+
+mi_juego = "Final Fantasy VII"
+
+# Sumario
+print(f"\n[i] Resumen del juego {mi_juego}\n")
+print(f"\t[+] Género del juego: {generos[mi_juego]}")
+print(f"\t[+] Total de ventas para este juego: {ventas_y_stock[mi_juego][0]} unidades")
+print(f"\t[+] Total de stock para este juego: {ventas_y_stock[mi_juego][1]} unidades")
+print(f"\t[+] Clientes que han adquirido el juego: {' , '.join(clientes[mi_juego])}")
+```
