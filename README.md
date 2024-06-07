@@ -39,7 +39,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 - Direcciones MAC (OUI y NIC)
 - El modelo OSI – En qué consiste y cómo se estructura la actividad de red en capas
 - Protocolos comunes (UDP, TCP) y el famoso Three-Way Handshake
-
+---
 - Conceptos básicos de enumeración y explotación
 	- Enumeración del sistema
 	- Introducción a BurpSuite
@@ -58,7 +58,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 - Enumeración del servicio HTTP y HTTPS
 - Enumeración del servicio SMB
 - Enumeración del servicio SSH
-
+----
 - Introducción a Docker
 	- Carga de instrucciones en Docker y desplegando nuestro primer contenedor
 	- Comandos comunes para la gestión de contenedores
@@ -68,7 +68,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Despliegue de máquinas vulnerables con Docker-Compose
 	- Instalación de Docker en Linux
 	- Port Forwarding en Docker y uso de monturas
-
+----
 - OWASP TOP 10 y vulnerabilidades web
 	- Cross-Site Request Forgery (CSRF)
 	- Cross-Site Scripting (XSS)
@@ -79,7 +79,7 @@ Esta sección cubre fundamentos y técnicas relacionadas con el hacking ético.
 	- Server-Side Request Forgery (SSRF)
 	- Server-Side Template Injection (SSTI)
 	- XML External Entity Injection (XXE)
-
+-----
 -  Reconocimiento
 	- Alternativas para la enumeración de puertos usando descriptores de archivo
 	- Creación de tus propios scripts en Lua para nmap
