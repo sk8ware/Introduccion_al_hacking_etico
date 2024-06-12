@@ -132,3 +132,27 @@ perro = Animal("Pancho", "Perro")
 gato.descripcion()
 perro.descripcion()
 ```
+
+
+# Ejercicio cuenta bancaria
+
+Crearemos una clase **cuenta bancaria** e indicaremos unos valores que nosotros indiquemos para un cliente, donde el cliente es el objeto 
+
+```python
+#!/usr/bin/python3
+
+class CuentaBancaria:
+
+	def __init__(self, cuenta, nombre, dinero=0):
+		self.cuenta = cuenta
+		self.nombre = nombre
+		self.dinero = dinero
+
+	def depositar_dinero(self, dinero): # CuentaBancaria.depositar_dinero(manolo)
+		self.dinero += dinero 
+		
+		return f"\n[+] Se han depositado {dinero} dolares, actualmente el balance de la cuenta es de {self.dinero} dolares"
+
+manolo = CuentaBancaria("187263", "Manolo Vieira", 1000)
+print(manolo.depositar_dinero(500))
+```
