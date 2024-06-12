@@ -30,7 +30,7 @@ Hay un constructor cuando creamos un objeto, este objeto suele ser una instancia
 
 class Persona:
 
-	def __init__(self, nombre, edad): # Persona.__init__(marcelo, nombre, edad)
+	def __init__(self, nombre, edad): # Persona.__init__(anthony, nombre, edad)
 	
 		self.nombre = nombre
 		self.edad = edad 
@@ -39,6 +39,96 @@ class Persona:
 		
 		return f"Hola, soy {self.nombre} y tengo {self.edad} años"
 	
-marcelo = Persona("Anthony", 25)
+anthony = Persona("Anthony", 25)
 print(anthony.saludo())
+```
+
+### Explicación Resumida
+
+1. **Shebang**:
+    
+```python
+#!/usr/bin/python3
+```   
+Indica que se use el intérprete de Python 3.
+    
+2. **Definición de la Clase `Persona`**:
+    
+ ```python
+ class Persona:
+ ```
+    
+3. **Método Constructor `__init__`**:
+```pyhton
+def __init__(self, nombre, edad):    
+    self.nombre = nombre   
+	self.edad = edad
+```
+    
+- Inicializa los atributos `nombre` y `edad` al crear una instancia.
+
+4. **Método `saludo`**:
+    
+  ```python
+  def saludo(self):    
+   return f"Hola, soy {self.nombre} y tengo {self.edad} años"
+  ```
+    
+- Retorna un saludo con el nombre y la edad de la persona.
+
+5. **Creación de la Instancia y Llamada al Método**:
+```pyhton
+   anthony = Persona("Anthony", 25) print(anthony.saludo())
+```
+    
+- Crea una instancia `anthony` con nombre "Anthony" y edad 25.
+- Imprime: "Hola, soy Anthony y tengo 25 años".
+
+# Creando otro objeto 
+
+Si deseamos crear otro objeto simplemente le agregamos un `silvia = Persona("Silvia", 48)` asi creamos una instancia de la clase, asi que esto pasa al constructor y entiende el parametro **nombre y edad**
+Imprimimos en consola el resultado con `print(silvia.saludo())`
+
+```python
+#!/usr/bin/python3
+
+class Persona:
+
+	def __init__(self, nombre, edad): # Persona.__init__(anthony, nombre, edad)
+	
+		self.nombre = nombre
+		self.edad = edad 
+		
+	def saludo(self): # Persona.saludo(anthony)
+		
+		return f"Hola, soy {self.nombre} y tengo {self.edad} años"
+	
+anthony = Persona("Anthony", 25)
+silvia = Persona("Silvia", 48)
+
+print(anthony.saludo())
+print(silvia.saludo())
+```
+
+Ahora mostraremos otro ejercicio, con objetos totalmente independientes que tienen sus atributos definidos y sus propiedades, a los cuales podemos ingresar gracias a los métodos que hemos declarado , no hace falta poner un `return` también se puede usar la función `print`
+
+```python
+#!/usr/bin/python3
+
+class Animal:
+
+	def __init__(self, nombre, animal): # Animal.__init__(gato, nombre, animal)
+	
+		self.nombre = nombre
+		self.animal = animal
+		
+	def descripcion(self): # Persona.saludo(anthony)
+		
+		print(f"{self.nombre} es un {self.animal}")
+	
+gato = Animal("Tijuana", "Gato")
+perro = Animal("Pancho", "Perro")
+
+gato.descripcion()
+perro.descripcion()
 ```
