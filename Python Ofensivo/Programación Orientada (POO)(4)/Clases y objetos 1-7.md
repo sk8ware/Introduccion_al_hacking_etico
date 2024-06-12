@@ -144,15 +144,31 @@ Crearemos una clase **cuenta bancaria** e indicaremos unos valores que nosotros 
 class CuentaBancaria:
 
 	def __init__(self, cuenta, nombre, dinero=0):
+		
 		self.cuenta = cuenta
 		self.nombre = nombre
 		self.dinero = dinero
-
+		
 	def depositar_dinero(self, dinero): # CuentaBancaria.depositar_dinero(manolo)
 		self.dinero += dinero 
 		
-		return f"\n[+] Se han depositado {dinero} dolares, actualmente el balance de la cuenta es de {self.dinero} dolares"
+		return f"\n[+][{self.nombre}] Se han depositado {dinero} dolares, actualmente el balance de la cuenta es de {self.dinero} dolares"
+		
+	def retirar_dinero(self, dinero):
+		
+		if dinero > self.dinero:
+			return f"\n[!] [{self.nombre}] Operación deganada: Fondos Insuficientes\n"
+		
+		self.dinero -= dinero # self.dinero = self.dinero - dinero
+		
+		return f"\n[+] [{self.nombre}] Se han retirado {dinero} dolares, actualmente el balance de la cuenta es de {self.dinero} dolares"
 
 manolo = CuentaBancaria("187263", "Manolo Vieira", 1000)
-print(manolo.depositar_dinero(500))
+anthony = CuentaBancaria("987123", "Anthony López", 10)
+
+print(manolo.depositar_dinero(500)) 
+print(manolo.retirar_dinero(900))
+print(manolo.retirar_dinero(1800))
+
+print(anthony.retirar_dinero(5))
 ```
