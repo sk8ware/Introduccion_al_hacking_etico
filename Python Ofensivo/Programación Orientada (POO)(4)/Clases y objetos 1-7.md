@@ -39,6 +39,6 @@ class Persona:
 		
 		return f"Hola, soy {self.nombre} y tengo {self.edad} años"
 	
-marcelo = Persona("Marcelo", 28)
-print(marcelo.saludo())
+marcelo = Persona("Anthony", 25)
+print(anthony.saludo())
 ```
