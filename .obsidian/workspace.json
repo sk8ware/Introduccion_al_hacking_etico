@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 1-7.md",
+                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 2-7.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "len",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 267.5,
+    "collapsed": true
   },
   "right": {
     "id": "a3d3cc6907f7cde2",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 1-7.md",
+                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 2-7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 1-7.md",
+                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 2-7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 1-7.md"
+                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 2-7.md"
               }
             }
           }
@@ -150,20 +151,10 @@
   },
   "active": "9f3f553ece1f5260",
   "lastOpenFiles": [
-    "INTRODUCCIÓN A LINUX/Prueba.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 1-7.md",
-    "Python Ofensivo/Programación Orientada (POO)(4)",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
-    "INTRODUCCIÓN A LINUX/Cuestionario (4).md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas 1-5.md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Tuplas 2-5.md",
+    "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 2-7.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Proyecto de videojuegos 5-5.md",
-    "Python Ofensivo\\Colecciones y estructuras de datos en Python (3)",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING",
-    "Introducción al Hacking/Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC",
-    "Introducción al Hacking\\Conceptos basicos de IP, MAC, UDP, TCP, OSI, ETC\\SUBNETTING",
+    "Python Ofensivo/Programación Orientada (POO)(4)",
     "README.md",
     "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/Direcciones IP (IPV4 e IPV6).md",
     "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/TIPS de subnetting y cálculo veloz de direccionamiento en redes.md",
@@ -172,8 +163,13 @@
     "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Máscaras de subred, tipos de clase e interpretación de prefijos de red.md",
     "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – Interpretación de los rangos de red que el cliente nos ofrece para auditar.md",
     "Introducción al Hacking/Conceptos básicos de IP, MAC, UDP, TCP, OSI, ETC/SUBNETTING/Subnetting – CIDRs y cálculo total de hosts.md",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Conjuntos 3-5.md",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Diccionarios 4-5.md",
+    "INTRODUCCIÓN A LINUX/Prueba.md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
     "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas 1-5.md",
+    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Tuplas 2-5.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/SQL Injection (SQLI).md",
     "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración del servicio SSH.md",
@@ -192,9 +188,14 @@
     "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos 3-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Alternativas para la enumeración de puertos usando descriptores de archivo.md",
     "Python Ofensivo/Introducción a Python (1)",
     "Python Ofensivo\\Introducción a Python (1)",
     "Python Ofensivo/Conceptos básicos de Python (2)",
-    "Python Ofensivo"
+    "Python Ofensivo",
+    "Python Ofensivo\\Conceptos básicos de Python (2)",
+    "Personalización de entorno en Linux",
+    "MAQUINAS REALIZADAS",
+    "Introducción al Hacking/Reconocimiento con Nmap"
   ]
 }
