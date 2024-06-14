@@ -132,47 +132,6 @@ También tenemos la manera de crear la función `mostrar_estudiantes` para poder
 
 class Estudiantes:
 
-	estudianres = []
-	
-	def __init__(self, nombre, edad):
-		self.nombre = nombre
-		self.edad = edad 
-		
-		Estudiantes.estudiantes.append(self)
-		
-	@staticmethod
-	def es_mayor_de_edad(edad):
-		return edad >= 18 
-		
-	@classmethod
-	def crear_estudiante(cls, nombre, edad):
-		if cls.es_mayor_de_edad(edad):
-			return cls(nombre, edad)
-		else:
-			print(f"\n[!] Error: El estudiante {nobre} es menor de edad")
-	@staticnethod
-	def mostrar_estudiante():
-		for i, estudiante in enumerate(Estudiantes.estudiantes)
-			print(f"\t[+] Estudiante número [{i+1}]: {estudiante.nombre}")
-			
-
-Estudiantes.crear_estudiante("Hackermate", 43)
-Estudiantes.crear_estudiante("Sk8ware", 25)
-Estudiantes.crear_estudiante("Xerosec", 12)
-Estudiantes.crear_estudiante("Hackavis", 8)
-Estudiantes.crear_estudiante("Lobotec", 1)
-
-print("\n[i] Listando los estudiantes existentes:\n")
-
-Estudiantes.mostrar_estudiantes()
-```
-
-ia:
-```python
-#!/usr/bin/python3
-
-class Estudiantes:
-
     estudiantes = []
 
     def __init__(self, nombre, edad):
