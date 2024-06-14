@@ -82,3 +82,46 @@ class Automovil:
 deportivo = print(Automovil.deportivos("Ferrari")) # Automovil("Ferrari", "Deportivo")
 sean = print(Automovil.sean("Toyota")) # Automovil("Toyota", "Sean")
 ```
+
+
+Uno que opere con variables de clases, todas las instancias u objetos creados pueden acceder o se comparte ese valor con todas las instancias
+
+Vamos a crear una clases que se llame estudiantes, creamos una lista internamente 
+
+Incomporamos nuevos elementos a una lista con `.append`, pero solo queremos incorporar `nuevos alumnos` que sean igual o mayores a 18 años 
+
+Jugamos primeramente con un método de clase, que se llame crear_estudiante donde verifiquemos si es mayor de edad, podríamos jugar con igualdad ahi o podríamos jugar estatic method para considerar si es mayor o no, lo cual lo definimos por arriba y definimos lo siguiente
+
+Ahora listaremos todos los menores de edad en el siguiente ejemplo:
+
+```python
+#!/usr/bin/python3
+
+class Estudiantes:
+
+	estudiantes = []
+	
+	def __init__(self, nombre, edad):
+		self.nombre = nombre
+		self.edad = edad
+		
+		Estudiantes.estudiantes.append(self)
+		
+	@staticmethod
+	def es_mayor_de_edad(edad):
+		return edad >= 18
+		
+	@classmethod
+	def crear_estudiante(cls, nombre, edad):
+		if cls.es_mayor_de_edad(edad):
+			return cls(nombre, edad)
+		else:
+			print(f"\n[!] Error: El estudiante {nombre} es menor de edad\n")
+
+Estudiantes.crear_estudiante("hackermate", 43)
+Estudiantes.crear_estudiante("sk8ware", 25)
+Estudiantes.crear_estudiante("Xerosec", 12)
+Estudiantes.crear_estudiante("Hackavis" 8)
+```
+
+
