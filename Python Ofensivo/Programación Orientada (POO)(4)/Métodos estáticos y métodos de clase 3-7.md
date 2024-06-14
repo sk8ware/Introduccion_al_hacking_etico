@@ -40,7 +40,7 @@ class Calculadora:
 	def multiplicacion(num1, num2):
 		return num1 * num2
 
-	@stacticmethod
+	@staticmethod
 	def division(num1, num2):
 		return num1 / num2 if num2 != 0 else "\n[!] Error: No se puede dividir un número entre cero\n"
 
@@ -48,4 +48,37 @@ print(Calculadora.suma(2, 8))
 print(Calculadora.resta(8, 4))
 print(Calculadora.multiplicacion(5, 10))
 print(Calculadora.division(8,0))
+```
+
+# Métodos de clase
+
+Ahora lo veremos empleando la manera método de clase 
+
+con la función `cls` tenemos acceso a información de la clase, para realizar una propia llamada a la clase `Automovil` donde le pase marca y el modelo
+Utilizamos `self` ya que estamos tratando con un objeto en especifico, asi que para ello debemos saber que tipo de objeto es 
+La función `cls` información de la clase como primer argumento
+
+```python
+#!/usr/bin/python
+
+class Automovil:
+
+	def __init__(self, marca, modelo):
+		self.marca = marca
+		self.modelo = modelo
+
+	@classmethod
+	def deportivos(cls, marca):
+		
+		return cls(marca, "Deportivo")
+		
+	@classmethod
+	def sean(cls, marca):
+		return cls(marca, "Sean")
+		
+	def __str__(self):
+		return f"La marca {self.marca} es un modelo {self.modelo}"
+
+deportivo = print(Automovil.deportivos("Ferrari")) # Automovil("Ferrari", "Deportivo")
+sean = print(Automovil.sean("Toyota")) # Automovil("Toyota", "Sean")
 ```
