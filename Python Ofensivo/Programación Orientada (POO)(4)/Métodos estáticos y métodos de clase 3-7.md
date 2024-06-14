@@ -150,6 +150,11 @@ class Estudiantes:
 			return cls(nombre, edad)
 		else:
 			print(f"\n[!] Error: El estudiante {nobre} es menor de edad")
+	@staticnethod
+	def mostrar_estudiante():
+		for i, estudiante in enumerate(Estudiantes.estudiantes)
+			print(f"\t[+] Estudiante número [{i+1}]: {estudiante.nombre}")
+			
 
 Estudiantes.crear_estudiante("Hackermate", 43)
 Estudiantes.crear_estudiante("Sk8ware", 25)
