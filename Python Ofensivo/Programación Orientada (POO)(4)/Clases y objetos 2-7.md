@@ -1,6 +1,6 @@
 
 ---
-- TAG:
+- TAG: #Python #POO #Clases #Objetos 
 ----
 
 Dentro del paradigma de la Programación Orientada a Objetos en Python, existen conceptos avanzados como los decoradores, métodos de clase y métodos estáticos que enriquecen y expanden las posibilidades de cómo interactuamos con las clases y sus instancias.
@@ -22,6 +22,9 @@ organizado, modular y flexible, facilitando el mantenimiento y la extensibilidad
 
 ----
 # Clases y objetos (2/2)
+## Ejemplo de la Clase Rectángulo
+
+Este código define una clase `Rectangulo` y muestra cómo crear instancias de la clase, calcular el área y comparar dos rectángulos.
 
 ```python
 #!/usr/bin/python3
@@ -78,9 +81,10 @@ print(f"\n[+] ¿Son iguales? -> {rect1 == rect2}")
     - Se imprime el área del `rect1` utilizando la propiedad `area`.
     - Se imprime si los rectángulos `rect1` y `rect2` son iguales o no utilizando el método de igualdad `__eq__`.
 - ---
-# Método estatico
+# Método Estático
 
-Ahora mostraremos otro ejercicio a continuación:
+Ahora mostraremos un ejemplo que utiliza un método estático en la clase `Libro`.
+
 ```python
 #!/usr/bin/python3
 
@@ -119,7 +123,9 @@ print(Libro.es_bestseller(8000))
     - Se llama al método estático `es_bestseller` de la clase `Libro`, pasando el número total de ventas (en este caso, 8000) como argumento. Esto determina si el libro es un bestseller basado en el número de ventas y devuelve el resultado.
 
 -----
-# Instancias con betseller
+# Instancias con Bestseller
+
+Aquí mostramos cómo el método estático puede interactuar con atributos de una instancia.
 
 ```python
 #!/us/bin/python3
@@ -161,7 +167,9 @@ print(Libro.es_bestseller(mi_libro, 10000))
 
 ----
 
-Ahora Vamos a complicarlo un poquito mas agregandole el **iva**
+# Método de Clase con IVA
+
+Vamos a complicar un poco más el ejercicio añadiéndole el **IVA**.
 
   ```python
   #!/usr/bin/python3
@@ -195,3 +203,85 @@ mi_libro_digital = LibroDigital("Iniciación al Lammer", "Anthony López", 17.5)
 print(f"\n[+] El precio del libro con IVA incluido es de {LibroDigital.precio_con_iva(mi_libro.precio)}")
 print(f"\n[+] El precio del libro digital con IVA incluido es de {LibroDigital.precio_con_iva(mi_libro_digital.precio)}")
 ```
+
+Este código define dos clases, `Libro` y `LibroDigital`, utilizando conceptos avanzados de Python como variables de clase, métodos estáticos, métodos de clase y herencia. A continuación, te explico cada parte del código:
+
+```python
+#!/usr/bin/python3
+```
+
+Esta línea es una shebang que indica al sistema operativo que use el intérprete de Python 3 para ejecutar este script.
+
+```python
+class Libro:
+```
+
+Define una nueva clase llamada `Libro`.
+
+```python
+	IVA = 0.21
+```
+
+Esta es una variable de clase que representa el IVA (Impuesto al Valor Agregado) del libro, establecida en 21%.
+
+```python
+	def __init__(self, titulo, autor, precio):         
+		self.titulo = titulo         
+		self.autor = autor         
+		self.precio = precio
+```
+
+Este es el método constructor `__init__`. Se ejecuta automáticamente cuando se crea una nueva instancia de `Libro`. Inicializa los atributos del libro:
+
+- `titulo`: el título del libro.
+- `autor`: el autor del libro.
+- `precio`: el precio del libro.
+
+```python
+	@staticmethod     
+	def es_bestseller(total_ventas):         
+		return total_ventas > 5000
+```
+
+Este es un método estático, marcado con el decorador `@staticmethod`. No necesita una instancia de la clase para ser llamado y verifica si un libro es un bestseller basándose en el total de ventas. Retorna `True` si las ventas son mayores a 5000 y `False` en caso contrario.
+
+```python
+	@classmethod     
+	def precio_con_iva(cls, precio):         
+		return precio + precio * cls.IVA
+```
+
+Este es un método de clase, marcado con el decorador `@classmethod`. Toma como parámetro la clase (`cls`) en lugar de una instancia y calcula el precio con IVA incluido, usando la variable de clase `IVA`.
+
+```python
+class LibroDigital(Libro):     
+	IVA = 0.10
+```
+
+Define una nueva clase `LibroDigital` que hereda de `Libro`. Esta clase sobrescribe la variable de clase `IVA`, estableciéndola en 10%.
+
+```python
+mi_libro = Libro("¿Cómo ser un Lammer de los de verdad?", "Anthony López", 17.5) 
+mi_libro_digital = LibroDigital("Iniciación al Lammer", "Anthony López", 17.5)
+```
+
+Se crean dos instancias:
+
+- `mi_libro`, una instancia de `Libro` con el título "¿Cómo ser un Lammer de los de verdad?", autor "Anthony López", y precio 17.5.
+- `mi_libro_digital`, una instancia de `LibroDigital` con el título "Iniciación al Lammer", autor "Anthony López", y precio 17.5.
+
+```python
+print(f"\n[+] El precio del libro con IVA incluido es de {LibroDigital.precio_con_iva(mi_libro.precio)}") 
+print(f"\n[+] El precio del libro digital con IVA incluido es de {LibroDigital.precio_con_iva(mi_libro_digital.precio)}")
+```
+
+Estas líneas llaman al método de clase `precio_con_iva` para cada instancia, calculando el precio con IVA incluido y luego imprimiendo el resultado. Notar que se llama `LibroDigital.precio_con_iva` para ambos, lo que es relevante ya que `LibroDigital` tiene un IVA diferente al de `Libro`.
+
+Cuando ejecutas este código, el resultado será:
+
+```zsh
+[+] El precio del libro con IVA incluido es de 19.25 
+[+] El precio del libro digital con IVA incluido es de 19.25
+```
+
+El precio con IVA para el libro y el libro digital es calculado utilizando el método de clase `precio_con_iva`. Aunque en ambos casos se usa `LibroDigital.precio_con_iva`, el IVA aplicado será el correspondiente a la clase `LibroDigital`, que es 10%.
