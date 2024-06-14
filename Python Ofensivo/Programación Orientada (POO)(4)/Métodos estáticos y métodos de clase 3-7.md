@@ -121,7 +121,7 @@ class Estudiantes:
 Estudiantes.crear_estudiante("hackermate", 43)
 Estudiantes.crear_estudiante("sk8ware", 25)
 Estudiantes.crear_estudiante("Xerosec", 12)
-Estudiantes.crear_estudiante("Hackavis" 8)
+Estudiantes.crear_estudiante("Hackavis", 8)
 ```
 
 
