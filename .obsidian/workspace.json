@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cdea79f770524761",
@@ -150,6 +151,7 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
+    "Python Ofensivo\\Programación Orientada (POO)(4)",
     "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 2-7.md",
@@ -158,7 +160,6 @@
     "Welcome.md",
     "README.md",
     "Python Ofensivo/Programación Orientada (POO)(4)",
-    "Python Ofensivo\\Programación Orientada (POO)(4)",
     "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
     "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
     "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
@@ -184,7 +185,6 @@
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)",
     "Python Ofensivo",
     "Python Ofensivo\\Colecciones y estructuras de datos en Python (3)",
-    "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Personalización de entorno en Linux",
     "IMG/pruebalinuxx.png",
     "IMG/pruebalinux7.png",
