@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
+                "file": "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
+                "file": "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
+                "file": "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md"
+                "file": "MAQUINAS REALIZADAS/Máquina Lame (HTB).md"
               }
             }
           }
@@ -151,8 +151,17 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
-    "Python Ofensivo/Programación Orientada (POO)(4)/Comprendiendo mejor el uso de self  4-7.md",
+    "Pasted image 20240618223305.png",
+    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+    "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
+    "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0.md",
+    "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
+    "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
+    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
+    "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
+    "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
+    "Python Ofensivo/Programación Orientada (POO)(4)/Comprendiendo mejor el uso de self  4-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 2-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 1-7.md",
     "INTRODUCCIÓN A LINUX/Prueba.md",
@@ -172,17 +181,8 @@
     "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Operadores básicos en Python 4-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Manejo de errores y excepciones 9-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Funciones y ámbito de las variables 7-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Funciones lambda anónimas 8-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)",
     "Python Ofensivo\\Conceptos básicos de Python (2)",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Tuplas 2-5.md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Proyecto de videojuegos 5-5.md",
-    "Python Ofensivo/Colecciones y estructuras de datos en Python (3)/Listas 1-5.md",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)",
     "Python Ofensivo",
     "Python Ofensivo\\Colecciones y estructuras de datos en Python (3)",
