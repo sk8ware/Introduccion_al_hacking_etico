@@ -183,3 +183,10 @@ Encontramos la manera de lista los recursos compartidos a nivel de red de la sig
 ```zsh
 smbclient -L 10.10.10.3 -N --option 'client min protocol = NT1'
 ```
+
+Tratamos de conectarnos al recurso `tmp` a nivel de red de la siguiente manera:
+
+```zsh
+smbclient //10.10.10.3/tmp -N --option 'client min protocol = NT1'
+```
+
