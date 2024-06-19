@@ -131,3 +131,55 @@ Ahora para copiarnos el **exploit** ah nuestro directorio actual de trabajo de l
 ```zsh
 searchsploit -m unix/remote/49757.py
 ```
+
+lo movemos a un archivo `.py` para después catearlo con `cat`
+
+```zhs
+mv 49757.py ftp_exploit.py
+```
+```
+cat ftp_exploit.py
+```
+
+Y vemos que podemos hacer un escaneo al puerto `6200` ya que al tratar de logearnos con las creedenciales indicadas en el script no carga, asi que realizamos el escaneo en la carpeta `content` 
+
+```zsh
+nmap -p6200 --open -T5 -v -n 10.10.10.3
+```
+
+Pero tampoco nos da resultado, se encuentra cerrado
+
+Asi que por este lado no da resultado la explotación, asi que continuamos investigando información en la data de `nmap` 
+
+Vemos `Samba` y una versión, asi que empezamos a buscar un exploit para esa versión que vemos en la info del escaneo
+
+```zsh
+searchsploit Samba 3.0.20
+```
+
+Y vemos cositas que nos pueden interesar como atacantes, asi que nos copiamos 
+
+```zsh
+searchsploit -m unix/remote/16320.rb
+```
+```zsh
+mv 16320.rb samba_exploit.py
+```
+
+Y revisamos un poco su contenido con cat:
+
+```zsh
+cat samba_exploit.py -l ruby
+```
+
+Nos enfocamos en el apartado de `def exploit` y empezamos a buscar mas información 
+
+Tratamos de listar los recursos con `smbclient -L 10.10.10.3 -N`, copiamos el error que nos muestra y la buscamos en google
+
+Aquí por ejemplo econtramos algo de información valiosa para poder intentar [solucionar el problema](https://forums.mageia.org/en/viewtopic.php?t=14398) 
+
+Encontramos la manera de lista los recursos compartidos a nivel de red de la siguiente manera:
+
+```zsh
+smbclient -L 10.10.10.3 -N --option 'client min protocol = NT1'
+```
