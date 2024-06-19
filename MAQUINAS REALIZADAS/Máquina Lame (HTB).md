@@ -121,3 +121,7 @@ Nos dirigimos a nuestra carpeta `content` y buscamos la vulneravilidad con `sear
 ```bash
 searchsploit vsftpd 2.3.4
 ```
+
+veríamos algo asi :
+
+![[Pasted image 20240618232522.png]]
