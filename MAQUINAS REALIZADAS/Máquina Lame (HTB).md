@@ -125,3 +125,9 @@ searchsploit vsftpd 2.3.4
 veríamos algo asi :
 
 ![[Pasted image 20240618232522.png]]
+
+Ahora para copiarnos el **exploit** ah nuestro directorio actual de trabajo de la siguiente manera:
+
+```zsh
+searchsploit -m unix/remote/49757.py
+```
