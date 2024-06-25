@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "64a6428d900d0194",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "probando/hola.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "probando/hola.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "probando/hola.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "probando/hola.md"
               }
             }
           }
@@ -148,10 +162,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "3d0b9d7dd927f164",
+  "active": "64a6428d900d0194",
   "lastOpenFiles": [
-    "xd/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.md",
     "README.md",
+    "probando/hola.md",
+    "probando",
+    "xd/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.md",
     "xd",
     "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
     "MAQUINAS REALIZADAS/Bizness.md",
@@ -182,12 +198,10 @@
     "Python Ofensivo/Introducción a Python (1)",
     "Python Ofensivo\\Introducción a Python (1)",
     "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos 3-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)",
     "Python Ofensivo\\Conceptos básicos de Python (2)",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)",
     "Python Ofensivo",
-    "Python Ofensivo\\Colecciones y estructuras de datos en Python (3)",
     "IMG/pruebalinuxx.png",
     "IMG/pruebalinux7.png",
     "IMG/pruebalinux6.png",
