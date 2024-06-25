@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
+                "file": "xd/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.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "configuración",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,13 +66,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cdea79f770524761",
@@ -88,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
+                "file": "xd/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.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
+                "file": "xd/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.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Máquina Lame (HTB).md"
+                "file": "xd/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.md"
               }
             }
           }
@@ -152,11 +150,17 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
-    "Pasted image 20240618232522.png",
-    "INTRODUCCIÓN A LINUX/Cuestionario (4).md",
-    "Pasted image 20240618223305.png",
-    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+    "README.md",
+    "xd/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.md",
+    "xd",
+    "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
+    "MAQUINAS REALIZADAS/Bizness.md",
     "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
+    "MAQUINAS REALIZADAS/Hospital.md",
+    "IMG/Pasted image 20240618232522.png",
+    "INTRODUCCIÓN A LINUX/Cuestionario (4).md",
+    "IMG/Pasted image 20240618223305.png",
+    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
     "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0.md",
     "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
     "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
@@ -170,9 +174,7 @@
     "INTRODUCCIÓN A LINUX/Prueba.md",
     "Python Ofensivo\\Programación Orientada (POO)(4)",
     "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
-    "MAQUINAS REALIZADAS/Bizness.md",
     "Welcome.md",
-    "README.md",
     "Python Ofensivo/Programación Orientada (POO)(4)",
     "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
     "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
@@ -181,14 +183,11 @@
     "Python Ofensivo\\Introducción a Python (1)",
     "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos 3-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Operadores básicos en Python 4-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)",
     "Python Ofensivo\\Conceptos básicos de Python (2)",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)",
     "Python Ofensivo",
     "Python Ofensivo\\Colecciones y estructuras de datos en Python (3)",
-    "Personalización de entorno en Linux",
     "IMG/pruebalinuxx.png",
     "IMG/pruebalinux7.png",
     "IMG/pruebalinux6.png",
@@ -196,7 +195,6 @@
     "IMG/pruebalinux4.png",
     "IMG/pruebalinux3.png",
     "IMG/pruebalinux1.png",
-    "IMG/pruebalinux.png",
-    "IMG/pruebalinux 1.png"
+    "IMG/pruebalinux.png"
   ]
 }
