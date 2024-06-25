@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md"
               }
             }
           }
@@ -150,38 +150,38 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
-    "gola.md",
+    "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc (13).md",
+    "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0.md",
+    "INTRODUCCIÓN A LINUX/Privilegios especiales – Capabilities (11).md",
+    "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
+    "INTRODUCCIÓN A LINUX/Prueba.md",
+    "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
+    "INTRODUCCIÓN A LINUX/Descriptores de archivo (3).md",
+    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
+    "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
+    "INTRODUCCIÓN A LINUX/Cuestionario (4).md",
+    "INTRODUCCIÓN A LINUX/Comandos básicos de Linux (1).md",
+    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+    "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
+    "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
     "README.md",
+    "gola.md",
     "probando/hola.md",
     "probando",
     "xd/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.md",
     "xd",
-    "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
     "MAQUINAS REALIZADAS/Bizness.md",
     "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
     "MAQUINAS REALIZADAS/Hospital.md",
     "IMG/Pasted image 20240618232522.png",
-    "INTRODUCCIÓN A LINUX/Cuestionario (4).md",
     "IMG/Pasted image 20240618223305.png",
-    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
-    "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0.md",
-    "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
-    "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
-    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
-    "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
-    "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Comprendiendo mejor el uso de self  4-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 2-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 1-7.md",
-    "INTRODUCCIÓN A LINUX/Prueba.md",
     "Python Ofensivo\\Programación Orientada (POO)(4)",
     "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
-    "Welcome.md",
     "Python Ofensivo/Programación Orientada (POO)(4)",
-    "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
-    "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
-    "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
     "Python Ofensivo/Introducción a Python (1)",
     "Python Ofensivo\\Introducción a Python (1)",
     "Python Ofensivo/Conceptos básicos de Python (2)",
