@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "64a6428d900d0194",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "probando/hola.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "probando/hola.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "probando/hola.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "probando/hola.md"
+                "file": "README.md"
               }
             }
           }
@@ -162,10 +148,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "64a6428d900d0194",
+  "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
-    "README.md",
     "probando/hola.md",
+    "README.md",
     "probando",
     "xd/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.md",
     "xd",
