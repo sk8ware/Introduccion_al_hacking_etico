@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Hospital.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Hospital.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Hospital.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAQUINAS REALIZADAS/Hospital.md"
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md"
               }
             }
           }
@@ -151,7 +151,12 @@
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
     "MAQUINAS REALIZADAS/Bizness.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
     "MAQUINAS REALIZADAS/BUILDER.md",
+    "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Reconocimiento de imágenes.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+    "MAQUINAS REALIZADAS/Hospital.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
     "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
     "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
@@ -171,13 +176,8 @@
     "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
     "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
     "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
-    "README.md",
-    "gola.md",
-    "probando/hola.md",
     "probando",
-    "xd/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.md",
     "xd",
-    "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
     "IMG/Pasted image 20240618232522.png",
     "IMG/Pasted image 20240618223305.png",
     "Python Ofensivo\\Programación Orientada (POO)(4)",
