@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
-                "mode": "preview",
+                "file": "MAQUINAS REALIZADAS/Hospital.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
+                "file": "MAQUINAS REALIZADAS/Hospital.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
+                "file": "MAQUINAS REALIZADAS/Hospital.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md"
+                "file": "MAQUINAS REALIZADAS/Hospital.md"
               }
             }
           }
@@ -150,6 +150,13 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
+    "MAQUINAS REALIZADAS/Bizness.md",
+    "MAQUINAS REALIZADAS/BUILDER.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
+    "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
+    "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
+    "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
+    "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
     "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc (13).md",
     "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0.md",
     "INTRODUCCIÓN A LINUX/Privilegios especiales – Capabilities (11).md",
@@ -170,17 +177,10 @@
     "probando",
     "xd/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.md",
     "xd",
-    "MAQUINAS REALIZADAS/Bizness.md",
     "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
-    "MAQUINAS REALIZADAS/Hospital.md",
     "IMG/Pasted image 20240618232522.png",
     "IMG/Pasted image 20240618223305.png",
-    "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
-    "Python Ofensivo/Programación Orientada (POO)(4)/Comprendiendo mejor el uso de self  4-7.md",
-    "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 2-7.md",
-    "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 1-7.md",
     "Python Ofensivo\\Programación Orientada (POO)(4)",
-    "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
     "Python Ofensivo/Programación Orientada (POO)(4)",
     "Python Ofensivo/Introducción a Python (1)",
     "Python Ofensivo\\Introducción a Python (1)",
