@@ -158,6 +158,3 @@ if __name__ == '__main__':
 ```
 gobuster dir -u http://hospital.htb:8080/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -t 20
 ```
-
-min 54:20 - borrar lineas y la url solo sirve ejecutando python3 fileUpload.py al parecer
-continuar mañana..
