@@ -1,6 +1,6 @@
 
 # README
-
+hola
 Este repositorio contiene una serie de recursos y guías relacionadas con Linux, hacking ético, y desarrollo de habilidades ofensivas en Python.
 
 # Introducción a Linux
