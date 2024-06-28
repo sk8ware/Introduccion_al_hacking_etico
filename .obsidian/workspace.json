@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md"
+                "file": "README.md"
               }
             }
           }
@@ -150,6 +150,17 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
+    "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
+    "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
+    "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
+    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
+    "INTRODUCCIÓN A LINUX/Comandos básicos de Linux (1).md",
+    "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
+    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
+    "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
+    "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
+    "README.md",
+    "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
     "MAQUINAS REALIZADAS/Bizness.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
     "MAQUINAS REALIZADAS/BUILDER.md",
@@ -165,17 +176,6 @@
     "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc (13).md",
     "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0.md",
     "INTRODUCCIÓN A LINUX/Privilegios especiales – Capabilities (11).md",
-    "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
-    "INTRODUCCIÓN A LINUX/Prueba.md",
-    "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
-    "INTRODUCCIÓN A LINUX/Descriptores de archivo (3).md",
-    "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
-    "INTRODUCCIÓN A LINUX/Control de atributos de ficheros en Linux – Chattr y Lsattr (9).md",
-    "INTRODUCCIÓN A LINUX/Cuestionario (4).md",
-    "INTRODUCCIÓN A LINUX/Comandos básicos de Linux (1).md",
-    "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
-    "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
-    "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
     "probando",
     "xd",
     "IMG/Pasted image 20240618232522.png",
