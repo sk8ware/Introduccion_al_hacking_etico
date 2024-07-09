@@ -1,6 +1,6 @@
 
 # README
-hola
+
 Este repositorio contiene una serie de recursos y guías relacionadas con Linux, hacking ético, y desarrollo de habilidades ofensivas en Python.
 
 # Introducción a Linux
@@ -156,6 +156,8 @@ Domina Python **desde cero** y crea tu propio arsenal de herramientas ofensiva
 	- Conjuntos
 	- Diccionarios
 	- Proyecto videojuegos
+
+Hola
 
 <!---
 sk8ware/sk8ware is a ✨ special ✨ repository because its `README.md` appears on your GitHub profile.
