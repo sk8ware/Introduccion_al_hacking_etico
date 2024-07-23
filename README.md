@@ -1,4 +1,4 @@
-Hola
+
 # README
 
 Este repositorio contiene una serie de recursos y guías relacionadas con Linux, hacking ético, y desarrollo de habilidades ofensivas en Python.
@@ -157,3 +157,4 @@ Domina Python **desde cero** y crea tu propio arsenal de herramientas ofensiva
 	- Diccionarios
 	- Proyecto videojuegos
 
+gobuster dir -u http://1.2.3.4/ -w /usr/share/wordlist/dirbuster/
