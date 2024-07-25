@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cdea79f770524761",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md"
+                "file": "README.md"
               }
             }
           }
@@ -150,6 +151,7 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
+    "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
     "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
@@ -175,7 +177,6 @@
     "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
     "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
     "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
-    "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
     "probando",
     "xd",
     "IMG/Pasted image 20240618232522.png",
