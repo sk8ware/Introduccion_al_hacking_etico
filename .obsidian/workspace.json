@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "configuración",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md"
               }
             }
           }
@@ -150,9 +150,10 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
-    "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
-    "README.md",
     "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
+    "README.md",
+    "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
     "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
     "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
     "INTRODUCCIÓN A LINUX/Búsquedas a nivel de sistema (16).md",
@@ -175,7 +176,6 @@
     "Introducción al Hacking/Introducción a Docker/PRUEBA DOCKER.md",
     "INTRODUCCIÓN A LINUX/Uso de bashrc y zshrc (13).md",
     "INTRODUCCIÓN A LINUX/Sistemas operativos para pentesting 0.md",
-    "INTRODUCCIÓN A LINUX/Privilegios especiales – Capabilities (11).md",
     "probando",
     "xd",
     "IMG/Pasted image 20240618232522.png",
