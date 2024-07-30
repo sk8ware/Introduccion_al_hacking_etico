@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cdea79f770524761",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md"
               }
             }
           }
@@ -151,12 +150,13 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
+    "MAQUINAS REALIZADAS/Bizness.md",
+    "README.md",
     "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
     "Personalización de entorno en Linux/Instalación y configuración de Bspwm y Sxhkd 1-11.md",
     "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Scripting (XSS) 1-2.md",
-    "README.md",
     "MAQUINAS REALIZADAS/Máquina Lame (HTB).md",
     "INTRODUCCIÓN A LINUX/Asignación de permisos (6).md",
     "INTRODUCCIÓN A LINUX/Actualización y Upgradeo del sistema (14).md",
@@ -167,7 +167,6 @@
     "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
     "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
-    "MAQUINAS REALIZADAS/Bizness.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
     "MAQUINAS REALIZADAS/BUILDER.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Reconocimiento de imágenes.md",
