@@ -145,3 +145,6 @@ sudo apt install ranger
 Esta utilidad nos permite buscar por carpetas y directorios, para poder visualizar de una manera mas rápida y eficaz
 
 ----
+
+
+hola
