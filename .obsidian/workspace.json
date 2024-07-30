@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md"
+                "file": "README.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
+    "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
     "MAQUINAS REALIZADAS/Bizness.md",
     "README.md",
     "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
@@ -175,7 +176,6 @@
     "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
     "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
     "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
-    "INTRODUCCIÓN A LINUX/Uso y manejo con Tmux (15).md",
     "probando",
     "xd",
     "IMG/Pasted image 20240618232522.png",
