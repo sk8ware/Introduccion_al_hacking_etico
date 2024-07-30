@@ -3,12 +3,6 @@
 
 Este repositorio contiene una serie de recursos y guías relacionadas con Linux, hacking ético, y desarrollo de habilidades ofensivas en Python.
 
-Claro, aquí tienes el README con los subtítulos enumerados:
-
-# README
-
-Este repositorio contiene una serie de recursos y guías relacionadas con Linux, hacking ético, y desarrollo de habilidades ofensivas en Python.
-
 # N°1 Introducción a Linux
 
 En esta sección se cubren diversos aspectos relacionados con el sistema operativo Linux.
