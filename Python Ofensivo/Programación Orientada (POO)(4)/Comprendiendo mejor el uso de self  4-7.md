@@ -64,10 +64,11 @@ class Persona:
 		self.nombre = nombre # anthony.nombre = "Anthony"
 		self.edad = edad # anthony.edad = 28
 
-	def presentacion(def):
-		print(f"Hola soy {self.nombre} y tengo {self.edad} años")
+	def presentacion(def): # Persona.presentacion(anthony)
+		print(f"Hola soy {self.nombre} y tengo {self.edad} años") #anthony.nombre #anthony.edad
 
 anthony = Persona("Anthony", 25)
+anthony.presetacion()
 ```
 
 Para imprimir el nombre o hacer referencia a el, debemos agregarle el `marcelo.presentacion()` al final del def presemtacion
