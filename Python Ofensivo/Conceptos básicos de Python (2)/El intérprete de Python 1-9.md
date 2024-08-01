@@ -30,7 +30,8 @@ Primero, creamos una variable llamada `todos_somos_lammers` y le asignamos el va
 
 ```python 
 todos_somos_lammers = True
-print(type(todos_somos_lammers))  # <class 'bool'>
+print(type(todos_somos_lammers))  
+<class 'bool'>
 ```
 
 ## Uso de Condicionales con `if`
@@ -57,7 +58,7 @@ todos_somos_lammers = False
 if todos_somos_lammers:     
 	print("Esto es una verdad como un templo") 
 else: 
-	print("La condición no se cumple")`
+	print("La condición no se cumple")
 ```
 **Salida esperada:**
 
