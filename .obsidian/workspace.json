@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "cdea79f770524761",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md"
               }
             }
           }
@@ -150,9 +151,14 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
+    "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
+    "Python Ofensivo/Programación Orientada (POO)(4)/Clases y objetos 1-7.md",
+    "Python Ofensivo/Programación Orientada (POO)(4)/Comprendiendo mejor el uso de self  4-7.md",
+    "README.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Creación de tus propios scripts en Lua para nmap.md",
+    "Introducción al Hacking/Reconocimiento con Nmap/Scaneo con nmap y sus funciones.md",
     "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
     "MAQUINAS REALIZADAS/Bizness.md",
-    "README.md",
     "Personalización de entorno en Linux/Configurando las fuentes, la Kitty e instalación de Feh 3-11.md",
     "Personalización de entorno en Linux/Instalación de la Polybar, Picom y Rofi 2-11.md",
     "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
@@ -171,11 +177,6 @@
     "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
     "MAQUINAS REALIZADAS/BUILDER.md",
     "Introducción al Hacking/Reconocimiento con Nmap/Reconocimiento de imágenes.md",
-    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
-    "MAQUINAS REALIZADAS/Hospital.md",
-    "Introducción al Hacking/Reconocimiento con Nmap/Validación del objetivo (Fijando un target en HackerOne).md",
-    "Introducción al Hacking/Introducción a Docker/Port Forwarding en Docker y uso de monturas.md",
-    "Introducción al Hacking/Introducción a Docker/Instalación de Docker en Linux.md",
     "probando",
     "xd",
     "IMG/Pasted image 20240618232522.png",
