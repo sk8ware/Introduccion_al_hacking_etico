@@ -146,4 +146,30 @@ calc.suma(80)
 
 print(calc.doble_suma(2,9))
 ```
-asi que estamos sumando: 2+5+9+5=
+
+Asi que se suma el 50 + 2
+Y el 80 + 9
+  52
++59
+111
+
+Para entender las clases es recomendable poner representando linea por linea cada uno de las cosas 
+ ejemplo:
+```bash
+ #!/usr/bin/python3
+
+class Calculadora:
+	def __init__(self, numero): # Calculadora.__init__(calc, numero)
+		self.numero = numero # calc.numero = 50
+
+	def suma(self, otro_numero): # Calculadora.suma(calc, 9)
+		return(self.numero + otro_numero) # calc.numero + 9 -> 50 + 9 = 59
+
+	def doble_suma(self, num1, num2): # Calculadora.doble_suma(calc, 2, 9)
+		return self.suma(num1) + self.suma(num2) # calc.suma(2) + calc.suma(9) -> Calculadora.suma(calc, 2) + Calculadora.suma(calc, 9) = 59 + 52 
+
+calc = Calculadora(50)
+calc.suma(80)
+
+print(calc.doble_suma(2,9))
+```
