@@ -56,7 +56,7 @@ Si cambiamos el valor de la variable a `False`, el mensaje no se imprimirá, ya 
 ```python
 todos_somos_lammers = False 
 if todos_somos_lammers:     
-	print("Esto es una verdad como un templo") 
+	- [ ] print("Esto es una verdad como un templo") 
 else: 
 	print("La condición no se cumple")
 ```
@@ -77,18 +77,6 @@ python3 -c 'todos_somos_lammers = True; print("Esto es una verdad como un templo
 
 El `-c` significa **command**, permitiendo ejecutar comandos Python desde la consola.
 
-## Verificación de Existencia de una Variable
-
-Para verificar si una variable existe en el espacio de nombres global, utilizamos el siguiente código:
-
-```python
-# Verificar si 'todos_somos_lammers' existe en el espacio de nombres global  
-if 'todos_somos_lammers' in globals():      
-	print("La variable 'todos_somos_lammers' existe.")
-else:  
-	print("La variable 'todos_somos_lammers' no existe.")
-```
-
 ## Eliminación de una Variable
 
 Para eliminar una variable, utilizamos el siguiente método:
@@ -98,6 +86,19 @@ if 'todos_somos_lammers' in globals():
 del todos_somos_lammers     
 	print("La variable 'todos_somos_lammers' ha sido eliminada.")  
 else: 
+	print("La variable 'todos_somos_lammers' no existe.")
+```
+
+
+## Verificación de Existencia de una Variable
+
+Para verificar si una variable existe en el espacio de nombres global, utilizamos el siguiente código:
+
+```python
+# Verificar si 'todos_somos_lammers' existe en el espacio de nombres global  
+if 'todos_somos_lammers' in globals():      
+	print("La variable 'todos_somos_lammers' existe.")
+else:  
 	print("La variable 'todos_somos_lammers' no existe.")
 ```
 
