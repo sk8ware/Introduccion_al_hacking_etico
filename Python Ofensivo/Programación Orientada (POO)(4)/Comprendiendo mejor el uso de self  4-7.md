@@ -75,3 +75,33 @@ Para imprimir el nombre o hacer referencia a el, debemos agregarle el `marcelo.p
 
 Agregando el `print` que nos permitira ver por consola el texto agregando el `{self.nombre}` y `{self.edad}`
 
+Cuando definimos un metodo, ese metodo internamente, puede hacer a otro metodo que este incluido en la plantilla de la clase, para ello es igual necesario utilizar el metodo `self` para poder acceder a ese otro metodo, desde otro metodo 
+
+Ahora les indicare otro ejemplo implementando una `Class` y de nombre `Calculadora`
+Seguido del constructor `__init__()`
+Creamos un objeto que se llame `calc` con el valor de `(5)`, Este seria el número con el que estamos inicializando 
+
+La idea de `self` en el constructor `__init__()`: En la clase calculadora estamos creando atraves del constructor un nuevo objeto, que ese objeto es `calc`, que le pasamos el valor `numero`
+Una vez contemplado los valores en el constructor debemos crear estas igualdades, para asignarle el atributo correspondiente 
+Asi que le pasamos el `self.numero` para que cal.numero valga 5 asi que le ponemos `numero`
+
+Ahora si queremos sumarle un número a ese valor de `5` podemos hacer lo siguiente 
+Crear un metodo que se va llamar suma `def suma()`
+Agregamos otro valor para que sume con el otro atributo `5` seria: `calc.suma(8)`, si le pasamos este nuevo valor hara referencia a todo el objeto `calc`
+Hacemos referencia a `self` en el metodo suma haciendo referencia al objeto `calc` y agregarle `(otro_numero)`
+Realizando esto hariamos referencia a ambos numeros para para que se sumen `{self.numero + otro_numero`
+
+```bash
+#!/usr/bin/python3
+
+class Calculadora:
+	def __init__(self, numero): # Calculadora.__init__(calc, numero)
+		self.numero = numero # calc.numero = 5
+
+	def suma(self, otro_numero): # Calculadora.suma(calc, 8)
+		print(self.numero + otro_numero) # calc.numero + 8 -> 5 + 8
+
+calc = Calculadora(50)
+calc.suma(80)
+
+```
