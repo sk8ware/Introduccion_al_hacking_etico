@@ -10,7 +10,10 @@ La herencia y el polimorfismo son conceptos fundamentales en la programación or
 Es un principio de la POO que permite a una clase heredar atributos y métodos de otra clase, conocida como su clase base o superclase. La herencia facilita la reutilización de código y la creación de una jerarquía de clases. Las subclases heredan las características de la superclase, lo que permite que se especialicen o modifiquen comportamientos existentes.
 
 ----
+# Herencia
+
 Para explicarlo de mejor manera vamos con la practica con unos pequeños ejemplos
+
 1. Creamos un archivo nvim `exercise.py`
 2. Creamos un ejemplo de clase utilizando la clase `Animal`
 
@@ -61,6 +64,12 @@ print(gato_dos.hablar())  # Llama al método hablar del objeto gato_dos y lo imp
 
 ```
 
+### Resumen
+
+Este código define una clase base `Animal` que tiene un método `hablar` que debe ser implementado por las subclases. Luego define dos subclases, `Gato` y `Perro`, que implementan el método `hablar` para devolver mensajes específicos para gatos y perros. Se crean objetos de estas clases y se llama al método `hablar` para mostrar los mensajes. Intentar llamar al método `hablar` en un objeto de la clase `Animal` directamente lanzará un error porque no está implementado en `Animal`.
+
+# Polimorfismo
+
 Tambien lo pudimos haberlo hecho de otra manera y es aqui cuando entra en juego el **Polimorfismo** 
 
 - Fuera de las cases creamos una función llamada `hacer_hablar`
@@ -96,5 +105,53 @@ perro = Perro("Negra")  # Crea un nuevo objeto de la clase Perro con el nombre "
 
 hacer_hablar(gato)  # Llama a la función hacer_hablar con el objeto gato
 hacer_hablar(perro)  # Llama a la función hacer_hablar con el objeto perro
+
+```
+
+### Resumen
+
+Este código define una clase base `Animal` que tiene un método `hablar` que debe ser implementado por las subclases. Luego define dos subclases, `Gato` y `Perro`, que implementan el método `hablar` para devolver los sonidos que hacen. La función `hacer_hablar` toma un objeto de cualquier subclase de `Animal` y muestra el nombre del animal y el sonido que hace. Al final, crea un gato llamado "Mitis" y un perro llamado "Negra", y hace que ambos hablen usando la función `hacer_hablar`.
+
+----
+# Reforzando con ejercicios
+
+## Concepto Herencia
+
+Vamos a poner en practica otro ejemplo para reforzar lo indicado 
+- Creamos una clase llamada **Automovil**
+- Creamos el contructor con `self` y las `marca` y `modelo`
+- Creamos las igualdades con:
+	- `self.marca` = marca
+	- `self.modelo` = modelo
+- Creamos el método `def describir(self):`
+- Para llamar al método **Describir** y ver por consola añadimos el `{self.marca}` y el `{self.modelo}`
+- Creamos un objeto que represente a la instancia de la clase automovil y les asignamos los nombres "Toyota", "Corolla"
+- Creamos otro objeto que se llame moto con sus respectivas propiedades
+- Tratamos de demostrar las propiedades de ese coche con `print` al final
+- Si queremos que nos muestre por vehiculo en especifico como moto o coche hay que crear unas **subaclases** que heredan de la **clase** **Automovil** 
+- Creamos una instacia de la subclase en el objeto `Coche"Toyota", "Corolla")` y de igual manera para `Moto`
+- Creamos el método **Describir** e indicamos la `self.marca` y el `self.modelo`
+
+```python
+#!/usr/bin/python3
+
+class Automovil:
+	def __init__(self, marca, modelo):
+		self.marca = marca
+		self.modelo = modelo
+	def describir(self):
+		return f"Vehiculo:{self.marca}, {self.modelo}."
+class Coche(Automovil):
+	def describir(self):
+		return f"Coche: {self.marca} {self.modelo}"
+class Moto(Automovil):
+	def describir(self):
+		return f"Moto: {self.marca} {self.modelo}"
+
+coche = Coche("Toyota", "Corolla")
+moto= Moto("Honda", "CBR")
+
+print(coche.describir())
+print(moto.describir())
 
 ```
