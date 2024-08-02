@@ -71,32 +71,30 @@ Tambien lo pudimos haberlo hecho de otra manera y es aqui cuando entra en juego 
 - Hacemos un print dentro de la función donde desconoce el tipo de animal pero de manera dinamica llama al objeto de ese metodo correspondiente, gracias a ser subclases de las instancias que heredan de la "clase padre"(Animal), automaticamente al ingresar al método `hanlar` sabra que listar por consola 
 
 ```python
-#!/usr/bin/python3 
+#!/usr/bin/python3  # Indica que se debe usar Python 3 para ejecutar este script
 
-class Animal: 
-	def __init__(self, nombre): 
-		self.nombre = nombre 
-		
-	def hablar(self): 
-		raise NotImplementedError("Las subclases definidas deben implementar este método") 
-		
-class Gato(Animal): 
+class Animal:  # Definición de una clase base llamada Animal
+    def __init__(self, nombre):  # Constructor de la clase que inicializa el nombre del animal
+        self.nombre = nombre  # Asigna el nombre pasado al crear el objeto a la variable de instancia
 
-	def hablar(self): 
-		return f"¡Miau!" 
-		
-class Perro(Animal): 
-	def hablar(self): 
-		return f"¡Guau!" 
+    def hablar(self):  # Método que debe ser implementado por las subclases
+        raise NotImplementedError("Las subclases definidas deben implementar este método")  # Lanza un error si no se implementa en una subclase
 
-def hacer_hablar(objeto):
+class Gato(Animal):  # Definición de una clase llamada Gato que hereda de Animal
+    def hablar(self):  # Implementación del método hablar para la clase Gato
+        return f"¡Miau!"  # Devuelve "¡Miau!" cuando se llama a hablar
 
-	print(f"{objeto.nombre} dice {objeto.halar()}")
+class Perro(Animal):  # Definición de una clase llamada Perro que hereda de Animal
+    def hablar(self):  # Implementación del método hablar para la clase Perro
+        return f"¡Guau!"  # Devuelve "¡Guau!" cuando se llama a hablar
 
-gato = Gato("Mitis") 
-perro = Perro("Negra") 
+def hacer_hablar(objeto):  # Definición de una función que toma un objeto como argumento
+    print(f"{objeto.nombre} dice {objeto.hablar()}")  # Imprime el nombre del objeto y lo que dice
 
+gato = Gato("Mitis")  # Crea un nuevo objeto de la clase Gato con el nombre "Mitis"
+perro = Perro("Negra")  # Crea un nuevo objeto de la clase Perro con el nombre "Negra"
 
-hacer_hablar(gato)
-hacer_hablar(perro)
+hacer_hablar(gato)  # Llama a la función hacer_hablar con el objeto gato
+hacer_hablar(perro)  # Llama a la función hacer_hablar con el objeto perro
+
 ```
