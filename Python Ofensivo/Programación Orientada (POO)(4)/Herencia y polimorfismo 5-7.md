@@ -29,4 +29,33 @@ gato.hablar()  # Llama al método hablar del objeto gato
 
 
 ```
+3. Creamos el concepto de la herencia, solemos utilizar `pass` para definir o entender que se debe crear las subclases
+
+O podemos utilizar `raise` para permitir salir un mensaje al momento que nos aparezca un error y el desarrollador pueda entender el error
+
+```python
+#!/usr/bin/python3 
+
+class Animal: 
+	def __init__(self, nombre): 
+		self.nombre = nombre 
+	def hablar(self): 
+		 raise NotImplementedError("Las subclases definidas deben implementar este método")
+
+class Gato(Animal):
+	def hablar(self):
+		return f"{self.nombre} dice ¡Miau!"
+
+class Perro(Animal):
+	def hablar(self):
+		return f"{self.nombre} dice ¡Guau!"
+
+gato = Gato("Mitis") 
+perro = Perro("Negra")
+gato_dos = Animal("Matrix")
+
+print(gato.hablar())
+print(perro.hablar())
+print(gato_dos.hablar())
+```
 
