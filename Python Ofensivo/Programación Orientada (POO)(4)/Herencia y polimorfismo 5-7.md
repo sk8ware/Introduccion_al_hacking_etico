@@ -36,26 +36,67 @@ O podemos utilizar `raise` para permitir salir un mensaje al momento que nos apa
 ```python
 #!/usr/bin/python3 
 
+class Animal:  # Definición de una clase base llamada Animal
+    def __init__(self, nombre):  # Constructor de la clase que inicializa el nombre del animal
+        self.nombre = nombre  # Asigna el nombre pasado al crear el objeto a la variable de instancia
+
+    def hablar(self):  # Método que debe ser implementado por las subclases
+        raise NotImplementedError("Las subclases definidas deben implementar este método")  # Lanza un error si no se implementa en una subclase
+
+class Gato(Animal):  # Definición de una clase llamada Gato que hereda de Animal
+    def hablar(self):  # Implementación del método hablar para la clase Gato
+        return f"{self.nombre} dice ¡Miau!"  # Devuelve un mensaje con el nombre del gato y "dice ¡Miau!"
+
+class Perro(Animal):  # Definición de una clase llamada Perro que hereda de Animal
+    def hablar(self):  # Implementación del método hablar para la clase Perro
+        return f"{self.nombre} dice ¡Guau!"  # Devuelve un mensaje con el nombre del perro y "dice ¡Guau!"
+
+gato = Gato("Mitis")  # Crea un nuevo objeto de la clase Gato con el nombre "Mitis"
+perro = Perro("Negra")  # Crea un nuevo objeto de la clase Perro con el nombre "Negra"
+gato_dos = Animal("Matrix")  # Crea un nuevo objeto de la clase Animal con el nombre "Matrix"
+
+print(gato.hablar())  # Llama al método hablar del objeto gato y lo imprime
+print(perro.hablar())  # Llama al método hablar del objeto perro y lo imprime
+print(gato_dos.hablar())  # Llama al método hablar del objeto gato_dos y lo imprime (esto lanzará un error)
+
+```
+
+Tambien lo pudimos haberlo hecho de otra manera y es aqui cuando entra en juego el **Polimorfismo** 
+
+- Fuera de las cases creamos una función llamada `hacer_hablar`
+- Va a recibir un objeto esta funcón 
+- Creamos los objetos :
+	- `hacer_hablar(gato)`
+	- `hacer_hablar(perro)`
+- Hacemos un print dentro de la función donde desconoce el tipo de animal pero de manera dinamica llama al objeto de ese metodo correspondiente, gracias a ser subclases de las instancias que heredan de la "clase padre"(Animal), automaticamente al ingresar al método `hanlar` sabra que listar por consola 
+
+```python
+#!/usr/bin/python3 
+
 class Animal: 
 	def __init__(self, nombre): 
 		self.nombre = nombre 
+		
 	def hablar(self): 
-		 raise NotImplementedError("Las subclases definidas deben implementar este método")
+		raise NotImplementedError("Las subclases definidas deben implementar este método") 
+		
+class Gato(Animal): 
 
-class Gato(Animal):
-	def hablar(self):
-		return f"{self.nombre} dice ¡Miau!"
+	def hablar(self): 
+		return f"¡Miau!" 
+		
+class Perro(Animal): 
+	def hablar(self): 
+		return f"¡Guau!" 
 
-class Perro(Animal):
-	def hablar(self):
-		return f"{self.nombre} dice ¡Guau!"
+def hacer_hablar(objeto):
+
+	print(f"{objeto.nombre} dice {objeto.halar()}")
 
 gato = Gato("Mitis") 
-perro = Perro("Negra")
-gato_dos = Animal("Matrix")
+perro = Perro("Negra") 
 
-print(gato.hablar())
-print(perro.hablar())
-print(gato_dos.hablar())
+
+hacer_hablar(gato)
+hacer_hablar(perro)
 ```
-
