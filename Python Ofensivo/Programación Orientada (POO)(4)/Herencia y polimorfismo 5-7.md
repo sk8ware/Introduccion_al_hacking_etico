@@ -118,40 +118,86 @@ Este código define una clase base `Animal` que tiene un método `hablar` que de
 ## Concepto Herencia
 
 Vamos a poner en practica otro ejemplo para reforzar lo indicado 
-- Creamos una clase llamada **Automovil**
-- Creamos el contructor con `self` y las `marca` y `modelo`
+- Creamos una clase llamada **Automóvil**
+- Creamos el constructor con `self` y las `marca` y `modelo`
 - Creamos las igualdades con:
 	- `self.marca` = marca
 	- `self.modelo` = modelo
 - Creamos el método `def describir(self):`
 - Para llamar al método **Describir** y ver por consola añadimos el `{self.marca}` y el `{self.modelo}`
-- Creamos un objeto que represente a la instancia de la clase automovil y les asignamos los nombres "Toyota", "Corolla"
+- Creamos un objeto que represente a la instancia de la clase automóvil y les asignamos los nombres "Toyota", "Corolla"
 - Creamos otro objeto que se llame moto con sus respectivas propiedades
 - Tratamos de demostrar las propiedades de ese coche con `print` al final
-- Si queremos que nos muestre por vehiculo en especifico como moto o coche hay que crear unas **subaclases** que heredan de la **clase** **Automovil** 
-- Creamos una instacia de la subclase en el objeto `Coche"Toyota", "Corolla")` y de igual manera para `Moto`
+- Si queremos que nos muestre por vehículo en especifico como moto o coche hay que crear unas **subaclases** que heredan de la **clase** **Automóvil** 
+- Creamos una instancia de la subclase en el objeto `Coche"Toyota", "Corolla")` y de igual manera para `Moto`
 - Creamos el método **Describir** e indicamos la `self.marca` y el `self.modelo`
 
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3  # Indica que se debe usar Python 3 para ejecutar este script
 
-class Automovil:
-	def __init__(self, marca, modelo):
-		self.marca = marca
-		self.modelo = modelo
-	def describir(self):
-		return f"Vehiculo:{self.marca}, {self.modelo}."
-class Coche(Automovil):
-	def describir(self):
-		return f"Coche: {self.marca} {self.modelo}"
-class Moto(Automovil):
-	def describir(self):
-		return f"Moto: {self.marca} {self.modelo}"
+class Automovil:  # Definición de una clase base llamada Automovil
+    def __init__(self, marca, modelo):  # Constructor de la clase que inicializa la marca y el modelo del automóvil
+        self.marca = marca  # Asigna la marca pasada al crear el objeto a la variable de instancia
+        self.modelo = modelo  # Asigna el modelo pasado al crear el objeto a la variable de instancia
 
-coche = Coche("Toyota", "Corolla")
-moto= Moto("Honda", "CBR")
+    def describir(self):  # Método que devuelve una descripción del automóvil
+        return f"Vehiculo: {self.marca}, {self.modelo}."  # Devuelve una cadena con la marca y el modelo del automóvil
 
-print(coche.describir())
+class Coche(Automovil):  # Definición de una clase llamada Coche que hereda de Automovil
+    def describir(self):  # Implementación del método describir para la clase Coche
+        return f"Coche: {self.marca} {self.modelo}"  # Devuelve una cadena con la marca y el modelo del coche
+
+class Moto(Automovil):  # Definición de una clase llamada Moto que hereda de Automovil
+    def describir(self):  # Implementación del método describir para la clase Moto
+        return f"Moto: {self.marca} {self.modelo}"  # Devuelve una cadena con la marca y el modelo de la moto
+
+coche = Coche("Toyota", "Corolla")  # Crea un nuevo objeto de la clase Coche con la marca "Toyota" y el modelo "Corolla"
+moto = Moto("Honda", "CBR")  # Crea un nuevo objeto de la clase Moto con la marca "Honda" y el modelo "CBR"
+
+print(coche.describir())  # Llama al método describir del objeto coche y lo imprime
+print(moto.describir())  # Llama al método describir del objeto moto y lo imprime
+
+```
+
+### Resumen
+
+Este código define una clase base `Automovil` que tiene un método `describir` para devolver una descripción del vehículo. Luego define dos subclases, `Coche` y `Moto`, que implementan su propia versión del método `describir` para devolver descripciones específicas para coches y motos. Se crean objetos de estas clases con sus respectivas marcas y modelos, y se imprime la descripción de cada uno.
+
+## Concepto de Polimorfismo
+
+- Lo primero que deberíamos hacer es borrar los `print` del final 
+- Creamos una función que se llame `def describir_vehiculo(vehiculo):`
+- Creamos una función antes que el metodo, asi que antes de `coche.describir()` sería :
+	- `describir_vehiculo(coche)`
+	- `describir_vehiculo(moto)`
+
+ejemplo: 
+
+```python
+#!/usr/bin/python3 
+
+class Automovil: 
+	def __init__(self, marca, modelo): 
+		self.marca = marca 
+		self.modelo = modelo 
+		
+	def describir(self): 
+		return f"Vehiculo: {self.marca}, {self.modelo}." 
+		
+class Coche(Automovil): 
+	def describir(self): 
+		return f"Coche: {self.marca} {self.modelo}" 
+		
+class Moto(Automovil): 
+	def describir(self): 
+		return f"Moto: {self.marca} {self.modelo}" 
+
+def describir_vehiculo(vehiculo):
+	print(vehiculo.describir())
+
+coche = Coche("Toyota", "Corolla") 
+moto= Moto("Honda", "CBR") 
+
+print(coche.describir()) 
 print(moto.describir())
-
 ```
