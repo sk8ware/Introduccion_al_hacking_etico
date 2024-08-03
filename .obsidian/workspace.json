@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Herencia y polimorfismo 5-7.md",
+                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Encapsulamiento y métodos especiales 6-7.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cdea79f770524761",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Herencia y polimorfismo 5-7.md",
+                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Encapsulamiento y métodos especiales 6-7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Herencia y polimorfismo 5-7.md",
+                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Encapsulamiento y métodos especiales 6-7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Herencia y polimorfismo 5-7.md"
+                "file": "Python Ofensivo/Programación Orientada (POO)(4)/Encapsulamiento y métodos especiales 6-7.md"
               }
             }
           }
@@ -151,8 +150,10 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
-    "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Herencia y polimorfismo 5-7.md",
+    "Python Ofensivo/Programación Orientada (POO)(4)/Encapsulamiento y métodos especiales 6-7.md",
+    "Python Ofensivo/Programación Orientada (POO)(4)/Encapsulamiento y métodos especiales 6-7.md",
+    "Python Ofensivo/Programación Orientada (POO)(4)/Métodos estáticos y métodos de clase 3-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Comprendiendo mejor el uso de self  4-7.md",
     "README.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
@@ -175,8 +176,6 @@
     "INTRODUCCIÓN A LINUX/Control del flujo stderr-stdout, operadores y procesos en segundo plano (2).md",
     "INTRODUCCIÓN A LINUX/Estructura de directorios del sistema (12).md",
     "INTRODUCCIÓN A LINUX/Lectura e interpretación de permisos (5).md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Cuestionario de conceptos básicos.md",
     "probando",
     "xd",
     "IMG/Pasted image 20240618232522.png",
