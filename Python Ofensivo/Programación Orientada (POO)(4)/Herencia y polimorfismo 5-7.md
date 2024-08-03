@@ -235,38 +235,122 @@ Ahora vamos a estar viendo otro ejemplo practico
 Gracias a las distintas subclases que hemos creado tenemos una forma mas modular de reutilizar cada uno de las subclases que esta definidas en función del tipo de dispositivo que heredan de clase padre `Dispositivo`
 
 ```python
+#!/usr/bin/python3  
+
+class Dispositivo:  # Definición de una clase base llamada Dispositivo
+    def __init__(self, modelo):  # Constructor de la clase que inicializa el modelo del dispositivo
+        self.modelo = modelo  # Asigna el modelo pasado al crear el objeto a la variable de instancia
+
+    def escanear_vulnerabilidades(self):  # Método que debe ser implementado en las subclases
+        raise NotImplementedError("Este método debe de ser definido para el resto de subclases existentes")  # Lanza una excepción indicando que este método debe ser definido en las subclases
+
+class Ordenador(Dispositivo):  # Definición de una clase llamada Ordenador que hereda de Dispositivo
+    def escanear_vulnerabilidades(self):  # Implementación del método escanear_vulnerabilidades para la clase Ordenador
+        return f"[+] Análisis de vulnerabilidades concluido: Actualización de software necesaria, múltiples desactualizaciones de software detectadas"  # Devuelve un mensaje específico para un ordenador
+
+class Router(Dispositivo):  # Definición de una clase llamada Router que hereda de Dispositivo
+    def escanear_vulnerabilidades(self):  # Implementación del método escanear_vulnerabilidades para la clase Router
+        return f"[+] Análisis de vulnerabilidades concluido: Múltiples puertos críticos detectados como abiertos, es recomendable cerrar estos puertos"  # Devuelve un mensaje específico para un router
+
+class TelefonoMovil(Dispositivo):  # Definición de una clase llamada TelefonoMovil que hereda de Dispositivo
+    def escanear_vulnerabilidades(self):  # Implementación del método escanear_vulnerabilidades para la clase TelefonoMovil
+        return f"[+] Análisis de vulnerabilidades concluido: Múltiples aplicaciones detectadas con permisos excesivos"  # Devuelve un mensaje específico para un teléfono móvil
+
+def realizar_escaneo(dispositivo):  # Definición de una función que toma un objeto como argumento
+    print(dispositivo.escanear_vulnerabilidades())  # Llama al método escanear_vulnerabilidades del objeto y lo imprime
+
+pc = Ordenador("Dell XPS")  # Crea un nuevo objeto de la clase Ordenador con el modelo "Dell XPS"
+router = Router("Tp-Link Archer C50")  # Crea un nuevo objeto de la clase Router con el modelo "Tp-Link Archer C50"
+movil = TelefonoMovil("Samsung Galaxy S23")  # Crea un nuevo objeto de la clase TelefonoMovil con el modelo "Samsung Galaxy S23"
+
+realizar_escaneo(pc)  # Llama a la función realizar_escaneo con el objeto pc y lo imprime
+realizar_escaneo(router)  # Llama a la función realizar_escaneo con el objeto router y lo imprime
+realizar_escaneo(movil)  # Llama a la función realizar_escaneo con el objeto movil y lo imprime
+
+```
+
+### Resumen
+
+Este código define una clase base `Dispositivo` que tiene un método `escanear_vulnerabilidades` que debe ser implementado por las subclases. Luego define tres subclases: `Ordenador`, `Router` y `TelefonoMovil`, cada una con su propia implementación del método `escanear_vulnerabilidades`. Se crean objetos de estas clases con sus respectivos modelos y se realiza un escaneo de vulnerabilidades para cada uno, mostrando el resultado.
+
+#### Tip final
+
+Como hemos visto en la clase padre `Dispositivo` existe el método de escanear vulnerabilidades, el cual es subscrito con las subclases que tienen el mismo metodo contemplado.
+
+Nos interesa tambien utilizar ese metodo que esta sinedo empleado en la clase padre, para que no se sobreescriba, esto tambien entra en juego con constructores, no unicamente con metodos 
+
+Tambien por ejemplo cuando sobre escribimos el constructor, el que se haya agregado ultimamente sera el de mayor importancia o el que prevalece 
+
+```python
 #!/usr/bin/python3
 
-class Dispositivo:
+class A:
 
-	def __init__(self, modelo):
-		self.modelo = modelo
+	def __init__(self):
+		print("Inicializando A")
 
-	def escanear_vulnerabilidades(self):
-		raise NotImplementedError("Este método debe de ser definido para el resto de subclases existentes")
+class B(A):
 
-class Ordenador(Dispositivo):
+	def __init__(self):
+	print("Inicializando B")
 
-	def escanear_vulnerabilidades(self):
-		return f"[+] Análisis de vulnerabilidades concluido: Actualización de software necesaria, múltiples desactualizaciones de sofware detectadas"
+b = B()
+```
 
-class Router(Dispositivos):
+Si queremos que `A` pase por el `constructor A` `__init__`, tenemos la función de usar `super().__init__()`
 
-	def escanear_vulnerabilidades(self):
-		return f"[+] Análisis de vulneravilidades concluido: Múltiples puertos críticos detectados como abiertos, es recomendabe cerrar estos puertos"
+```python
+#!/usr/bin/python3
 
-class TelefonoMovil(Dispositivo):
-	def escanear_vulnerabilidades(self):
-		return f"[+] Análisis de vulnerabilidades concluido: Múltiples aplicaciones detectadas con permisos excesivos"
+class A:
 
-def realizar_escaneo(dispositivo):
-	print(dispositivo.escanear_vulnerabilidades())
+	def __init__(self):
+		print("Inicializando A")
 
-pc = Ordenador("Dell XPS")
-router = Router("Tp-Link Archer C50")
-movil = TelefonoMovil("Samsung Galaxy s23")
+class B(A):
 
-realizar_escaneo(pc)
-realizar_escaneo(router)
-realizar_escaneo(movil)
+	def __init__(self):
+	print("Inicializando B")
+	super().__init__()
+
+b = B()
+```
+
+También se le puede asignar un valor en especifico de la siguiente manera
+
+```python
+#!/usr/bin/python3 
+
+class A:  # Definición de una clase llamada A
+    def __init__(self, x):  # Constructor de la clase A
+        self.x = x  # Asigna el valor pasado al crear el objeto a la variable de instancia x
+        print(f"Valor en x: {self.x}")  # Imprime el valor de x
+
+class B(A):  # Definición de una clase llamada B que hereda de A
+    def __init__(self, x, y):  # Constructor de la clase B
+        self.y = y  # Asigna el valor pasado al crear el objeto a la variable de instancia y
+        super().__init__(x)  # Llama al constructor de la clase base A
+        print(f"Valor en y: {self.y}")  # Imprime el valor de y
+
+b = B(2, 10)  # Crea un nuevo objeto de la clase B con x = 2 y y = 10
+```
+
+Como les mencione no necesariamente tiene que ser solo para constructores.
+
+```python
+#!/usr/bin/python3
+
+class A:
+
+	def saludo(self):
+		return "Saludo desde A"
+
+class B(A):
+
+	def saludo(self):
+		original = super().saludo()
+		print(f"{original}, pero también saludo desde B")
+
+saludo.B()
+saludo.saludo()
 ```
