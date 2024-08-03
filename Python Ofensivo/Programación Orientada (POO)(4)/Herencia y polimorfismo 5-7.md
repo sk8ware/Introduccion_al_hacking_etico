@@ -18,7 +18,7 @@ Para explicarlo de mejor manera vamos con la practica con unos pequeños ejemplo
 2. Creamos un ejemplo de clase utilizando la clase `Animal`
 
 ```python
-#!/usr/bin/python3  # Indica que se debe usar Python 3 para ejecutar este script
+#!/usr/bin/python3 
 
 class Animal:  # Definición de una clase llamada Animal
     def __init__(self, nombre):  # Constructor de la clase que inicializa el nombre del animal
@@ -80,7 +80,7 @@ Tambien lo pudimos haberlo hecho de otra manera y es aqui cuando entra en juego 
 - Hacemos un print dentro de la función donde desconoce el tipo de animal pero de manera dinamica llama al objeto de ese metodo correspondiente, gracias a ser subclases de las instancias que heredan de la "clase padre"(Animal), automaticamente al ingresar al método `hanlar` sabra que listar por consola 
 
 ```python
-#!/usr/bin/python3  # Indica que se debe usar Python 3 para ejecutar este script
+#!/usr/bin/python3  
 
 class Animal:  # Definición de una clase base llamada Animal
     def __init__(self, nombre):  # Constructor de la clase que inicializa el nombre del animal
@@ -133,7 +133,7 @@ Vamos a poner en practica otro ejemplo para reforzar lo indicado
 - Creamos el método **Describir** e indicamos la `self.marca` y el `self.modelo`
 
 ```python
-#!/usr/bin/python3  # Indica que se debe usar Python 3 para ejecutar este script
+#!/usr/bin/python3  
 
 class Automovil:  # Definición de una clase base llamada Automovil
     def __init__(self, marca, modelo):  # Constructor de la clase que inicializa la marca y el modelo del automóvil
@@ -174,30 +174,99 @@ Este código define una clase base `Automovil` que tiene un método `describir` 
 ejemplo: 
 
 ```python
-#!/usr/bin/python3 
+#!/usr/bin/python3  
 
-class Automovil: 
-	def __init__(self, marca, modelo): 
-		self.marca = marca 
-		self.modelo = modelo 
-		
-	def describir(self): 
-		return f"Vehiculo: {self.marca}, {self.modelo}." 
-		
-class Coche(Automovil): 
-	def describir(self): 
-		return f"Coche: {self.marca} {self.modelo}" 
-		
-class Moto(Automovil): 
-	def describir(self): 
-		return f"Moto: {self.marca} {self.modelo}" 
+class Automovil:  # Definición de una clase base llamada Automovil
+    def __init__(self, marca, modelo):  # Constructor de la clase que inicializa la marca y el modelo del automóvil
+        self.marca = marca  # Asigna la marca pasada al crear el objeto a la variable de instancia
+        self.modelo = modelo  # Asigna el modelo pasado al crear el objeto a la variable de instancia
 
-def describir_vehiculo(vehiculo):
-	print(vehiculo.describir())
+    def describir(self):  # Método que devuelve una descripción del automóvil
+        return f"Vehiculo: {self.marca}, {self.modelo}."  # Devuelve una cadena con la marca y el modelo del automóvil
 
-coche = Coche("Toyota", "Corolla") 
-moto= Moto("Honda", "CBR") 
+class Coche(Automovil):  # Definición de una clase llamada Coche que hereda de Automovil
+    def describir(self):  # Implementación del método describir para la clase Coche
+        return f"Coche: {self.marca} {self.modelo}"  # Devuelve una cadena con la marca y el modelo del coche
 
-print(coche.describir()) 
-print(moto.describir())
+class Moto(Automovil):  # Definición de una clase llamada Moto que hereda de Automovil
+    def describir(self):  # Implementación del método describir para la clase Moto
+        return f"Moto: {self.marca} {self.modelo}"  # Devuelve una cadena con la marca y el modelo de la moto
+
+def describir_vehiculo(vehiculo):  # Definición de una función que toma un objeto como argumento
+    print(vehiculo.describir())  # Llama al método describir del objeto y lo imprime
+
+coche = Coche("Toyota", "Corolla")  # Crea un nuevo objeto de la clase Coche con la marca "Toyota" y el modelo "Corolla"
+moto = Moto("Honda", "CBR")  # Crea un nuevo objeto de la clase Moto con la marca "Honda" y el modelo "CBR"
+
+print(coche.describir())  # Llama al método describir del objeto coche y lo imprime
+print(moto.describir())  # Llama al método describir del objeto moto y lo imprime
+
+```
+
+### Resumen
+
+Este código define una clase base `Automovil` que tiene un método `describir` para devolver una descripción del vehículo. Luego define dos subclases, `Coche` y `Moto`, que implementan su propia versión del método `describir` para devolver descripciones específicas para coches y motos. Se crean objetos de estas clases con sus respectivas marcas y modelos, y se imprime la descripción de cada uno. La función `describir_vehiculo` se puede usar para describir cualquier objeto que tenga un método `describir`.
+
+ -----
+ # Jugando con polimorfismo
+ 
+Ahora vamos a estar viendo otro ejemplo practico 
+- Creamos una clase llamada `Dispositivo:`
+- Creamos un constructor con `__init__(self, modelo)`
+- Creamos una función llamada `self.modelo = modelo`
+- Vamos a crear un método abstracto, para documentar la intención, ya que es necesario para las subclases existentes creando una funcion llamada `def escamear_vulnerabilidades(self):`
+- A continuación le implementamos un `raise` ya que es un método abstracto
+- Creamos una clase `Ordenador` que herada de la clase `Dispositivos`
+- Creamos la subclase con el metodo de `escanear_vulnerabilidades`
+- Hacemos que nos retorne un mensaje con `return`
+- Creamos otra clase que podriamos representar como `router` y hereda de la `Dispositivo`
+- Creamos su propio metodo de escanear vulnerabilidades
+- Luego creamos otra clase `TelefonoMovil` que tambien erada de la clase `Dispositivo`
+- Creamos su propio metodo de escanear vulnerabilidades
+- Podemos ir creando nuestros objetos al final de todo con el nombre `pc`, `router` y `movil`
+- Creamos una función fuera de todas las clases que va a ser la que se va a encargar empleando polimorfismo, devolviendome la cadena correspondiente a la hora de aplicar el escaneo 
+- Creamos otra funcion llamada `realizar_escaneo`, va a recibir un objeto que es el `Dispositivo`
+- Si queremos mostrar la cadena que estan representadas cada una lo podemos hacer con 
+	- `realizar_escaneo(pc)`
+	- `realizar_escaneo(router)`
+	- `realizar_escaneo(movil)`
+- En la función final de `realizar_escaneo` le asignamos los metodos de la subclase que se han instanciad, hereda del padre `Dispositivo`
+
+Gracias a las distintas subclases que hemos creado tenemos una forma mas modular de reutilizar cada uno de las subclases que esta definidas en función del tipo de dispositivo que heredan de clase padre `Dispositivo`
+
+```python
+#!/usr/bin/python3
+
+class Dispositivo:
+
+	def __init__(self, modelo):
+		self.modelo = modelo
+
+	def escanear_vulnerabilidades(self):
+		raise NotImplementedError("Este método debe de ser definido para el resto de subclases existentes")
+
+class Ordenador(Dispositivo):
+
+	def escanear_vulnerabilidades(self):
+		return f"[+] Análisis de vulnerabilidades concluido: Actualización de software necesaria, múltiples desactualizaciones de sofware detectadas"
+
+class Router(Dispositivos):
+
+	def escanear_vulnerabilidades(self):
+		return f"[+] Análisis de vulneravilidades concluido: Múltiples puertos críticos detectados como abiertos, es recomendabe cerrar estos puertos"
+
+class TelefonoMovil(Dispositivo):
+	def escanear_vulnerabilidades(self):
+		return f"[+] Análisis de vulnerabilidades concluido: Múltiples aplicaciones detectadas con permisos excesivos"
+
+def realizar_escaneo(dispositivo):
+	print(dispositivo.escanear_vulnerabilidades())
+
+pc = Ordenador("Dell XPS")
+router = Router("Tp-Link Archer C50")
+movil = TelefonoMovil("Samsung Galaxy s23")
+
+realizar_escaneo(pc)
+realizar_escaneo(router)
+realizar_escaneo(movil)
 ```
