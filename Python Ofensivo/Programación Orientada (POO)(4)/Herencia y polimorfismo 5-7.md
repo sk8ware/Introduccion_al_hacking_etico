@@ -351,6 +351,6 @@ class B(A):
 		original = super().saludo()
 		print(f"{original}, pero también saludo desde B")
 
-saludo.B()
+saludo = B()
 saludo.saludo()
 ```
