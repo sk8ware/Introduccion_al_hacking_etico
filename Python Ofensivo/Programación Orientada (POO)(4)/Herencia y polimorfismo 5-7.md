@@ -68,16 +68,25 @@ print(gato_dos.hablar())  # Llama al método hablar del objeto gato_dos y lo imp
 
 Este código define una clase base `Animal` que tiene un método `hablar` que debe ser implementado por las subclases. Luego define dos subclases, `Gato` y `Perro`, que implementan el método `hablar` para devolver mensajes específicos para gatos y perros. Se crean objetos de estas clases y se llama al método `hablar` para mostrar los mensajes. Intentar llamar al método `hablar` en un objeto de la clase `Animal` directamente lanzará un error porque no está implementado en `Animal`.
 
+----
+
 # Polimorfismo
 
+**Polimorfismo**
+
+Este concepto se refiere a la habilidad de objetos de diferentes clases de ser tratados como instancias de una clase común. El polimorfismo permite que una función o método interactúe con objetos de diferentes clases y los trate como si fueran del mismo tipo, siempre y cuando compartan la misma interfaz o método. Esto significa que el mismo método puede comportarse de manera diferente en distintas clases, un concepto conocido como sobrecarga de métodos.
+
+Ambos, la herencia y el polimorfismo, son piedras angulares de la POO y son ampliamente utilizados para diseñar sistemas que son fácilmente extensibles y mantenibles.
+
+En esta clase, exploraremos cómo implementar herencia en Python y cómo se puede aprovechar el polimorfismo para escribir código más general y potente. Estos conceptos nos ayudarán a entender mejor cómo construir jerarquías de clases y cómo los diferentes objetos pueden interactuar entre sí de manera flexible.
 Tambien lo pudimos haberlo hecho de otra manera y es aqui cuando entra en juego el **Polimorfismo** 
 
-- Fuera de las cases creamos una función llamada `hacer_hablar`
+- Fuera de las clases creamos una función llamada `hacer_hablar`
 - Va a recibir un objeto esta funcón 
 - Creamos los objetos :
 	- `hacer_hablar(gato)`
 	- `hacer_hablar(perro)`
-- Hacemos un print dentro de la función donde desconoce el tipo de animal pero de manera dinamica llama al objeto de ese metodo correspondiente, gracias a ser subclases de las instancias que heredan de la "clase padre"(Animal), automaticamente al ingresar al método `hanlar` sabra que listar por consola 
+- Hacemos un print dentro de la función donde desconoce el tipo de animal pero de manera dinámica llama al objeto de ese método correspondiente, gracias a ser subclases de las instancias que heredan de la "clase padre"(Animal), automaticamente al ingresar al método `hanlar` sabra que listar por consola 
 
 ```python
 #!/usr/bin/python3  
@@ -338,49 +347,49 @@ b = B(2, 10)  # Crea un nuevo objeto de la clase B con x = 2 y y = 10
 Como les mencione no necesariamente tiene que ser solo para constructores.
 
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3  # Indica que se debe usar Python 3 para ejecutar este script
 
-class A:
+class A:  # Definición de una clase llamada A
+    def saludo(self):  # Método saludo en la clase A
+        return "Saludo desde A"  # Devuelve el texto "Saludo desde A"
 
-	def saludo(self):
-		return "Saludo desde A"
+class B(A):  # Definición de una clase llamada B que hereda de A
+    def saludo(self):  # Método saludo en la clase B que sobreescribe el método en la clase A
+        original = super().saludo()  # Llama al método saludo de la clase base A y guarda el resultado en la variable original
+        print(f"{original}, pero también saludo desde B")  # Imprime el saludo original y añade un mensaje adicional
 
-class B(A):
+saludo = B()  # Crea un nuevo objeto de la clase B
+saludo.saludo()  # Llama al método saludo del objeto saludo
 
-	def saludo(self):
-		original = super().saludo()
-		print(f"{original}, pero también saludo desde B")
-
-saludo = B()
-saludo.saludo()
 ```
 
+### Resumen
+
+Este código define dos clases `A` y `B`, donde `B` hereda de `A`. La clase `A` tiene un método `saludo` que devuelve un texto simple. La clase `B` sobreescribe el método `saludo` de `A`, llama al método `saludo` de `A` usando `super()`, y luego imprime el saludo original junto con un mensaje adicional. Cuando se crea un objeto de la clase `B` y se llama a su método `saludo`, se muestra el saludo de `A` junto con el mensaje adicional de `B`.
 Espero hayan entendido el uso de `super`
 
 Ahora como último ejercicio les dejo el siguienrte ejemplo:
 
 ```python
-#!/usr/bin/python3
+#!/usr/bin/python3  
 
-class Persona:
+class Persona:  # Definición de una clase llamada Persona
+    def __init__(self, nombre, edad):  # Constructor de la clase Persona
+        self.nombre = nombre  # Asigna el valor pasado al crear el objeto a la variable de instancia nombre
+        self.edad = edad  # Asigna el valor pasado al crear el objeto a la variable de instancia edad
 
-	def __init__(self, nombre, edad):
-		self.nombre = nombre
-		self.edad = edad
+    def saludo(self):  # Método saludo en la clase Persona
+        return f"Hola, soy {self.nombre} y tengo {self.edad} años"  # Devuelve un saludo con el nombre y la edad
 
-	def saludo(self):
-		return f"Hola, soy {self.nombre} y tengo {self.edad} años"
+class Empleado(Persona):  # Definición de una clase llamada Empleado que hereda de Persona
+    def __init__(self, nombre, edad, salario):  # Constructor de la clase Empleado
+        super().__init__(nombre, edad)  # Llama al constructor de la clase base Persona
+        self.salario = salario  # Asigna el valor pasado al crear el objeto a la variable de instancia salario
 
-class Empleado(Persona):
+    def saludo(self):  # Método saludo en la clase Empleado que sobreescribe el método en la clase Persona
+        return f"{super().saludo()}, y cobro {self.salario} dolares brutos anuales"  # Devuelve el saludo de Persona y añade información sobre el salario
 
-	def __init__(self, nombre, edad, salario):
-		super().__init__(nombre, edad)
-		self.salario = salario
+persona = Empleado("Kevin", 23, 65000)  # Crea un nuevo objeto de la clase Empleado
+print(persona.saludo())  # Llama al método saludo del objeto persona y imprime el resultado
 
-	def saludo(self):
-		
-		return f"{super().saludo()}, y cobro {self.salario} dolares brutros anuales"
-
-persona = Empleado("Alicia", 23, 65000)
-print(persona.saludo())
 ```
