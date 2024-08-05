@@ -1,4 +1,0 @@
-
------
-- TAG: #Encapsulamiento #Métodos #ESPECIALES 
------
