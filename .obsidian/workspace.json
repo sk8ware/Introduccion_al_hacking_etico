@@ -11,8 +11,13 @@
             "id": "3d0b9d7dd927f164",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md"
+              }
             }
           }
         ]
