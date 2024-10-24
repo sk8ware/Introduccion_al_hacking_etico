@@ -13,11 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+                "file": "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/1.2 Cross-Site Scripting (XSS) 1-2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "1.2 Cross-Site Scripting (XSS) 1-2"
             }
           }
         ]
@@ -40,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -55,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
             }
           },
           {
@@ -63,14 +69,17 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 417.5026054382324
+    "width": 402.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "cdea79f770524761",
@@ -86,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +103,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Magento"
             }
           },
           {
@@ -103,10 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
+                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Magento"
             }
           },
           {
@@ -117,7 +130,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
             }
           },
           {
@@ -126,8 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md"
-              }
+                "file": "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Magento"
             }
           }
         ]
@@ -150,6 +167,25 @@
   },
   "active": "3d0b9d7dd927f164",
   "lastOpenFiles": [
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/1.1 SQL Injection (SQLI).md",
+    "Introducción al Hacking/Enumeración de servicios comunes y gestores de contenido/Enumeración de gestores de contenido CMS/Magento.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a la explotación de vulnerabilidades.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Introducción a BurpSuite.md",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/1.2 Cross-Site Scripting (XSS) 1-2.md",
+    "Pasted image 20241010005755.png",
+    "Pasted image 20241010005506.png",
+    "Pasted image 20241010003829.png",
+    "Pasted image 20241010002750.png",
+    "Pasted image 20241010002657.png",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Server-Side Template Injection (SSTI).md",
+    "IMG/Pasted image 20241010001555.png",
+    "Introducción al Hacking/OWASP TOP 10 y vulnerabilidades web/Cross-Site Request Forgery (CSRF).md",
+    "IMG/Pasted image 20241004224310.png",
+    "IMG/Pasted image 20241004224134.png",
+    "IMG/Pasted image 20241004224044.png",
+    "IMG/Pasted image 20241004221852.png",
+    "Introducción al Hacking/Reconocimiento con Nmap/Identificación y verificación externa de la versión del sistema operativo.md",
+    "Introducción al Hacking/Conceptos básicos de enumeración y explotación/Enumeración del sistema.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Encapsulamiento y métodos especiales 6-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Herencia y polimorfismo 5-7.md",
     "Python Ofensivo/Programación Orientada (POO)(4)/Comprendiendo mejor el uso de self  4-7.md",
@@ -167,19 +203,8 @@
     "Python Ofensivo/Conceptos básicos de Python (2)/Control de flujo (Condicionales y Bucles) 6-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/String Formatting 5-9.md",
     "Python Ofensivo/Conceptos básicos de Python (2)/Operadores básicos en Python 4-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Variables y tipos de datos 3-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/Shebang y convenios en Python 2-9.md",
-    "Python Ofensivo/Conceptos básicos de Python (2)/El intérprete de Python 1-9.md",
-    "README.md",
-    "Python Ofensivo/Introducción a Python (1)/Diferencias entre Python2, Python3, PIP2 y PIP3.md",
-    "Python Ofensivo/Introducción a Python (1)/Características y ventajas de Python.md",
-    "Python Ofensivo/Introducción a Python (1)/Historia y filosofía de Python.md",
-    "Personalización de entorno en Linux/Repaso final por todos los atajos definidos 11-11.md",
-    "Personalización de entorno en Linux/Configuración e integración de NVchad en Neovim 10-11.md",
     "probando",
     "xd",
-    "IMG/Pasted image 20240618232522.png",
-    "IMG/Pasted image 20240618223305.png",
     "Python Ofensivo\\Programación Orientada (POO)(4)",
     "Python Ofensivo/Programación Orientada (POO)(4)",
     "Python Ofensivo/Introducción a Python (1)",
@@ -187,14 +212,6 @@
     "Python Ofensivo/Conceptos básicos de Python (2)",
     "Python Ofensivo\\Conceptos básicos de Python (2)",
     "Python Ofensivo/Colecciones y estructuras de datos en Python (3)",
-    "Python Ofensivo",
-    "IMG/pruebalinuxx.png",
-    "IMG/pruebalinux7.png",
-    "IMG/pruebalinux6.png",
-    "IMG/pruebalinux5.png",
-    "IMG/pruebalinux4.png",
-    "IMG/pruebalinux3.png",
-    "IMG/pruebalinux1.png",
-    "IMG/pruebalinux.png"
+    "Python Ofensivo"
   ]
 }
