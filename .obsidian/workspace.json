@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "which",
+                "query": "xd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +164,7 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "3d0b9d7dd927f164",
+  "active": "ed99bf34c7677e5b",
   "lastOpenFiles": [
     "Introducción al Hacking/1.6 OWASP TOP 10 y vulnerabilidades web/1.24 Enumeración y explotación de SQUID Proxies.md",
     "Introducción al Hacking/1.6 OWASP TOP 10 y vulnerabilidades web/1.25 Ataque ShellShock.md",
